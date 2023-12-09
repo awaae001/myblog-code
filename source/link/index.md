@@ -221,6 +221,7 @@ tags:
  link: https://awaae001.top //网站链接
  avatar: https://awaae001.top/ico.jpg // 头像
  descr: 用心享受生活
+ rss: https://awaae001.top/atom.xml
  ```
 
 欢迎各位大佬的到来
