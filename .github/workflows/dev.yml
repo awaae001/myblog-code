@@ -34,11 +34,6 @@ jobs:
           npm install hexo-cli -g
           npm install
 
-      - name: Debug Git
-        run: |
-          git --version
-          git remote -v
-
       - name: Deploy
         run: |
           hexo clean
