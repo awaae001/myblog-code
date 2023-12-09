@@ -1,0 +1,46 @@
+name: Hexo Deploy
+
+on:
+  push:
+    branches:
+      - mian
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Setup Hexo
+        env:
+          ACTION_DEPLOY_KEY: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsRD7+wAicxf3vUqioHCpUNbRe4kwezNGj234WpBmRtomwrUea2ihYEL9YiigQWlEZk8kIQ9ooiY7PICAzXDfh28CsgpJgjQYqu3FzK+6U8bAwj0A/hHVJ6/yfIiH/9/SO2HNOKE9cJVMaOqsxqm5kZ2TkkQuVgE8OlvQw15kyhdo38+DsItyewf5CWU3sc1KwXv5AQj90KzXyHJOyKv9mIUC18WZ9d30MAacP9ZByHjoTY6IyQvpI/vwgZi5gpWgS1zrOxnsYNWHOl/6QmigG/wGTE65dUIAuw5xfxLPxBGoozfZU5p5Bml+76259C/h6ofbCYnJqbKNPfbeA4IaLerMJZslvjCwFMhlRXMg/8TsCgwG021g3FykXcF1fEuvmh7eytP779EXXpZnO0owWKTeHiyBvnKDQxkgu1Acqm/KPuOeEjIjT1p8/+0tWDoAFUnVyxguewsgrp4i5c3DbQ9yEmrPL/ZAz5OE14qQ0rTnQFHdXVHrfoJroEC6Rym9fWWD8BUfWFz7od6CNbNyacYxUVYmGHLgO1BRStFklHl2tlEiPdcO77edHVskAIYy5fZQY4Zylkw2KYyJrw6qpUxGspsck1g5TPc0rpKgummIweusZWkvgXkeDPPKKtldmNQY/Y3ZnVVYx1uWJTeN1k7FXBldq9lnDpDnp1yb0KQ== Hexo Deploy Key
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.email "admin@awaae001.top"
+          git config --global user.name "awaae001"
+          npm install hexo-cli -g
+          npm install
+
+      - name: Debug Git
+        run: |
+          git --version
+          git remote -v
+
+      - name: Deploy
+        run: |
+          hexo clean
+          hexo generate
+          hexo deploy
