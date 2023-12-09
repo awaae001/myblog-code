@@ -3,7 +3,7 @@ name: dev
 on:
   push:
     branches:
-      - mian
+      - main
 
 jobs:
   build:
