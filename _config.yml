@@ -148,7 +148,6 @@ deploy:
   type: git
   repository:
    github: git@github.com:awaae001/awaae001.github.io.git
-  branch: master
    #coding: git@e.coding.net:g-sulf7984/awaae001/awaae001.git
    #gitee: git@gitee.com:awaae001/awaae001.github.io.git
    #startcode: root@156.224.22.105:/var/repo/awaae.git
