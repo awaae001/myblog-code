@@ -29,7 +29,7 @@ jobs:
           chmod 700 ~/.ssh
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.email "admin@awaae001.top"
+          git config --global user.email "awaae001@qq.com"
           git config --global user.name "awaae001"
           npm install hexo-cli -g
           npm install
