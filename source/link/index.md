@@ -150,6 +150,15 @@ fancybox: false
       <div class="info">人文 科技 白日梦</div>
    </div>
 </div>
+	      <div class="card">
+   <img class="ava" src="https://static.mk1.io/img/202310190944769.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.mk1.io">Ray's Blog</a>
+      </div>
+      <div class="info">Never say never.</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
