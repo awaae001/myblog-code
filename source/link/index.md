@@ -1,12 +1,14 @@
 ---
+date: '2023-12-09T15:32:43+08:00'
 layout: page
+tags: null
 title: link
-date: 2023-12-09 15:32:43
-tags:
+updated: '2023-12-10T12:46:29.259+08:00'
 ---
->提交友链：<admin@awaae001.top>
+> 提交友链：<admin@awaae001.top>
 
 ### cerycloud-可爱的网络加速
+
 [官网地址](https://dash2.cerycloud.com/index.php/#/register?code=RjEQAMRe)
 
 一家不是很老的网络加速器，主要是我自己在用
@@ -105,7 +107,7 @@ tags:
       </div>
       <div class="info">水风清，晚霞明 </div>
    </div>
-</div>            
+</div>  
 <div class="card">
    <img class="ava" src="https://pic.awaae001.top/file/YLQ/download.png" />
    <div class="card-header">
@@ -114,7 +116,7 @@ tags:
       </div>
       <div class="info">流水幽吟绕耳边，煦风馨语抚心弦，挥臂欲揽冰钩月，银星斟酌醉人涎。 </div>
    </div>
-</div>            
+</div>  
 <div class="card">
    <img class="ava" src="https://pic.awaae001.top/file/YLQ/milkTea_favicon_200.webp" />
    <div class="card-header">
@@ -187,23 +189,33 @@ tags:
       <div class="info">寒蝉黎明之时，便是重生之日<div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://avatar.qjqq.cn/1/6503bb1b7fa1a.webp!avatar" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.qjqq.cn/">青桔气球</a>
+      </div>
+      <div class="info">分享网络安全与科技生活<div>
+   </div>
+</div>
          </div>
       </div>
    </div>
 </div>
 
+> ps：<br>
+> 提交要求<br>
+>
+> - 网站没有违法违规内容<br>
+> - 网站在国内不需要梯子就可以正常打开<br>
+> - 网站没有废弃<br>
+> - 网站内没有影响浏览体验的广告<br>
+> - 网站支持 HTTPS 访问<br>
+> - 在网站内添加我的友链（非硬性要求）<br>
 
->ps：<br>
-提交要求<br>
->- 网站没有违法违规内容<br>
->- 网站在国内不需要梯子就可以正常打开<br>
->- 网站没有废弃<br>
->- 网站内没有影响浏览体验的广告<br>
->- 网站支持 HTTPS 访问<br>
->- 在网站内添加我的友链（非硬性要求）<br>
+> 提交格式：
 
->提交格式：
-~~~html
+```html
 <div class="card">
    <img class="ava" src="网站头像" />
    <div class="card-header">
@@ -213,15 +225,16 @@ tags:
       <div class="info">贵站描述</div>
    </div>
 </div>
-~~~
+```
 
 **本站友链**
+
 ```yml
 -name: 呓语梦轩 // 网站名字
  link: https://awaae001.top //网站链接
  avatar: https://awaae001.top/ico.jpg // 头像
  descr: 用心享受生活
  rss: https://awaae001.top/atom.xml
- ```
+```
 
 欢迎各位大佬的到来
