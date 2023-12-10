@@ -1,13 +1,16 @@
 ---
+date: '2023-06-05T22:15:03+08:00'
 title: about
-date: 2023-06-05 22:15:03
+updated: '2023-12-10T18:49:32.992+08:00'
 ---
 > HI<br>欢迎来到
+
 ---
 
 "呓语梦轩" by:awaae001 <admin@awaae001.top>
 
 <!DOCTYPE html>
+
 <html>
 <head>
     <style>
@@ -50,9 +53,9 @@ web ico/web.jpg" alt="头像">
 </body>
 </html>
 
-
 ## hexo
-----
+
+---
 
 本博客运用HEXO框架，使用tree主题<br>
 这是一款基于Node.js的静态网站生成器，它的核心优势在于其出色的性能和灵活性。<br>
@@ -62,6 +65,7 @@ HEXO还以其出色的构建速度和自动部署功能脱颖而出，使得发�
 [chat GPT]
 
 ## 吐槽
+
 ---
 
 本质就是一块的摸鱼之地<br>
@@ -73,16 +77,22 @@ HEXO还以其出色的构建速度和自动部署功能脱颖而出，使得发�
 还是缘分的聚集地
 
 ---
->---
+
 ## 博客平台
+
 这个博客通过 [Hexo](https://hexo.io/) 生成，部署在 [GitHub Pages](https://pages.github.com/)
 
 主题 [tree](https://github.com/wujun234/hexo-theme-tree) 已经在github上开源
 
 ## 博客github地址
+
 快捷链接————[awaae001.github.io_github](https://github.com/awaae001/awaae001.github.io)<br>
 
 ## 鸣谢
+
 github page 引擎提供的强力支持<br>
 cloudflare 提供的CDN解析服务<br>
 hexo 为我的博客框架支持<br>
+
+
+## 咕咕咕咕咕咕咕咕咕咕咕咕咕
