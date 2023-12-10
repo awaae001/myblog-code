@@ -39,7 +39,7 @@ fancybox: false
 ## 好友：我的朋友们
 
 <div class="post-body">
-	<link rel="stylesheet" type="text/css" href="https://awaae001.top/css/card.css">
+   <link rel="stylesheet" type="text/css" href="https://awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
          <div class="card">
@@ -130,21 +130,30 @@ fancybox: false
                   <a href="https://blog.nalex.top">Rootlex</a>
                </div>
                <div class="info">寒蝉黎明之时，便是重生之日</div>
-                  </div>
-               </div>
+            </div>
+         </div>
          <div class="card">
-                  <img class="ava" src="https://avatar.qjqq.cn/1/6503bb1b7fa1a.webp!avatar" />
-                  <div class="card-header">
-                     <div>
-                        <a href="https://blog.qjqq.cn/">青桔气球</a>
-                     </div>
-                     <div class="info">分享网络安全与科技生活</div>
-                        </div>
-                     </div>
+            <img class="ava" src="https://avatar.qjqq.cn/1/6503bb1b7fa1a.webp!avatar" />
+            <div class="card-header">
+               <div>
+                  <a href="https://blog.qjqq.cn/">青桔气球</a>
+               </div>
+               <div class="info">分享网络安全与科技生活</div>
+            </div>
+         </div>
+<div class="card">
+   <img class="ava" src="https://blog.redish101.top/favicon.ico" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.redish101.top">Redish101 Blog</a>
+      </div>
+      <div class="info">人文 科技 白日梦</div>
+   </div>
+</div>
+
       </div>
    </div>
 </div>
-</html>
 
 ## 失联：已付风华
 
