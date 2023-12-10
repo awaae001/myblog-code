@@ -150,7 +150,6 @@ fancybox: false
       <div class="info">人文 科技 白日梦</div>
    </div>
 </div>
-
       </div>
    </div>
 </div>
