@@ -2,7 +2,7 @@
 
 async function loadQuotes() {
   try {
-    const response = await fetch('https://awaae001.top/mian.json', {
+    const response = await fetch('https://blog.awaae001.top/mian.json', {
       method: 'GET',
       mode: 'cors',
     });

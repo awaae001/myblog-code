@@ -19,7 +19,7 @@ fancybox: false
 ## 推荐：那些大佬们
 
 <div class="post-body">
-	<link rel="stylesheet" type="text/css" href="https://awaae001.top/css/card.css">
+	<link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
          <div class="card">
@@ -195,10 +195,10 @@ fancybox: false
 
 ```yml
 -name: 呓语梦轩 // 网站名字
- link: https://awaae001.top //网站链接
- avatar: https://awaae001.top/ico.jpg // 头像
+ link: https://blog.awaae001.top //网站链接
+ avatar: https://blog.awaae001.top/ico.jpg // 头像
  descr: 用心享受生活
- rss: https://awaae001.top/atom.xml
+ rss: https://blog.awaae001.top/atom.xml
 ```
 
 欢迎各位大佬的到来
