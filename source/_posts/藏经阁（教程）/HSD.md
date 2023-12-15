@@ -118,7 +118,7 @@ tags:
   </div>
 
   <!-- 引入独立的JavaScript文件 -->
-  <script src="https://awaae001.top/script.js"></script>
+  <script src="https://blog.awaae001.top/script.js"></script>
 
 </body>
 
