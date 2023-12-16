@@ -1,9 +1,9 @@
 ---
-abbrlink: ''
+abbrlink: 1579
 date: '2023-12-16T00:53:43+08:00'
 layout: post
-tags: null
 title: 少年-江湖走马，陪剑长行
+tags:
 ---
 我一直在想：何为少年
 

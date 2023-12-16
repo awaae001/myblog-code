@@ -1,9 +1,9 @@
 ---
-abbrlink: ''
+abbrlink: 27646
 date: '2023-12-13T00:53:35+08:00'
 layout: post
-tags: null
 title: 砥砺奋进，勿忘国殇
+tags:
 ---
 今天是12.13
 **第十个南京大屠杀死难者公祭日**
