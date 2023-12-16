@@ -14,6 +14,14 @@ fancybox: false
 
 一家不是很老的网络加速器，主要是我自己在用
 
+## storeweb-个站商店
+
+[网站地址](https://storeweb.cn/)和
+[我的地址](https://storeweb.cn/member/o/1801)
+
+一个精致的，带社交元素的个人网站发布平台，博客收录网站
+
+
 # 友链
 
 ## 远山
@@ -244,6 +252,15 @@ fancybox: false
                   <a href="https://travel.moe/go.html?travel=on ">异次元之旅-萌ICP备</a>
                </div>
                <div class="info">开了门就可能回不来了</div>
+            </div>
+         </div>
+         <div class="card">
+            <img class="ava" src="https://blog.awaae001.top/OIP.jpg" />
+            <div class="card-header">
+               <div>
+                  <a href="https://storeweb.cn/s/1954">虫洞</a>
+               </div>
+               <div class="info">前往另一个位面</div>
             </div>
          </div>
       </div>
