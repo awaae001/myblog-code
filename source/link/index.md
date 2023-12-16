@@ -159,6 +159,15 @@ fancybox: false
       <div class="info">Never say never.</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://senlinm.s3.us-east-005.backblazeb2.com/01.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://m.senlinm.cn/">小林笔记</a>
+      </div>
+      <div class="info">轻生活，秒上签</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
