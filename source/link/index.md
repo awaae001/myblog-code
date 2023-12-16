@@ -94,7 +94,7 @@ fancybox: false
 
 *你有故事吗*
 
->各位大佬们用自己的笔，写下了对于晚辈的教导，些满了半身风云，半生伤。
+>各位大佬们用自己的笔，写下了对于晚辈的教导，写满了半身风云，半生伤。
 
 >文章数小于50
 <div class="post-body">
@@ -224,6 +224,26 @@ fancybox: false
                   <a href="https://awaae001.top/">温馨提示</a>
                </div>
                <div class="info">非常好！这里没有东西！</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+## 小门
+藏在角落里面的小门，连主人也不知道通往何处
+
+<div class="post-body">
+   <link rel="stylesheet" type="text/css" href="https://awaae001.top/css/card.css">
+   <div id="links">
+      <div class="link-navigation">
+         <div class="card">
+            <img class="ava" src="https://travel.moe/images/icon/icon64.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://travel.moe/go.html?travel=on ">异次元之旅-萌ICP备</a>
+               </div>
+               <div class="info">开了门就可能回不来了</div>
             </div>
          </div>
       </div>
