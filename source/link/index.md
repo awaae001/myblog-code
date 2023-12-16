@@ -208,6 +208,24 @@ fancybox: false
       <div class="info">Never say never.</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://sdn.geekzu.org/avatar/a428c2d6dd92b2dfcfa8aec470bd4088" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.fachep.com/">Fachep’s Blog</a>
+      </div>
+      <div class="info">lololololo</div>
+   </div>
+</div>
+<div class="card">
+   <img class="ava" src="https://blog.hesiy.cn/avatar.webp" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.hesiy.cn">FloatSheep</a>
+      </div>
+      <div class="info">On the other side of obstacles</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
@@ -231,7 +249,7 @@ fancybox: false
                <div>
                   <a href="https://awaae001.top/">温馨提示</a>
                </div>
-               <div class="info">非常好！这里没有东西！</div>
+               <div class="info">希望这里永远没有东西</div>
             </div>
          </div>
       </div>
