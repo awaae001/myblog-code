@@ -226,6 +226,15 @@ fancybox: false
       <div class="info">On the other side of obstacles</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://leslieblog.top/images/avatar.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://leslieblog.top/">Leslie Alexander</a>
+      </div>
+      <div class="info">茶要泡开才好喝，人要想开才好过.</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
