@@ -226,6 +226,15 @@ fancybox: false
       <div class="info">On the other side of obstacles</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://p.wzsco.top/pwa/32.png!cover" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.wzsco.top/">王卓Sco</a>
+      </div>
+      <div class="info">宁静致远，热爱生活。</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
