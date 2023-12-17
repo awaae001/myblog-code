@@ -53,6 +53,15 @@ fancybox: false
                <div class="info">分享网络安全与科技生活</div>
             </div>
          </div>
+	      <div class="card">
+   <img class="ava" src="https://blog.redish101.top/favicon.ico" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.redish101.top">Redish101 Blog</a>
+      </div>
+      <div class="info">人文 科技 白日梦</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
@@ -181,15 +190,6 @@ fancybox: false
                <div class="info">寒蝉黎明之时，便是重生之日</div>
             </div>
          </div>
-<div class="card">
-   <img class="ava" src="https://blog.redish101.top/favicon.ico" />
-   <div class="card-header">
-      <div>
-         <a href="https://blog.redish101.top">Redish101 Blog</a>
-      </div>
-      <div class="info">人文 科技 白日梦</div>
-   </div>
-</div>
 <div class="card">
    <img class="ava" src="https://senlinm.s3.us-east-005.backblazeb2.com/01.png" />
    <div class="card-header">
