@@ -227,7 +227,7 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://p.wzsco.top/pwa/32.png!cover" />
+   <img class="ava" src="https://bu.dusays.com/2023/12/19/658179febbfb5.png" />
    <div class="card-header">
       <div>
          <a href="https://blog.wzsco.top/">王卓Sco</a>
