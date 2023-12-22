@@ -90,9 +90,13 @@
           <div id="vcomments"></div>
           <% } %>
 
+
+
+
             <head>
               <link rel="stylesheet" href="https://blog.awaae001.top/file/waline.css" />
             </head>
+
             <body>
               <!-- ... -->
               <div id="waline"></div>
@@ -101,9 +105,18 @@
 
                 init({
                   el: '#waline',
+                  reaction: true,
                   serverURL: 'https://api.m-c.top',
+
+                  emoji: [
+                    '//unpkg.com/@waline/emojis@1.2.0/weibo',
+                    '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+                  ],
                 });
               </script>
+
+
+
 
               <script>
 	<% if (theme.valine && theme.valine.enableComment) { %>
@@ -168,7 +181,7 @@
                 <button class="share-button" onclick="generateAndCopyLink()"><%- theme.like.buttonTwo %></button>
               </div>
               <link rel="stylesheet" type="text/css" href="/css/pach-post.css">
-              
+
 
               <!-- JavaScript 函数定义 -->
               <script>
