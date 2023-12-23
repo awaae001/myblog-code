@@ -140,7 +140,7 @@ feed:
   template:
 ## Themes: https://hexo.io/themes/
 #theme: Landscape
-theme: tree
+theme: bttree
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
