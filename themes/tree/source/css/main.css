@@ -8,6 +8,14 @@ html {
 	font-family: hk4e_zh-cn;
 }
 
+  .page-cover-image {
+	/* 封面图片样式 */
+	max-width: 75%; /* 保持图片响应式 */
+	border-radius: 8px; /* 可选的圆角样式 */
+	margin-right: 10px; /* 可选的右边距，用于调整封面图片与其他信息之间的间距 */
+  }
+  
+
 /** 网站的黑暗模式配色 **/
 @media (prefers-color-scheme: dark) {
 	html {
@@ -307,6 +315,7 @@ a {
     flex-grow: 1; /* 扩展以填充剩余空间 */
     /* 其他样式... */
 }
+
 
 
 .content {

@@ -4,6 +4,7 @@ date: '2023-12-16T00:53:43+08:00'
 layout: post
 title: 少年-江湖走马，陪剑长行
 tags:
+cover: https://pic.awaae001.top/%E6%9D%82%E7%89%A9/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93.webp
 ---
 我一直在想：何为少年
 
