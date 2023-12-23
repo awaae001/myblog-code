@@ -79,7 +79,7 @@ fancybox: false
 >文章数大于50
 
 <div class="post-body">
-   <link rel="stylesheet" type="text/css" href="https://awaae001.top/css/card.css">
+   <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
          <div class="card">
@@ -258,14 +258,14 @@ fancybox: false
 >失联友链、单向友链、超过2年未更新的友链、违规友链、超时友链（≥60s）
 
 <div class="post-body">
-   <link rel="stylesheet" type="text/css" href="https://awaae001.top/css/card.css">
+   <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
          <div class="card">
             <img class="ava" src="https://blog.awaae001.top/ico.jpg" />
             <div class="card-header">
                <div>
-                  <a href="https://awaae001.top/">温馨提示</a>
+                  <a href="https://blog.awaae001.top/">温馨提示</a>
                </div>
                <div class="info">希望这里永远没有东西</div>
             </div>
@@ -278,7 +278,7 @@ fancybox: false
 藏在角落里面的小门，连主人也不知道通往何处
 
 <div class="post-body">
-   <link rel="stylesheet" type="text/css" href="https://awaae001.top/css/card.css">
+   <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
          <div class="card">
