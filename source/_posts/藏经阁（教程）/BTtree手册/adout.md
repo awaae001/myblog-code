@@ -13,9 +13,13 @@ cover: https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/bttree/hexo-BTtree.w
 
 >本主题基于[hexo-theme-tree](https://github.com/wujun234/hexo-theme-tree)魔改而来
 
+>本主题地址 [hexo-theme-BTtree](https://github.com/awaae001/hexo-theme-BTtree)
+
 本主题遵循开源协议，如果我的代码侵犯了你的合法权益，请与我联系，我一定会给你一个相对满意的答复，但请不要到社交媒体上对本主题是使用者机改版者进行语言攻击。
 
-## 
+**本主题依旧在开发，目前为阿尔法测试版**
+
+## 叠甲结束
 
 我非常欢迎您使用我的主题，准确来说，也不是我的主题，你可以去这个站点看一下本主题的初始状态
 <div class="post-body">
@@ -54,3 +58,7 @@ cover: https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/bttree/hexo-BTtree.w
 - willa评论系统（配置文件编写中） 
 
 目前，这个手册依旧在不断的编写中
+
+## 为什么会有这个手册？
+
+考虑到部分配置文件以及客制化的需求，有写出来的必要。
