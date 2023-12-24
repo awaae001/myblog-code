@@ -8,13 +8,16 @@ html {
 	font-family: hk4e_zh-cn;
 }
 
-  .page-cover-image {
+.page-cover-image {
 	/* 封面图片样式 */
-	max-width: 75%; /* 保持图片响应式 */
-	border-radius: 8px; /* 可选的圆角样式 */
-	margin-right: 10px; /* 可选的右边距，用于调整封面图片与其他信息之间的间距 */
-  }
-  
+	max-width: 75%;
+	/* 保持图片响应式 */
+	border-radius: 8px;
+	/* 可选的圆角样式 */
+	margin-right: 10px;
+	/* 可选的右边距，用于调整封面图片与其他信息之间的间距 */
+}
+
 
 /** 网站的黑暗模式配色 **/
 @media (prefers-color-scheme: dark) {
@@ -295,27 +298,55 @@ a {
 
 /* index */
 
-/* 在你的样式表中添加这个样式 */
 .post-container {
-    display: flex; /* 使用 Flexbox 布局 */
-    align-items: center; /* 在纵向方向上居中对齐 */
-    /* 其他样式... */
+	display: flex;
+	/* 使用 Flexbox 布局 */
+	align-items: center;
+	/* 在纵向方向上居中对齐 */
 }
 
 .cover-image {
-    /* 这里是你想要应用于封面图片的样式 */
-    max-width: 50%; /* 保持图片响应式 */
-    border-radius: 8px; /* 可选的圆角样式 */
-    margin-right: 10px; /* 可选的右边距 */
-    /* 其他样式... */
+	max-width: 50%;
+	/* 保持图片响应式 */
+	border-radius: 8px;
+	/* 可选的圆角样式 */
 }
 
 .post-content {
-    /* 这里是你想要应用于文章内容容器的样式 */
-    flex-grow: 1; /* 扩展以填充剩余空间 */
-    /* 其他样式... */
+	flex-grow: 1;
+	/* 扩展以填充剩余空间 */
 }
 
+/* index */
+
+.index-post-container {
+	display: flex;
+	align-items: center;
+	/* 垂直居中 */
+}
+
+.index-cover-image {
+	max-width: 45%;
+	/* 保持图片响应式 */
+	border-radius: 8px;
+	/* 可选的圆角样式 */
+	margin-right: 10px;
+	/* 可选的右边距，用于调整封面图片与标题之间的间距 */
+}
+
+.index-post-content {
+	flex: 1;
+	/* 填充剩余空间 */
+}
+
+/* 移动设备样式 */
+
+@media only screen and (max-width: 600px) {
+	.index-cover-image {
+		display: none;
+		/* 隐藏封面图片 */
+	}
+}
 
 
 .content {
