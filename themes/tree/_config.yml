@@ -88,7 +88,7 @@ sidebar:
 # 其他配置项...
 
 #页面背景图片
-blogBackgroundImage: ''
+blogBackgroundImage: 'https://tuchuang-awaae001.oss-cn-hongkong.aliyuncs.com/ai1_178504_e25aaeb4.webp'
 blogBackgroundSize: 'cover'  # 你可以根据需要选择 'cover', 'contain' 或其他值
 blurAmount: 10px  # 可以在这里设置模糊值
 
@@ -96,6 +96,7 @@ blurAmount: 10px  # 可以在这里设置模糊值
 custom:
   enableRuntimeCard: ture
   siteStartDate: "2023-06-08"
+  siteword: 本站已运行
 
 #一个有问题无法再配置文件更改的功能
 #share:

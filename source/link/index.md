@@ -253,6 +253,15 @@ fancybox: false
       <div class="info">茶要泡开才好喝，人要想开才好过.</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://halo-kakarot.oss-cn-beijing.aliyuncs.com/512.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://kakablog.top/">卡卡的云笔记</a>
+      </div>
+      <div class="info">人生缓缓自有答案。</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
