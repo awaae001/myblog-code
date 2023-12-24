@@ -100,6 +100,15 @@ fancybox: false
                <div class="info">做一颗星星，有棱有角，黑暗中闪闪发光</div>
             </div>
          </div>
+         <div class="card">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/Mello%E7%9A%84%E8%B5%9B%E5%8D%9A%E6%9C%AC%E5%AD%90.webp" />
+            <div class="card-header">
+               <div>
+                  <a href="https://www.dmxvx.cc/">Mello的赛博本子</a>
+               </div>
+               <div class="info">在本子上写写画画</div>
+            </div>
+         </div>
       </div>
    </div>
 </div>
