@@ -262,6 +262,15 @@ fancybox: false
       <div class="info">人生缓缓自有答案。</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://img01.s3.bitiful.net/2023/07/07d3bd094d9fc85bc19220208b5165" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.akaos233.top/">听风</a>
+      </div>
+      <div class="info">近水楼台先得月，向阳花木易为春</div>
+   </div>
+</div>
       </div>
    </div>
 </div>

@@ -120,6 +120,14 @@ abbrlink:
     alg: crc16   #算法： crc16(default) and crc32
     rep: dec     #进制： dec(default) and hex
 
+# hexo-filter-nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude: # 去除不需要添加的
+    - 'blog.awaae001.top'
+    - 'awaae001.top'
+
 # Extensions
 #RSS订阅
 plugin:
