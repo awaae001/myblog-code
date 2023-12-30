@@ -60,18 +60,8 @@
     color: #a3a3a3;
     font-size: 14px;
     min-width: 0;
-    white-space: nowrap;
     overflow: hidden;
-    animation: scrollText 10s linear infinite; /* 调整动画时间和其他参数 */
-}
-
-@keyframes scrollText {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+    white-space: nowrap;
 }
 
 @media screen and (min-width: 1200px) {
