@@ -4,6 +4,7 @@ cover: https://pic.awaae001.top/%E6%9D%82%E7%89%A9/%E5%B9%B4%E5%BA%A6%E6%80%BB%E
 date: '2023-12-29T14:35:12+08:00'
 layout: post
 tags: null
+categories: 
 title: 2023年度总结
 ---
 > 本文仍在编辑中

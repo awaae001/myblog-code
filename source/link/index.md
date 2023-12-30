@@ -263,7 +263,7 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://img01.s3.bitiful.net/2023/07/07d3bd094d9fc85bc19220208b5165" />
+   <img class="ava" src="https://tuchuang-awaae001.oss-cn-hongkong.aliyuncs.com/file/YLQ/%E5%90%AC%E9%A3%8E_2aa73c8e.webp" />
    <div class="card-header">
       <div>
          <a href="https://blog.akaos233.top/">听风</a>
