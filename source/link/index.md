@@ -263,10 +263,10 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://tuchuang-awaae001.oss-cn-hongkong.aliyuncs.com/file/YLQ/%E5%90%AC%E9%A3%8E_2aa73c8e.webp" />
+   <img class="ava" src="https://pic.awaae001.top/file/YLQ/%E5%90%AC%E9%A3%8E_2aa73c8e.webp?x-oss-process=style/awaae001" />
    <div class="card-header">
       <div>
-         <a href="https://blog.akaos233.top/">听风</a>
+         <a href="https://blog.ifeng.asia/">听风</a>
       </div>
       <div class="info">近水楼台先得月，向阳花木易为春</div>
    </div>
