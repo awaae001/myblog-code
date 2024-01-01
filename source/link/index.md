@@ -218,15 +218,6 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://sdn.geekzu.org/avatar/a428c2d6dd92b2dfcfa8aec470bd4088" />
-   <div class="card-header">
-      <div>
-         <a href="https://blog.fachep.com/">Fachep’s Blog</a>
-      </div>
-      <div class="info">lololololo</div>
-   </div>
-</div>
-<div class="card">
    <img class="ava" src="https://blog.hesiy.cn/avatar.webp" />
    <div class="card-header">
       <div>
