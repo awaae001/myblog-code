@@ -370,7 +370,7 @@ fancybox: false
 ```yml
 -name: 呓语梦轩 // 网站名字
  link: https://blog.awaae001.top //网站链接
- avatar: https://blog.awaae001.top/ico.jpg // 头像
+ avatar: https://image.m-c.top/?/images/2024/01/01/C4zG60AUTj/ico.jpg // 头像
  descr: 用心享受生活
  rss: https://blog.awaae001.top/atom.xml
 ```
