@@ -62,6 +62,15 @@ fancybox: false
       <div class="info">人文 科技 白日梦</div>
    </div>
 </div>
+         <div class="card">
+            <img class="ava" src="https://wujun234.com/favicon.ico" />
+            <div class="card-header">
+               <div>
+                  <a href="https://blog.awaae001.top/">Wu Jun's Notes</a>
+               </div>
+               <div class="info">主题作者</div>
+            </div>
+         </div>
       </div>
    </div>
 </div>
@@ -278,17 +287,24 @@ fancybox: false
 <div class="post-body">
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
-      <div class="link-navigation">
-         <div class="card">
-            <img class="ava" src="https://blog.awaae001.top/ico.jpg" />
+<div class="card">
+   <img class="ava" src="https://static.mk1.io/img/202310190944769.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.mk1.io">Ray's Blog</a>
+      </div>
+      <div class="info">单向友链</div>
+   </div>
+</div>
+<div class="card">
+         <img class="ava" src="https://pic.awaae001.top/file/YLQ/6519291503349.webp" />
             <div class="card-header">
                <div>
-                  <a href="https://blog.awaae001.top/">温馨提示</a>
+                  <a href="https://byer.top/">星の野</a>
                </div>
-               <div class="info">希望这里永远没有东西</div>
+               <div class="info">单向友链</div>
             </div>
          </div>
-      </div>
    </div>
 </div>
 
