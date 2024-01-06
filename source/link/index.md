@@ -164,15 +164,6 @@ fancybox: false
             </div>
          </div>
          <div class="card">
-         <img class="ava" src="https://pic.awaae001.top/file/YLQ/6519291503349.webp" />
-            <div class="card-header">
-               <div>
-                  <a href="https://byer.top/">星の野</a>
-               </div>
-               <div class="info">我自是年少，韶华倾负</div>
-            </div>
-         </div>
-         <div class="card">
             <img class="ava" src="https://pic.awaae001.top/file/YLQ/6524e2dc0735a.webp" />
             <div class="card-header">
                <div>
@@ -215,15 +206,6 @@ fancybox: false
          <a href="https://m.senlinm.cn/">小林笔记</a>
       </div>
       <div class="info">轻生活，秒上签</div>
-   </div>
-</div>
-	      <div class="card">
-   <img class="ava" src="https://static.mk1.io/img/202310190944769.png" />
-   <div class="card-header">
-      <div>
-         <a href="https://blog.mk1.io">Ray's Blog</a>
-      </div>
-      <div class="info">Never say never.</div>
    </div>
 </div>
 <div class="card">
@@ -287,17 +269,18 @@ fancybox: false
 <div class="post-body">
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
-<div class="card">
-   <img class="ava" src="https://static.mk1.io/img/202310190944769.png" />
-   <div class="card-header">
-      <div>
-         <a href="https://blog.mk1.io">Ray's Blog</a>
-      </div>
-      <div class="info">单向友链</div>
-   </div>
-</div>
-<div class="card">
-         <img class="ava" src="https://pic.awaae001.top/file/YLQ/6519291503349.webp" />
+      <div class="link-navigation">
+         <div class="card">
+            <img class="ava" src="https://static.mk1.io/img/202310190944769.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://blog.mk1.io">Ray's Blog</a>
+               </div>
+               <div class="info">单向友链</div>
+            </div>
+         </div>
+         <div class="card">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/6519291503349.webp" />
             <div class="card-header">
                <div>
                   <a href="https://byer.top/">星の野</a>
@@ -305,6 +288,7 @@ fancybox: false
                <div class="info">单向友链</div>
             </div>
          </div>
+      </div>
    </div>
 </div>
 
