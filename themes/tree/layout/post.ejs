@@ -10,9 +10,9 @@
     </span>
     <% } %>
 
-    <span id="busuanzi_page_pv">
-      本文总阅读量<span id="busuanzi_page_pv"></span>次
-    </span>
+      <span id="busuanzi_page_pv">
+        本文总阅读量<span id="busuanzi_page_pv"></span>次
+      </span>
 
 
       <span><%- config.author %></span>
@@ -59,8 +59,6 @@
       <%- page.content %>
     </div>
 
-
-
     <!-- post-guide -->
     <% if (is_post()){ %>
       <div class="post-guide">
@@ -96,6 +94,19 @@
             </script>
           <% } %>
 
+            <div id="article-categories">
+              <span>
+                本站评论因服务器问题，请要发图片的各位自行至
+                <a href="//image.m-c.top">博主自建图床</a>
+                上传再分享
+              </span>
+            </div>
+            <br>
+            <div id="article-categories">
+              <span>
+                近期，本站的友站评论区遭到爆破，因此本站评论开启强制登录！
+              </span>
+            </div>
 
             <% if (theme.waline && theme.waline.enableComment){ %>
 
@@ -114,6 +125,11 @@
                     reaction: true,
                     pageview: true,
                     serverURL: '<%- theme.waline.serverURL %>',
+                    dark: 'aton',
+                    login: 'force',
+                    wordLimit: 150,
+                    imageUploader: false,
+                    recaptchaV3Key: true,
 
                     emoji: [
                       '//unpkg.com/@waline/emojis@1.2.0/weibo',
@@ -121,7 +137,6 @@
                     ],
                   });
                 </script>
-
                 <% } %>
 
 
