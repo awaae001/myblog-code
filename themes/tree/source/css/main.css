@@ -5,8 +5,13 @@
 }
 
 html {
-	font-family: hk4e_zh-cn;
+	font-family: ChillRoundF;
 }
+
+/*@font-face {
+	font-family: ChillRoundF;
+	src: url(https://cloud.awaae001.top/api/raw/?path=/ChillRoundF.woff);
+}*/
 
 .page-cover-image {
 	/* 封面图片样式 */
