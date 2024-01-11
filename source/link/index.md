@@ -8,6 +8,8 @@ fancybox: false
 ---
 > 提交友链：<admin@awaae001.top>
 
+# 推荐服务/赞助服务
+
 ## cerycloud-可爱的网络加速
 
 [官网地址](https://dash2.cerycloud.com/index.php/#/register?code=RjEQAMRe)
@@ -74,7 +76,6 @@ fancybox: false
       </div>
    </div>
 </div>
-
 
 ## 阙楼
 在我的小院你可以一眼看到的楼
@@ -260,6 +261,15 @@ fancybox: false
          <a href="https://blog.ifeng.asia/">听风</a>
       </div>
       <div class="info">近水楼台先得月，向阳花木易为春</div>
+   </div>
+</div>
+<div class="card">
+   <img class="ava" src="https://naokuo.top/img/avatar-512x512.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://www.naokuo.top">Naokuo</a>
+      </div>
+      <div class="info">请给我来亿碗三鲜面</div>
    </div>
 </div>
       </div>
