@@ -272,6 +272,15 @@ fancybox: false
       <div class="info">请给我来亿碗三鲜面</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://pic.imgdb.cn/item/65919713c458853aef5343e9.jpg" />
+   <div class="card-header">
+      <div>
+         <a href="https://chenxi-space.com">chenxi-space</a>
+      </div>
+      <div class="info">行到水穷处，坐看云起时</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
@@ -368,12 +377,14 @@ fancybox: false
 
 **本站友链**
 
+````markdown
 ```yml
 -name: 呓语梦轩 // 网站名字
  link: https://blog.awaae001.top //网站链接
- avatar: https://image.m-c.top/?/images/2024/01/01/C4zG60AUTj/ico.jpg // 头像
+ avatar: https://image.m-c.top/?/images/2024/01/13/Pqeh0v6VaK/ico.jpg // 头像
  descr: 用心享受生活
  rss: https://blog.awaae001.top/atom.xml
 ```
+````
 
 欢迎各位大佬的到来
