@@ -281,9 +281,20 @@ fancybox: false
       <div class="info">行到水穷处，坐看云起时</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://bu.dusays.com/2023/09/27/6513053bebdb2.webp" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.starsharbor.com/">Stars Harbor’s Blog</a>
+      </div>
+      <div class="info">以博客记录生活与热爱！</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
+
+
 
 ## 陋室
 一方陋室的，被那门所遮挡，你不知道门后是什么。
