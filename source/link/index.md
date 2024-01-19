@@ -299,6 +299,15 @@ fancybox: false
       <div class="info">浪海导航收录博客网站。</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://cdn.picui.cn/2024/01/18/65a8e4e742e81.ico" />
+   <div class="card-header">
+      <div>
+         <a href="https://waimiao.cn/">阿歪的朋友圈</a>
+      </div>
+      <div class="info">见天地 观众生 识吾身</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
