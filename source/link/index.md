@@ -290,6 +290,15 @@ fancybox: false
       <div class="info">以博客记录生活与热爱！</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://www.langhai.net/assets/images/favicon.ico" />
+   <div class="card-header">
+      <div>
+         <a href="https://www.langhai.net">浪海导航</a>
+      </div>
+      <div class="info">浪海导航收录博客网站。</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
