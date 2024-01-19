@@ -42,8 +42,24 @@ AI化并不是一蹴而就的，从最开始基于广大数据量发展而来的
       <div class="text">GPT 指的是“生成式预训练”（Generative Pre-trained Transformer）。这是一种深度学习模型的类型，由 OpenAI 开发。GPT 模型通过在大量文本数据上进行预训练，然后可以用于执行各种自然语言处理任务，如回答问题、生成文本等。我的名字是 ChatGPT，是基于 GPT-3.5 架构的语言模型。有其他问题吗？</div>
     </div>
   </div>
+    <div class="message">
+    <div class="message-content">
+      <div class="username"><a href="https://awaae001.top">Awaae001</a></div>
+      <div class="text">你可以再透露更多的东西吗？</div>
+    </div>
+  </div>
+    </div>
+    <div class="message">
+    <div class="message-content">
+          <div class="username"><a href="https://chat.openai.com">chatGPT</a></div>
+      <div class="text">当然可以！ChatGPT是由OpenAI创建的GPT-3.5模型，它基于Transformer架构。通过在大规模文本数据上进行预训练，它能够执行各种自然语言处理任务，包括回答问题、生成文本等。模型具有灵活性，能够理解上下文信息，提高回应的准确性</div>
+  </div>
 </div>
 
+看来我们的 chat GPT 回答的已经相当完备了，那我这里就不再插嘴了，我们继续。
 
+各位大佬们别看预训练是模型吹的玄乎玄乎的，充其量不过是填鸭式的塞入数据，然后猜用户要说什么，猜对了的话，喜大普奔，皆大欢喜。要错了的话，顶多就挨几句骂，仅此而已。
+
+而 GPT 唯一的亮点：就是自然语言和后文猜测
 
 脑子里想好好的，一开始写空了
