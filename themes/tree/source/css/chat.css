@@ -29,7 +29,6 @@ body {
   margin: 10px;
   flex-wrap: wrap;
   min-height: 50px;
-  /* è®¾ç½®æœ€å°é«˜åº¦ */
 }
 
 .username {
@@ -39,7 +38,7 @@ body {
 
 .username a {
   text-decoration: none;
-  color: #007BFF;
+  color: #2bbc8a;
 }
 
 .text {

@@ -29,37 +29,52 @@ AI化并不是一蹴而就的，从最开始基于广大数据量发展而来的
 这个问题还是要 chatGPT 自己来回答比较好
 
 <div class="chat-container">
-  <link type="text/css" rel="stylesheet" href="https://blog.awaae001.top/css/chat.css" /> 
+  <link type="text/css" rel="stylesheet" href="https://blog.awaae001.top/css/chat.css" />
   <div class="message">
     <div class="message-content">
       <div class="username"><a href="https://awaae001.top">Awaae001</a></div>
       <div class="text">你名字里的 GPT 是什么意思？</div>
     </div>
   </div>
-    <div class="message">
+  <div class="message">
     <div class="message-content">
       <div class="username"><a href="https://chat.openai.com">chatGPT</a></div>
-      <div class="text">GPT 指的是“生成式预训练”（Generative Pre-trained Transformer）。这是一种深度学习模型的类型，由 OpenAI 开发。GPT 模型通过在大量文本数据上进行预训练，然后可以用于执行各种自然语言处理任务，如回答问题、生成文本等。我的名字是 ChatGPT，是基于 GPT-3.5 架构的语言模型。有其他问题吗？</div>
+      <div class="text">GPT 指的是“生成式预训练”（Generative Pre-trained Transformer）。这是一种深度学习模型的类型，由 OpenAI 开发。GPT
+        模型通过在大量文本数据上进行预训练，然后可以用于执行各种自然语言处理任务，如回答问题、生成文本等。我的名字是 ChatGPT，是基于 GPT-3.5 架构的语言模型。有其他问题吗？</div>
     </div>
   </div>
-    <div class="message">
+  <div class="message">
     <div class="message-content">
       <div class="username"><a href="https://awaae001.top">Awaae001</a></div>
       <div class="text">你可以再透露更多的东西吗？</div>
     </div>
   </div>
-    </div>
-    <div class="message">
+  <div class="message">
     <div class="message-content">
-          <div class="username"><a href="https://chat.openai.com">chatGPT</a></div>
-      <div class="text">当然可以！ChatGPT是由OpenAI创建的GPT-3.5模型，它基于Transformer架构。通过在大规模文本数据上进行预训练，它能够执行各种自然语言处理任务，包括回答问题、生成文本等。模型具有灵活性，能够理解上下文信息，提高回应的准确性</div>
+      <div class="username"><a href="https://chat.openai.com">chatGPT</a></div>
+      <div class="text">
+        当然可以！ChatGPT是由OpenAI创建的GPT-3.5模型，它基于Transformer架构。通过在大规模文本数据上进行预训练，它能够执行各种自然语言处理任务，包括回答问题、生成文本等。模型具有灵活性，能够理解上下文信息，提高回应的准确性
+      </div>
+    </div>
   </div>
 </div>
 
-看来我们的 chat GPT 回答的已经相当完备了，那我这里就不再插嘴了，我们继续。
+看来我们 chat GPT 回答的已经相当完备了，那我这里就不再插嘴了，我们继续。
 
 各位大佬们别看预训练是模型吹的玄乎玄乎的，充其量不过是填鸭式的塞入数据，然后猜用户要说什么，猜对了的话，喜大普奔，皆大欢喜。要错了的话，顶多就挨几句骂，仅此而已。
 
 而 GPT 唯一的亮点：就是自然语言和后文猜测
+
+支撑这些文艺猜测运行的就是：大模型
+
+大模型，就是参数超级多的机器学习模型。参数越多，模型就越聪明。
+
+- 其中有以下特别出名的大模型：
+   - [GPT-3](https://chat.openai.com/)：参数1750亿，由OpenAI开发。
+   - [LaMDA](https://blog.google/technology/ai/lamda/)：参数137B，由Google AI开发
+   - [WuDao 2.0](https://zhuanlan.zhihu.com/p/377047779)：参数1.75万亿，由百度开发。
+   - [Megatron-Turing NLG](https://www.zhihu.com/question/491893383)：参数537B，由谷歌、微软、OpenAI等公司联合开发。
+
+
 
 脑子里想好好的，一开始写空了
