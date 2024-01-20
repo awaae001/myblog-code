@@ -43,7 +43,7 @@ body {
 
 .text {
   word-wrap: break-word;
-  color: rgba(0, 0, 0, 0.1)
+  color: rgb(0 0 0)
 }
 
 @media (prefers-color-scheme: dark) {
