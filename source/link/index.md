@@ -291,15 +291,6 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://www.langhai.net/assets/images/favicon.ico" />
-   <div class="card-header">
-      <div>
-         <a href="https://www.langhai.net">浪海导航</a>
-      </div>
-      <div class="info">浪海导航收录博客网站。</div>
-   </div>
-</div>
-<div class="card">
    <img class="ava" src="https://cdn.picui.cn/2024/01/18/65a8e4e742e81.ico" />
    <div class="card-header">
       <div>
@@ -336,6 +327,15 @@ fancybox: false
                <div class="info">单向友链</div>
             </div>
          </div>
+         <div class="card">
+   <img class="ava" src="https://www.langhai.net/assets/images/favicon.ico" />
+   <div class="card-header">
+      <div>
+         <a href="https://www.langhai.net">浪海导航</a>
+      </div>
+      <div class="info">单向友链</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
