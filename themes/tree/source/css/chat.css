@@ -4,7 +4,7 @@ body {
 }
 
 .chat-container {
-  max-width: 900px;
+  max-width: 750px;
   margin: 20px auto;
   background-color: #fff;
   border-radius: 8px;
@@ -14,7 +14,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .chat-container {
-    max-width: 900px;
+    max-width: 750px;
     margin: 20px auto;
     background-color: rgba(24,28,39);
     border-radius: 8px;

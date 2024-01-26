@@ -1,7 +1,7 @@
 .card-item {
     display: flex;
     gap: 10px;
-    max-width: 900;
+    max-width: 800px;
     margin: auto;
     border: 1px solid #ffffff;
     border-radius: 12px;
@@ -17,7 +17,7 @@
         background-color: rgba(24, 28, 39);
         display: flex;
         gap: 10px;
-        max-width: 900px;
+        max-width: 800px;
         margin: auto;
         border: 1px solid #ffffff;
         border-radius: 12px;

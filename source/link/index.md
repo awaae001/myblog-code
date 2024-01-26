@@ -299,6 +299,15 @@ fancybox: false
       <div class="info">见天地 观众生 识吾身</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://pic.awaae001.top/file/YLQ/%E5%8D%9A%E5%AE%A2%20-%20Crant.ico" />
+   <div class="card-header">
+      <div>
+         <a href="https://www.crant.cn/">Crant</a>
+      </div>
+      <div class="info">用心记录-美好生活</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
