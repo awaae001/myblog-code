@@ -308,6 +308,15 @@ fancybox: false
       <div class="info">用心记录-美好生活</div>
    </div>
 </div>
+         <div class="card">
+            <img class="ava" src="https://static.mk1.io/img/202310190944769.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://blog.mk1.io">Ray's Blog</a>
+               </div>
+               <div class="info"> Never say never.</div>
+            </div>
+         </div>
       </div>
    </div>
 </div>
@@ -327,15 +336,6 @@ fancybox: false
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
-         <div class="card">
-            <img class="ava" src="https://static.mk1.io/img/202310190944769.png" />
-            <div class="card-header">
-               <div>
-                  <a href="https://blog.mk1.io">Ray's Blog</a>
-               </div>
-               <div class="info">单向友链</div>
-            </div>
-         </div>
          <div class="card">
    <img class="ava" src="https://www.langhai.net/assets/images/favicon.ico" />
    <div class="card-header">
