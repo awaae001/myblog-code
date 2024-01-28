@@ -285,7 +285,7 @@ fancybox: false
    <img class="ava" src="https://bu.dusays.com/2023/09/27/6513053bebdb2.webp" />
    <div class="card-header">
       <div>
-         <a href="https://blog.starsharbor.com/">Stars Harbor’s Blog</a>
+         <a href="https://blog.starsharbor.com/">◈星港◎Star☆</a>
       </div>
       <div class="info">以博客记录生活与热爱！</div>
    </div>
@@ -386,32 +386,31 @@ fancybox: false
 >
 > - 网站没有违法违规内容（例如：建政\18+\澳门赌场\性感小广告等一系列违反中华人民共和国法律法规的违规信息）<br>
 > - 网站在国内不需要梯子就可以正常打开<br>
-> - 建议在60s内可以加载完成主屏，谢谢
+> - 建议在60s内可以加载完成主屏，谢谢<br>
 > - 网站没有废弃<br>
 > - 网站内没有影响浏览体验的广告<br>
 > - 网站支持 HTTPS 访问<br>
+> - 在一定情况下，可以不要求反链。<br>
+> - 强制有效HTTPs
 
 ### 特别注意
-对于一下域名，请确保您的网站**有效**内容达30篇
+对于一下域名，请确保您的网站**有效**内容达30篇,如果你的有效内容没有达到这个要求，也没问题！你只要有5篇及以上的高质量内容即可！
  - 免费域名
-    - *github.io
+    - *.github.io
     - *.gitee.io
     - *.vercel.app
+    - *.eu.org 
+    - *.netlify.app
 
 
 > 提交格式：
 
-```html
-<div class="card">
-   <img class="ava" src="网站头像" />
-   <div class="card-header">
-      <div>
-         <a href="网站链接|带https">博客名称</a>
-      </div>
-      <div class="info">贵站描述</div>
-   </div>
-</div>
-```
+你需要想我提交或者我回收集你的一下数据
+  - 站点名
+  - 网站头像
+  - 网站介绍
+  
+  如果你的博客名中包含：“博客”/"小站"，那请您提交一个好听一点的，谢谢配合，如果你没有提交的话，我回自行移除以上字段。
 
 **本站友链**
 
