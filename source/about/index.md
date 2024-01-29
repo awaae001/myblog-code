@@ -41,7 +41,7 @@ updated: '2023-12-10T18:49:32.992+08:00'
 <body>
     <div class="card">
         <div class="avatar">
-            <img src="https://tuchuang-awaae001.oss-cn-hongkong.aliyuncs.com/
+            <img src="https://pic.awaae001.top/
 web ico/web.jpg" alt="头像">
         </div>
         <div class="info">

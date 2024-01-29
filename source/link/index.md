@@ -264,7 +264,7 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://naokuo.top/img/avatar-512x512.png" />
+   <img class="ava" src="https://pic.awaae001.top/file/YLQ/naokuo.top.png" />
    <div class="card-header">
       <div>
          <a href="https://www.naokuo.top">Naokuo</a>

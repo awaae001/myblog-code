@@ -99,7 +99,7 @@ sidebar:
 # 其他配置项...
 
 #页面背景图片
-blogBackgroundImage: 'https://tuchuang-awaae001.oss-cn-hongkong.aliyuncs.com/ai1_178504_e25aaeb4.webp'
+blogBackgroundImage: 'https://pic.awaae001.top/ai1_178504_e25aaeb4.webp'
 blogBackgroundSize: 'cover'  # 你可以根据需要选择 'cover', 'contain' 或其他值
 blurAmount: 10px  # 可以在这里设置模糊值
 

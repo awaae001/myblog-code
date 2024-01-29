@@ -11,7 +11,7 @@ tags:
 
 大概长这样
 
-![shine-计时器](https://tuchuang-awaae001.oss-cn-hongkong.aliyuncs.com/%E8%97%8F%E7%BB%8F%E9%98%81/bttree/%E5%AD%98%E6%B4%BB%E6%97%A5%E6%9C%9F%E8%AE%A1%E6%97%B6%E5%99%A8/shine-%E8%AE%A1%E6%97%B6%E5%99%A8_39988777.webp)
+![shine-计时器](https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/bttree/%E5%AD%98%E6%B4%BB%E6%97%A5%E6%9C%9F%E8%AE%A1%E6%97%B6%E5%99%A8/shine-%E8%AE%A1%E6%97%B6%E5%99%A8_39988777.webp)
 
 就是那个已运行时间那一栏。
 
@@ -46,4 +46,4 @@ custom:
 
 ## 效果图
 
-![](https://tuchuang-awaae001.oss-cn-hongkong.aliyuncs.com/%E8%97%8F%E7%BB%8F%E9%98%81/bttree/%E5%AD%98%E6%B4%BB%E6%97%A5%E6%9C%9F%E8%AE%A1%E6%97%B6%E5%99%A8/%E5%BA%95%E9%83%A8%E7%9A%84%E8%AE%A1%E6%97%B6%E5%99%A8_cd15715d.webp)
+![](https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/bttree/%E5%AD%98%E6%B4%BB%E6%97%A5%E6%9C%9F%E8%AE%A1%E6%97%B6%E5%99%A8/%E5%BA%95%E9%83%A8%E7%9A%84%E8%AE%A1%E6%97%B6%E5%99%A8_cd15715d.webp)

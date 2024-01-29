@@ -8,19 +8,17 @@ html {
 	font-family: ChillRoundF;
 }
 
-/*@font-face {
+@font-face {
 	font-family: ChillRoundF;
-	src: url(https://cloud.awaae001.top/api/raw/?path=/ChillRoundF.woff);
-}*/
+	src: url(https://cloud.awaae001.top/d/ChillRoundF.woff?sign=BSAhI_mJ93qtlyT1bxy8XUdHNSS6ajAV81zt9QJqivI=:0);
+}
+
 
 .page-cover-image {
 	/* 封面图片样式 */
 	max-width: 75%;
-	/* 保持图片响应式 */
+
 	border-radius: 8px;
-	/* 可选的圆角样式 */
-	margin-right: 10px;
-	/* 可选的右边距，用于调整封面图片与其他信息之间的间距 */
 }
 
 
