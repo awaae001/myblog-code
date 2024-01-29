@@ -9,9 +9,8 @@ updated: '2023-12-10T18:49:32.992+08:00'
 
 "呓语梦轩" by:awaae001 <admin@awaae001.top>
 
-<!DOCTYPE html>
-
 <html>
+
 <head>
     <style>
         .card {
@@ -22,20 +21,21 @@ updated: '2023-12-10T18:49:32.992+08:00'
         }
         .avatar {
             display: flex;
-            justify-content: center; /* 水平居中对齐 */
-            align-items: center; /* 垂直居中对齐 */
+            justify-content: center;
+            /* 水平居中对齐 */
+            align-items: center;
+            /* 垂直居中对齐 */
             flex: 1;
             padding: 10px;
-        }
-        .info {
-            flex: 2;
-            padding: 10px;
-        }
-        img {
-            max-width: 100px;
-            max-height: 100px;
-            border: 1px solid #ccc;
-        }
+            .info {
+                flex: 2;
+                padding: 10px;
+            }
+            img {
+                max-width: 100px;
+                max-height: 100px;
+                border: 1px solid #ccc;
+            }
     </style>
 </head>
 <body>
@@ -45,12 +45,14 @@ updated: '2023-12-10T18:49:32.992+08:00'
 web ico/web.jpg" alt="头像">
         </div>
         <div class="info">
-            <h2>以德服人【awaae001】<hr>
-            <h3><em>一条没有理想的咸鱼</em></h3>
-            <p>个人坐（作）家；学生</p>
+            <h2>以德服人【awaae001】</h2>
+                <hr>
+                <h3><em>一条没有理想的咸鱼</em></h3>
+                <p>个人坐（作）家；学生</p>
         </div>
     </div>
 </body>
+
 </html>
 
 ## hexo
@@ -82,7 +84,7 @@ HEXO还以其出色的构建速度和自动部署功能脱颖而出，使得发�
 
 这个博客通过 [Hexo](https://hexo.io/) 生成，部署在 [GitHub Pages](https://pages.github.com/)
 
-主题 [tree](https://github.com/wujun234/hexo-theme-tree) 已经在github上开源
+主题由 [tree](https://github.com/wujun234/hexo-theme-tree) 魔改而来
 
 ## 博客github地址
 
