@@ -103,24 +103,18 @@
             上传再分享
           </span>
         </div>
-        <br>
-        <div id="article-categories">
-          <span>
-            近期，本站的友站评论区遭到爆破，因此本站评论开启强制登录！
-          </span>
-        </div>
 
         <% if (theme.waline && theme.waline.enableComment){ %>
 
           <head>
-            <link rel="stylesheet" href="https://blog.awaae001.top/file/waline.css" />
+            <link rel="stylesheet" href="/file/waline.css" />
           </head>
 
           <body>
             <!-- ... -->
             <div id="waline"></div>
             <script type="module">
-              import { init } from 'https://blog.awaae001.top/file/waline.mjs';
+              import { init } from '/file/waline.mjs';
 
               init({
                 el: '#waline',
