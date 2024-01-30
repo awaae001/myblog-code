@@ -23,6 +23,25 @@ fancybox: false
 
 一个精致的，带社交元素的个人网站发布平台，博客收录网站
 
+## 其他服务
+
+<div class="post-body">
+   <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
+   <div id="links">
+      <div class="link-navigation">
+         <div class="card">
+            <img class="ava" src="https://www.langhai.net/assets/images/favicon.ico" />
+            <div class="card-header">
+               <div>
+                  <a href="https://www.langhai.net">浪海导航</a>
+               </div>
+               <div class="info">一个高质量的导航站点</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
 
 # 友链
 
@@ -317,6 +336,15 @@ fancybox: false
                <div class="info"> Never say never.</div>
             </div>
          </div>
+<div class="card">
+   <img class="ava" src="https://cdn.thkll.com/img/avatar.jpg" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.thkll.com/">瑞兹</a>
+      </div>
+      <div class="info">希望是人生的引路人</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
@@ -332,22 +360,7 @@ fancybox: false
 
 >失联友链、单向友链、超过2年未更新的友链、违规友链、超时友链（≥60s）
 
-<div class="post-body">
-   <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
-   <div id="links">
-      <div class="link-navigation">
-         <div class="card">
-   <img class="ava" src="https://www.langhai.net/assets/images/favicon.ico" />
-   <div class="card-header">
-      <div>
-         <a href="https://www.langhai.net">浪海导航</a>
-      </div>
-      <div class="info">单向友链</div>
-   </div>
-</div>
-      </div>
-   </div>
-</div>
+**目前没人，挺好的**
 
 ## 小门
 藏在角落里面的小门，连主人也不知道通往何处

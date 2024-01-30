@@ -17,7 +17,6 @@ html {
 .page-cover-image {
 	/* 封面图片样式 */
 	max-width: 75%;
-
 	border-radius: 8px;
 }
 
@@ -28,14 +27,6 @@ html {
 		background-color: rgb(24, 28, 39);
 
 		body {
-			color: rgb(201, 209, 217);
-		}
-
-		h1 {
-			color: rgb(201, 209, 217);
-		}
-
-		h2 {
 			color: rgb(201, 209, 217);
 		}
 	}
