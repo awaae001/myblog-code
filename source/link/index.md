@@ -345,6 +345,24 @@ fancybox: false
       <div class="info">希望是人生的引路人</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://tuchuang.voooe.cn/images/2024/01/29/logo_head.webp" />
+   <div class="card-header">
+      <div>
+         <a href="https://www.quenan.love/">鹊楠的小窝</a>
+      </div>
+      <div class="info">时不时写点文章</div>
+   </div>
+</div>
+<div class="card">
+   <img class="ava" src="https://npm.elemecdn.com/opicture@1.0.0/main/avatar.webp" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.opeach.cn">HiPeach</a>
+      </div>
+      <div class="info">妙不可言</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
@@ -360,7 +378,24 @@ fancybox: false
 
 >失联友链、单向友链、超过2年未更新的友链、违规友链、超时友链（≥60s）
 
-**目前没人，挺好的**
+
+
+<div class="post-body">
+   <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
+   <div id="links">
+      <div class="link-navigation">
+<div class="card">
+   <img class="ava" src="https://senlinm.s3.us-east-005.backblazeb2.com/01.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://m.senlinm.cn/">小林笔记</a>
+      </div>
+      <div class="info">站没了</div>
+   </div>
+</div>
+      </div>
+   </div>
+</div>
 
 ## 小门
 藏在角落里面的小门，连主人也不知道通往何处
