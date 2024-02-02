@@ -4,16 +4,6 @@
 	border: 0;
 }
 
-html {
-	font-family: ChillRoundF;
-}
-
-@font-face {
-	font-family: ChillRoundF;
-	src: url(https://cloud.awaae001.top/d/ChillRoundF.woff?sign=BSAhI_mJ93qtlyT1bxy8XUdHNSS6ajAV81zt9QJqivI=:0);
-}
-
-
 .page-cover-image {
 	/* 封面图片样式 */
 	max-width: 75%;
