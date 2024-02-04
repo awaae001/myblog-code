@@ -175,15 +175,6 @@ fancybox: false
             </div>
          </div>
          <div class="card">
-            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
-            <div class="card-header">
-               <div>
-                  <a href="https://xrr.org.cn/">小染笔记</a>
-               </div>
-               <div class="info">不必借光而行，你我皆是星辰</div>
-            </div>
-         </div>
-         <div class="card">
             <img class="ava" src="https://pic.awaae001.top/file/YLQ/6524e2dc0735a.webp" />
             <div class="card-header">
                <div>
@@ -228,15 +219,6 @@ fancybox: false
                <div class="info">我自是年少，韶华倾负</div>
             </div>
          </div>
-<div class="card">
-   <img class="ava" src="https://senlinm.s3.us-east-005.backblazeb2.com/01.png" />
-   <div class="card-header">
-      <div>
-         <a href="https://m.senlinm.cn/">小林笔记</a>
-      </div>
-      <div class="info">轻生活，秒上签</div>
-   </div>
-</div>
 <div class="card">
    <img class="ava" src="https://blog.hesiy.cn/avatar.webp" />
    <div class="card-header">
@@ -393,6 +375,15 @@ fancybox: false
       <div class="info">站没了</div>
    </div>
 </div>
+         <div class="card">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
+            <div class="card-header">
+               <div>
+                  <a href="https://xrr.org.cn/">小染笔记</a>
+               </div>
+               <div class="info">站没了</div>
+            </div>
+         </div>
       </div>
    </div>
 </div>
@@ -408,7 +399,7 @@ fancybox: false
             <img class="ava" src="https://travel.moe/images/icon/icon64.png" />
             <div class="card-header">
                <div>
-                  <a href="https://travel.moe/go.html?travel=on ">异次元之旅-萌ICP备</a>
+                  <a href="https://travel.moe/go.html?travel=on ">异次元之旅</a>
                </div>
                <div class="info">开了门就可能回不来了</div>
             </div>
@@ -439,7 +430,7 @@ fancybox: false
 > - 网站内没有影响浏览体验的广告<br>
 > - 网站支持 HTTPS 访问<br>
 > - 在一定情况下，可以不要求反链。<br>
-> - 强制有效HTTPs
+
 
 ### 特别注意
 对于一下域名，请确保您的网站**有效**内容达30篇,如果你的有效内容没有达到这个要求，也没问题！你只要有5篇及以上的高质量内容即可！
@@ -453,7 +444,7 @@ fancybox: false
 
 > 提交格式：
 
-你需要想我提交或者我回收集你的一下数据
+你需要想我提交或者我将收集你的下列数据
   - 站点名
   - 网站头像
   - 网站介绍
@@ -464,11 +455,11 @@ fancybox: false
 
 ````markdown
 ```yml
--name: 呓语梦轩 // 网站名字
- link: https://blog.awaae001.top //网站链接
- avatar: https://image.m-c.top/?/images/2024/01/13/Pqeh0v6VaK/ico.jpg // 头像
- descr: 用心享受生活
- rss: https://blog.awaae001.top/atom.xml
+-Name: 呓语梦轩
+ Link: https://blog.awaae001.top
+ Avatar: https://image.m-c.top/?/images/2024/01/13/Pqeh0v6VaK/ico.jpg
+ Descr: 用心享受生活
+ Rss: https://blog.awaae001.top/atom.xml
 ```
 ````
 
