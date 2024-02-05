@@ -86,7 +86,7 @@ homeHost: blog.awaae001.top
 #设置为 true 之前，要先确保，已经创建了 hexo 的 tags\categories\about 页面
 tags: false
 categories: false
-about: true
+about: false
 
 # 左侧导航栏，用文件名还是文章名
 sidebar:
