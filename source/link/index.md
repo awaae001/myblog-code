@@ -87,7 +87,7 @@ fancybox: false
             <img class="ava" src="https://wujun234.com/favicon.ico" />
             <div class="card-header">
                <div>
-                  <a href="https://blog.awaae001.top/">Wu Jun's Notes</a>
+                  <a href="https://wujun234.com/">Wu Jun's Notes</a>
                </div>
                <div class="info">主题作者</div>
             </div>
