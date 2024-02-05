@@ -220,12 +220,12 @@ fancybox: false
             </div>
          </div>
 <div class="card">
-   <img class="ava" src="https://blog.hesiy.cn/avatar.webp" />
+   <img class="ava" src="https://registry.npmmirror.com/@floatsheep/fsl-fim/1.0.7/files/avatar.webp" />
    <div class="card-header">
       <div>
          <a href="https://blog.hesiy.cn">FloatSheep</a>
       </div>
-      <div class="info">On the other side of obstacles</div>
+      <div class="info">世界这么大，我想去看看</div>
    </div>
 </div>
 <div class="card">
@@ -319,7 +319,7 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://tuchuang.voooe.cn/images/2024/01/29/logo_head.webp" />
+   <img class="ava" src="https://tuchuang.voooe.cn/images/2024/02/04/headLogo.webp" />
    <div class="card-header">
       <div>
          <a href="https://www.quenan.love/">鹊楠的小窝</a>
