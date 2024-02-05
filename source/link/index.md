@@ -319,7 +319,7 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://tuchuang.voooe.cn/images/2024/02/04/headLogo.webp" />
+   <img class="ava" src="https://pic.awaae001.top/file/YLQ/%E5%A4%B4%E5%83%8F%E6%8D%A2%E6%9D%A5%E6%8D%A2%E5%8E%BB%E7%9A%84%E9%82%A3%E4%B8%AA%E5%AE%B6%E4%BC%99.webp?x-oss-process=style/awaae001" />
    <div class="card-header">
       <div>
          <a href="https://www.quenan.love/">鹊楠的小窝</a>
