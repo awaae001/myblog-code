@@ -225,7 +225,7 @@ fancybox: false
       <div>
          <a href="https://blog.hesiy.cn">FloatSheep</a>
       </div>
-      <div class="info">世界这么大，我想去看看</div>
+      <div class="info">On the other side of obstacles</div>
    </div>
 </div>
 <div class="card">
@@ -352,6 +352,15 @@ fancybox: false
          <a href="https://blog.ifeng.asia/">听风</a>
       </div>
       <div class="info">近水楼台先得月，向阳花木易为春</div>
+   </div>
+</div>
+<div class="card">
+   <img class="ava" src="https://wpzllq.cn/wp-content/uploads/smilies/mmexport1704612494459.gif" />
+   <div class="card-header">
+      <div>
+         <a href="https://wpzllq.cn/">棚子</a>
+      </div>
+      <div class="info">学习与分享快乐一起进步</div>
    </div>
 </div>
       </div>
