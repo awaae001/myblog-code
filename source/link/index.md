@@ -342,7 +342,7 @@ fancybox: false
       <div>
          <a href="https://blog.chihuo2104.dev/">chihuo2104</a>
       </div>
-      <div class="info">一个蒟蒻(不随波逐流的高中生)的博客</div>
+      <div class="info">一个蒟蒻的博客</div>
    </div>
 </div>
 <div class="card">
