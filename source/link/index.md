@@ -363,6 +363,15 @@ fancybox: false
       <div class="info">学习与分享快乐一起进步</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://senlinm.s3.us-east-005.backblazeb2.com/01.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://m.senlinm.cn/">小林笔记</a>
+      </div>
+      <div class="info">轻生活，秒上签</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
@@ -384,15 +393,6 @@ fancybox: false
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
-<div class="card">
-   <img class="ava" src="https://senlinm.s3.us-east-005.backblazeb2.com/01.png" />
-   <div class="card-header">
-      <div>
-         <a href="https://m.senlinm.cn/">小林笔记</a>
-      </div>
-      <div class="info">站没了</div>
-   </div>
-</div>
          <div class="card">
             <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
             <div class="card-header">
