@@ -1,6 +1,6 @@
 ---
 layout: post
-title: page-不要在带XXX回去了
+title:不要在带XXX回去了
 abbrlink: 60978
 date: 2024-02-07 21:44:27
 tags:
@@ -18,7 +18,7 @@ tags:
 <div class="card-item">
     <link type="text/css" rel="stylesheet" href="https://blog.awaae001.top/css/links-page.css" />
     <div class="card-thumbnail">
-        <img alt="过年文案生成器" title="过年文案生成器"" decoding="async"
+        <img alt="过年文案生成器" title="过年文案生成器" decoding="async"
             src="https://pic.awaae001.top/%E7%BC%98%E7%BC%98%E5%A0%82/%E8%BF%87%E5%B9%B4%E4%BA%86%EF%BC%8C%E4%B8%8D%E8%A6%81%E5%86%8D/%E8%BF%87%E5%B9%B4%E4%BA%86.webp?x-oss-process=style/awaae001"
             class="not-shadow not-light-box" width="130" height="80">
     </div>
