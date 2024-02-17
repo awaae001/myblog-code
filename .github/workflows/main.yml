@@ -15,7 +15,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 20
+          node-version: 19
 
       - name: Install dependencies
         run: npm install
@@ -29,7 +29,7 @@ jobs:
           chmod 700 ~/.ssh
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          ssh-keyscan 38.46.30.51>> ~/.ssh/known_hosts
+          ssh-keyscan 154.12.81.153>> ~/.ssh/known_hosts
           git config --global user.email "3271436144@qq.com"
           git config --global user.name "awaae001"
           npm install hexo-cli -g
