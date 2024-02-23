@@ -287,4 +287,6 @@ tags:
     </script>
 </div>
 
-自豪地使用了[memos](https://memos.awaae001.top)+群友 |摆烂了说说系统
+自豪地使用了[memos](https://memos.awaae001.top)摆烂了说说系统
+
+特别感谢来自[Akilarの糖果屋](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uEfrjHDCJp-EYcdnj-PvIU2OqgLxeNG5&authKey=uI8uO3TDMeddrF04NKA2s6wTC4yJMQ0G%2FhYXkKE0py%2F9vD3gHKUzGjdf9y%2BnA2dx&noverify=0&group_code=589330978)的群友们的特别帮助，谢谢各位！

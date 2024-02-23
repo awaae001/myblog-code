@@ -83,126 +83,49 @@
   </div>
   <% } %>
 
-    <!-- comment - giscus -->
-    <% if(theme.giscus && theme.giscus.enable) { %>
-      <meta property="og:title" content="<%= page.title || page.path %>" />
 
-      <script src="https://giscus.app/client.js" data-repo="<%=theme.giscus.repo %>"
-        data-repo-id="<%=theme.giscus.repo_id %>" data-category="Announcements"
-        data-category-id="<%=theme.giscus.category_id %>" data-mapping="og:title" data-strict="1"
-        data-reactions-enabled="1" data-emit-metadata="0" data-input-position="<%=theme.giscus.input_position%>"
-        data-theme="<%=theme.giscus.theme%>" data-lang="<%=theme.giscus.lang%>" data-loading="lazy"
-        crossorigin="anonymous" async>
-        </script>
-      <% } %>
+    <div id="article-categories">
+      <span>
+        本站评论因服务器问题，请要发图片的各位自行至
+        <a href="//image.m-c.top">博主自建图床</a>
+        上传再分享
+      </span>
+    </div>
 
-        <div id="article-categories">
-          <span>
-            本站评论因服务器问题，请要发图片的各位自行至
-            <a href="//image.m-c.top">博主自建图床</a>
-            上传再分享
-          </span>
-        </div>
-
-        <% if (theme.waline && theme.waline.enableComment){ %>
-
-          <head>
-            <link rel="stylesheet" href="/file/waline.css" />
-          </head>
-
-          <body>
-            <!-- ... -->
-            <div id="waline"></div>
-            <script type="module">
-              import { init } from '/file/waline.mjs';
-
-              init({
-                el: '#waline',
-                reaction: true,
-                pageview: true,
-                serverURL: '<%- theme.waline.serverURL %>',
-                dark: 'aton',
-                wordLimit: 150,
-                imageUploader: false,
-                recaptchaV3Key: true,
-
-                emoji: [
-                  '//unpkg.com/@waline/emojis@1.2.0/weibo',
-                  '//unpkg.com/@waline/emojis@1.2.0/bmoji',
-                ],
-              });
-            </script>
-            <% } %>
+    <%- partial('_talk/waline.ejs') %>
+    <%- partial('_talk/valine.ejs') %>
+    <%- partial('_talk/giscus.ejs') %>
 
 
-              <script>
-	<% if (theme.valine && theme.valine.enableComment) { %>
-                  // 评论
-                  new Valine({
-                    el: '#vcomments',
-                    appId: '<%- theme.valine.appID %>',
-                    appKey: '<%- theme.valine.appKey %>',
-                    placeholder: '<%- theme.valine.placeholder %>',
-                    path: window.location.pathname,
-                    avatar: '<%- theme.valine.avatar %>',
-                    highlight: false,
-                    recordIP: true,
-                    enableQQ: true,
-                    requiredFields: ['nick', 'mail']
-                  })
-                  <% } %>
-	<% if (theme.valine && theme.valine.enableCounter) { %>
-                  // 显示次数
-                  function showTime(Counter) {
-                    var query = new AV.Query("Counter");
-                    if ($(".leancloud_visitors").length > 0) {
-                      var url = $(".leancloud_visitors").attr('id').trim();
-                      // where field
-                      query.equalTo("words", url);
-                      // count
-                      query.count().then(function (number) {
-                        // There are number instances of MyClass where words equals url.
-                        $(document.getElementById(url)).text(number ? number : '--');
-                      }, function (error) {
-                        // error is an instance of AVError.
-                      });
-                    }
-                  }
-                  // 追加pv
-                  function addCount(Counter) {
-                    var url = $(".leancloud_visitors").length > 0 ? $(".leancloud_visitors").attr('id').trim() : 'wujun234.github.io';
-                    var Counter = AV.Object.extend("Counter");
-                    var query = new Counter;
-                    query.save({
-                      words: url
-                    }).then(function (object) {
-                    })
-                  }
-                  $(function () {
-                    var Counter = AV.Object.extend("Counter");
-                    addCount(Counter);
-                    showTime(Counter);
-                  });
-	<% } %>
+          <!-- Artalk -->
+          <div id="Comments"></div>
+          <script>
+            Artalk.init({
+              el: '#Comments',                // 绑定元素的 Selector
+              pageKey: '',                  // 固定链接 (留空自动获取)
+              pageTitle: '',  // 页面标题 (留空自动获取)
+              server: 'https://talk.m-c.top',  // 后端地址
+              site: '呓语梦轩',             // 你的站点名
+            })
+          </script>
 
-              </script>
-              <% if (theme.postFooter.div) { %>
-                <div style="animation:both">
-                  <div class="share-button-container">
-                    <link rel="stylesheet" type="text/css" href="/css/pach-post.css">
-                    <div>
-                      <button class="support-button" onclick="openSupportDialog()"><%- theme.postFooter.likewordA%></button>
+          <% if (theme.postFooter.div) { %>
+            <div style="animation:both">
+              <div class="share-button-container">
+                <link rel="stylesheet" type="text/css" href="/css/pach-post.css">
+                <div>
+                  <button class="support-button" onclick="openSupportDialog()"><%- theme.postFooter.likewordA%></button>
 
-                      <div id="support-dialog">
-                        <div id="image-container">
-                          <img src="<%- theme.postFooter.QrcodeA %>" alt="Support Image">
-                          <img src="<%- theme.postFooter.QrcodeB %>" alt="Support Image">
-                        </div>
-                        <p class="like-p"><%- theme.postFooter.yaofan %></p>
-                        <button class="close-button" onclick="closeSupportDialog()">好的</button>
-                      </div>
+                  <div id="support-dialog">
+                    <div id="image-container">
+                      <img src="<%- theme.postFooter.QrcodeA %>" alt="Support Image">
+                      <img src="<%- theme.postFooter.QrcodeB %>" alt="Support Image">
                     </div>
-                    <button class="share-button" onclick="generateAndCopyLink()"><%- theme.postFooter.shareword%></button>
+                    <p class="like-p"><%- theme.postFooter.yaofan %></p>
+                    <button class="close-button" onclick="closeSupportDialog()">好的</button>
                   </div>
                 </div>
-                <% } %>
+                <button class="share-button" onclick="generateAndCopyLink()"><%- theme.postFooter.shareword%></button>
+              </div>
+            </div>
+            <% } %>

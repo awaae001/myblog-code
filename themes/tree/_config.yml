@@ -23,12 +23,11 @@ links:
     - name: 友人帐
       URL: https://blog.awaae001.top/link
 
-    - name: 留言板
-      URL: https://api.m-c.top/
- 
+    - name: 说说
+      URL: https://blog.awaae001.top/daily
+
     - name: 十年之约
       URL: https://blog.awaae001.top/box
-
 
 # 可选, giscus 评论系统
 # 这里配置 https://giscus.app/zh-CN，将生成好的填在下面
@@ -62,12 +61,11 @@ valine:
 #是上面的valine的有服务器后端版本，在现在的环境下可用。
 waline:
   #评论系统开关
-  enableComment: true	
+  enableComment: false
   #服务器地址
   serverURL: api.m-c.top
   #表情回应
   reaction: true
-
 
 # 是否开启“不蒜子”统计访问量，可选
 busuanzi: false
@@ -93,15 +91,12 @@ sidebar:
   # usePostTitle 为 ture 用文章名，不填或为 false 用文件名
   usePostTitle: ture
 
-
-
-
 # 其他配置项...
 
 #页面背景图片
-blogBackgroundImage: 'https://pic.awaae001.top/ai1_178504_e25aaeb4.webp'
-blogBackgroundSize: 'cover'  # 你可以根据需要选择 'cover', 'contain' 或其他值
-blurAmount: 10px  # 可以在这里设置模糊值
+blogBackgroundImage: "https://pic.awaae001.top/ai1_178504_e25aaeb4.webp"
+blogBackgroundSize: "cover" # 你可以根据需要选择 'cover', 'contain' 或其他值
+blurAmount: 10px # 可以在这里设置模糊值
 
 #页面底部的网站运行时长,注意：时间格式为 年-月-日，单数必须要要加零
 custom:
@@ -111,7 +106,7 @@ custom:
 
 #一个有问题无法再配置文件更改的功能
 #share:
-#  button: ture 
+#  button: ture
 #  time: 1000
 
 postFooter:
@@ -121,4 +116,8 @@ postFooter:
   shareword: 分享啊！
   QrcodeA: https://image.m-c.top/?/images/2024/01/30/dJuwI48Rry/alipay.jpg
   QrcodeB: https://image.m-c.top/?/images/2024/01/30/OPzAQTymjZ/weixin.png
-  
+
+  artalk:
+    enableComment: ture
+    enable: "呓语梦轩"
+    server: "https://artalk.m-c.top"
