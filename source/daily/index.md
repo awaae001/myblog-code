@@ -222,13 +222,6 @@ tags:
                 })
                 document.getElementById('talk').innerHTML = html
             })
-            // 页面评论
-            function goComment(e) {
-                var n = document.querySelector(".el-textarea__inner")
-                n.value = `> ${e}\n\n`;
-                n.focus();
-                btf.snackbarShow("无需删除空行，直接输入评论即可", !1, 2e3);
-            }
             // 页面内容格式化
             function Format(item) {
                 let date = getTime(new Date(item.createdTs * 1000).toString()),
