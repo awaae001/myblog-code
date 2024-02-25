@@ -6,7 +6,13 @@ title: link
 updated: '2023-12-10T12:46:29.259+08:00'
 fancybox: false
 ---
-> 提交友链：<admin@awaae001.top>
+# 这是友情链接：
+在这个焦躁的时代，能在互联网的角落拥有一个属于自己的站点绝对是一件值得高兴的事情，如果把大佬们的站点比作一个在偌大的院子里面高楼，小亭子，以及只能远望的高山那么，友链就是所谓的路，就是所谓的**传送门**
+
+使用友链系统让更多人认识你、我、他，同如今四通八达的道路一般。
+
+
+> 欢迎
 
 # 推荐服务/赞助服务
 
@@ -92,6 +98,24 @@ fancybox: false
                <div class="info">主题作者</div>
             </div>
          </div>
+<div class="card">
+   <img class="ava" src="https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.leonus.cn/">Leonus</a>
+      </div>
+      <div class="info">说说系统代码</div>
+   </div>
+</div>
+<div class="card">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/6519291503349.webp" />
+            <div class="card-header">
+               <div>
+                  <a href="https://byer.top/">星の野</a>
+               </div>
+               <div class="info">说说系统CSS</div>
+            </div>
+         </div>
       </div>
    </div>
 </div>
@@ -145,7 +169,7 @@ fancybox: false
 ## 雅亭
 一座小亭子，静静的立在哪里，其中的石桌子上还有一本摊开来的书，不知是故事，还是秘籍。
 
-有些石桌子上还放着几两浊酒，几柄小剑，亦或是一方茶几，一支竹笛。
+有些石桌子上还放着几两浊酒，几柄小剑，亦或是一方茶几，一支竹笛，或是一本秘籍，几张残卷。
 
 *你有故事吗*
 
@@ -210,7 +234,7 @@ fancybox: false
                <div class="info">寒蝉黎明之时，便是重生之日</div>
             </div>
          </div>
-                  <div class="card">
+<div class="card">
             <img class="ava" src="https://pic.awaae001.top/file/YLQ/6519291503349.webp" />
             <div class="card-header">
                <div>
@@ -379,13 +403,17 @@ fancybox: false
 
 
 ## 陋室
-一方陋室的，被那门所遮挡，你不知道门后是什么。
+一方陋室的，被那门所遮挡，你不知道门后是什么
 
-是一间空屋？一个堆满了杂物的屋子？还是那门被紧锁，根本无法打开。
+窗户上面不知何时累积了些许尘土，屋内的景象也因此变得模糊不清，这是一间空屋？还是一个堆满了杂物的屋子？只是那门被紧锁，根本无法打开
 
 一些故事，也许就这样被永远得尘封在那无法打开的门后，藏在那堆杂物之中
 
->失联友链、单向友链、超过2年未更新的友链、违规友链、超时友链（≥60s）
+也许只是屋子的主人忘记了还有这样一个角落，有朝一日，这里可能再次打开那尘封的门
+
+**江湖有缘见，在此待君归！**
+
+>失联友链、单向友链、超过1年未更新的友链、违规友链、超时友链（≥60s）
 
 
 
@@ -399,7 +427,7 @@ fancybox: false
                <div>
                   <a href="https://xrr.org.cn/">小染笔记</a>
                </div>
-               <div class="info">站没了</div>
+               <div class="info">网站发送了无效的响应</div>
             </div>
          </div>
       </div>
@@ -419,7 +447,7 @@ fancybox: false
                <div>
                   <a href="https://travel.moe/go.html?travel=on ">异次元之旅</a>
                </div>
-               <div class="info">开了门就可能回不来了</div>
+               <div class="info">萌IPC备</div>
             </div>
          </div>
          <div class="card">
@@ -428,7 +456,7 @@ fancybox: false
                <div>
                   <a href="https://storeweb.cn/s/1954">虫洞</a>
                </div>
-               <div class="info">前往另一个位面</div>
+               <div class="info">个站商店</div>
             </div>
          </div>
       </div>
@@ -462,10 +490,11 @@ fancybox: false
 
 > 提交格式：
 
-你需要想我提交或者我将收集你的下列数据
+你需要向我提交或者我将收集你的下列数据
   - 站点名
   - 网站头像
   - 网站介绍
+  - 站点链接
   
   如果你的博客名中包含：“博客”/"小站"，那请您提交一个好听一点的，谢谢配合，如果你没有提交的话，我回自行移除以上字段。
 

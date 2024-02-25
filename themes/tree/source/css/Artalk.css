@@ -23,7 +23,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-
     .artalk,
     .atk-layer-wrap {
         --at-color-font: #fff;
