@@ -162,6 +162,15 @@ fancybox: false
                <div class="info">在本子上写写画画</div>
             </div>
          </div>
+<div class="card">
+   <img class="ava" src="http://pic.xieboke.net/joyoblog.png" />
+   <div class="card-header">
+      <div>
+         <a href="http://xieboke.net/">小卓笔记</a>
+      </div>
+      <div class="info">分享所学技能，记录点滴生活</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
