@@ -15,10 +15,6 @@
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color: rgb(24, 28, 39);
-
-		body {
-			color: rgb(201, 209, 217);
-		}
 	}
 }
 
@@ -372,7 +368,7 @@ a {
 	padding: 0 5px 0 0;
 }
 
-/** 网站的黑暗模式配色 **/
+/** 网站的黑暗模式配色 [对，这一长串带@media的都是！] **/
 @media (prefers-color-scheme: dark) {
 	.article-meta * {
 		position: relative;
@@ -389,6 +385,14 @@ a {
 	font-size: 24px;
 }
 
+@media (prefers-color-scheme: dark) {
+	.index-title {
+		margin-top: 30px;
+		position: relative;
+		font-size: 24px;
+		color: rgb(201, 209, 217);
+	}
+}
 
 #index-paginator {
 	display: flex;
@@ -423,6 +427,14 @@ a {
 	border-bottom: 2px solid #ddd;
 }
 
+@media (prefers-color-scheme: dark) {
+	#article-title {
+		border-bottom: 2px solid #ddd;
+		color: rgb(201, 209, 217);
+	}
+}
+
+
 #article-content {
 	padding: 10px 0;
 	border-bottom: 2px solid #ddd;
@@ -438,6 +450,13 @@ a {
 	margin: 5px 0;
 }
 
+@media (prefers-color-scheme: dark) {
+	#article-content li {
+		margin: 5px 0;
+		color: rgb(201, 209, 217);
+	}
+}
+
 #article-content h1 {
 	line-height: 50px;
 	margin: 20px 0 15px;
@@ -446,12 +465,35 @@ a {
 	border-bottom: 2px solid #ddd;
 }
 
+@media (prefers-color-scheme: dark) {
+	#article-content h1 {
+		line-height: 50px;
+		margin: 20px 0 15px;
+		font-size: 32px;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #ddd;
+		color: rgb(201, 209, 217);
+	}
+}
+
 #article-content h2 {
 	line-height: 45px;
 	margin: 15px 0 10px;
 	font-size: 25px;
 	padding-left: 10px;
 	border-bottom: 1px solid #ddd;
+
+}
+
+@media (prefers-color-scheme: dark) {
+	#article-content h2 {
+		line-height: 45px;
+		margin: 15px 0 10px;
+		font-size: 25px;
+		padding-left: 10px;
+		border-bottom: 1px solid #ddd;
+		color: rgb(201, 209, 217);
+	}
 }
 
 #article-content h3 {
@@ -460,11 +502,31 @@ a {
 	font-size: 22px
 }
 
+@media (prefers-color-scheme: dark) {
+	#article-content h3 {
+		line-height: 40px;
+		margin: 10px 0 5px;
+		color: rgb(201, 209, 217);
+		font-size: 22px
+	}
+}
+
 #article-content h4,
 #article-content h5,
 #article-content h6 {
 	line-height: 35px;
 	margin: 5px 0 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	#article-content h4,
+	#article-content h5,
+	#article-content h6 {
+		line-height: 35px;
+		margin: 5px 0 5px;
+		color: rgb(201, 209, 217);
+	}
 }
 
 #article-content a:hover {
@@ -496,6 +558,15 @@ a {
 	margin-bottom: 10px;
 }
 
+@media (prefers-color-scheme: dark) {
+	#article-content p {
+		line-height: 20px;
+		color: rgb(201, 209, 217);
+		margin-bottom: 10px;
+	}
+}
+
+
 #article-content ul code,
 #article-content ol code,
 #article-content p code {
@@ -515,6 +586,22 @@ table {
 	text-align: left;
 	border: 1px solid black;
 }
+
+@media (prefers-color-scheme: dark) {
+	table {
+		margin: auto auto 15px;
+		width: 100%;
+		min-height: .01%;
+		overflow-x: auto;
+		background: transparent;
+		border-collapse: collapse;
+		border-spacing: 0;
+		text-align: left;
+		border: 1px solid black;
+		color: rgb(201, 209, 217);
+	}
+}
+
 
 table th {
 	font-weight: bold;
@@ -571,7 +658,7 @@ table td {
 /* footer */
 #footer {
 	font-size: 14px;
-	/*height: 50px;*/
+	/*height: 50px; [这个完全没用，注释掉了]*/
 	background-color: #60281e;
 	color: #dfb7b7;
 	text-align: center;
@@ -585,10 +672,31 @@ table td {
 	padding: 5px;
 }
 
-/* @media */
+/* @media [不知道为什么主题作者要怎么搞，我就不管了] */
 @media screen and (max-width: 850px) {
-
 	#sidebar {
 		opacity: 0.95;
+	}
+}
+
+/* spawn */
+span.span-info {
+	font-size: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+	span.span-info {
+		font-size: 16px;
+		color: rgb(201, 209, 217);
+	}
+}
+
+span.space {
+	color: #0c0807;
+}
+
+@media (prefers-color-scheme: dark) {
+	span.space {
+		color: rgb(201, 209, 217);
 	}
 }

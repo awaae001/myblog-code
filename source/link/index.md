@@ -2,7 +2,7 @@
 date: '2023-12-09T15:32:43+08:00'
 layout: page
 tags: null
-title: link
+title: 友情链接！
 updated: '2023-12-10T12:46:29.259+08:00'
 fancybox: false
 ---
@@ -271,15 +271,6 @@ fancybox: false
    </div>
 </div>
 <div class="card">
-   <img class="ava" src="https://leslieblog.top/images/avatar.png" />
-   <div class="card-header">
-      <div>
-         <a href="https://leslieblog.top/">Leslie Alexander</a>
-      </div>
-      <div class="info">茶要泡开才好喝，人要想开才好过.</div>
-   </div>
-</div>
-<div class="card">
    <img class="ava" src="https://halo-kakarot.oss-cn-beijing.aliyuncs.com/512.png" />
    <div class="card-header">
       <div>
@@ -439,6 +430,15 @@ fancybox: false
                <div class="info">网站发送了无效的响应</div>
             </div>
          </div>
+<div class="card">
+   <img class="ava" src="https://blog.awaae001.top/OIP.jpg" />
+   <div class="card-header">
+      <div>
+         <a href="https://leslieblog.top/">Leslie Alexander</a>
+      </div>
+      <div class="info">无法访问（SSL错误）</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
@@ -495,7 +495,7 @@ fancybox: false
     - *.vercel.app
     - *.eu.org 
     - *.netlify.app
-
+  
 
 > 提交格式：
 
@@ -509,7 +509,7 @@ fancybox: false
 
 **本站友链**
 
-````markdown
+
 ```yml
 -Name: 呓语梦轩
  Link: https://blog.awaae001.top
@@ -517,6 +517,6 @@ fancybox: false
  Descr: 用心享受生活
  Rss: https://blog.awaae001.top/atom.xml
 ```
-````
+
 
 欢迎各位大佬的到来

@@ -65,7 +65,7 @@ tags:
     <script>
         // 计算并更新网站运行时间的函数
         function updateCountdown() {
-            var startDate = new Date("2034-02-01"); // 使用自定义参数作为启动日期
+            var startDate = new Date("2034-03-01"); // 使用自定义参数作为启动日期
             var currentDate = new Date();
             var timeDiff = startDate - currentDate;
             if (timeDiff > 0) {
