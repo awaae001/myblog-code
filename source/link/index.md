@@ -29,7 +29,7 @@ fancybox: false
 
 一个精致的，带社交元素的个人网站发布平台，博客收录网站
 
-## 其他服务
+## 博客圈
 
 <div class="post-body">
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
@@ -394,6 +394,24 @@ fancybox: false
          <a href="https://m.senlinm.cn/">小林笔记</a>
       </div>
       <div class="info">轻生活，秒上签</div>
+   </div>
+</div>
+<div class="card">
+   <img class="ava" src="https://cdn.oscode.top/wp/2023/09/20230903072315127-e1693725895386.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://jblog.oscode.top/">极客蜂巢</a>
+      </div>
+      <div class="info">共创型综合技术博客</div>
+   </div>
+</div>
+<div class="card">
+   <img class="ava" src="https://blog.yaqwq.top/wp-content/uploads/2023/06/png.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://blog.yaqwq.top">丫丫</a>
+      </div>
+      <div class="info">一个技术分享与教程交流博客论坛</div>
    </div>
 </div>
       </div>
