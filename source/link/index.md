@@ -423,6 +423,15 @@ fancybox: false
       <div class="info">一个技术分享与教程交流博客论坛</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://leslieblog.top/images/avatar.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://leslieblog.top/">Leslie Alexander</a>
+      </div>
+      <div class="info">茶要泡开才好喝，人要想开才好过</div>
+   </div>
+</div>
       </div>
    </div>
 </div>
@@ -457,21 +466,14 @@ fancybox: false
                <div class="info">网站发送了无效的响应</div>
             </div>
          </div>
-<div class="card">
-   <img class="ava" src="https://blog.awaae001.top/OIP.jpg" />
-   <div class="card-header">
-      <div>
-         <a href="https://leslieblog.top/">Leslie Alexander</a>
-      </div>
-      <div class="info">无法访问（SSL错误）</div>
-   </div>
-</div>
       </div>
    </div>
 </div>
 
 ## 小门
 藏在角落里面的小门，连主人也不知道通往何处
+
+> 各大收集站提供的随机跳转服务
 
 <div class="post-body">
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
@@ -532,11 +534,9 @@ fancybox: false
   - 网站介绍
   - 站点链接
   
-  如果你的博客名中包含：“博客”/"小站"，那请您提交一个好听一点的，谢谢配合，如果你没有提交的话，我回自行移除以上字段。
+  如果你的博客名中包含：“博客”/"小站"，那请您提交一个好听一点的，谢谢配合，如果你没有提交的话，我自行移除以上字段。
 
 **本站友链**
-
-
 ```yml
 -Name: 呓语梦轩
  Link: https://blog.awaae001.top
@@ -545,5 +545,7 @@ fancybox: false
  Rss: https://blog.awaae001.top/atom.xml
 ```
 
+## 提交后？
+本站的友链为人工审核，同时，也没有后台，所以速度会相对那么慢一点点，~~毕竟还要等推送~~
 
 欢迎各位大佬的到来
