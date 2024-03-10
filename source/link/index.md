@@ -44,8 +44,8 @@ fancybox: false
                <div class="info">一个高质量的导航站点</div>
             </div>
          </div>
-<div class="card">
-            <img class="ava" src="https://huamao.vip/app/v/daohang/ui/img/favicon.ico" />
+      <div class="card">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/%E8%8A%B1%E7%8C%AB%E5%AF%BC%E8%88%AA.png" />
             <div class="card-header">
                <div>
                   <a href="https://huamao.vip">花猫导航</a>
