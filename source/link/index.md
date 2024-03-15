@@ -172,7 +172,7 @@ fancybox: false
             </div>
          </div>
 <div class="card">
-   <img class="ava" src="http://pic.xieboke.net/joyoblog.png" />
+   <img class="ava" src="https://pic.awaae001.top/file/YLQ/%E5%8D%93%E8%B6%8A%E7%AC%94%E8%AE%B0.webp" />
    <div class="card-header">
       <div>
          <a href="http://xieboke.net/">小卓笔记</a>
