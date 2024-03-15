@@ -180,6 +180,15 @@ fancybox: false
       <div class="info">分享所学技能，记录点滴生活</div>
    </div>
 </div>
+<div class="card">
+   <img class="ava" src="https://www.lizhichen.cn/zb_users/upload/2021/10/202110151634246697912592.png" />
+   <div class="card-header">
+      <div>
+         <a href="https://www.lizhichen.cn">懋和道人</a>
+      </div>
+      <div class="info">一个招收vue弟子的道士</div>
+   </div>
+   </div>
       </div>
    </div>
 </div>

@@ -4,6 +4,7 @@ title: 贵州消防栓事件的思考
 abbrlink: 13860
 date: 2024-02-17 02:43:26
 tags:
+cc: ture
 ---
 ## 引言
 

@@ -5,6 +5,7 @@ abbrlink: 34026
 date: 2023-12-23 18:21:28
 tags:
 cover: https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/bttree/hexo-BTtree.webp
+cc: ture
 ---
 **使用手册**
 

@@ -11,11 +11,11 @@ generateAndCopyLinkBtn.addEventListener('click', generateAndCopyLink);
 
 
 // 赞助的 显示/隐藏 部分
-function openSupportDialog() {
+function opensiteshow() {
     document.getElementById('support-dialog').style.display = 'block';
 }
 
-function closeSupportDialog() {
+function closesiteshow() {
     document.getElementById('support-dialog').style.display = 'none';
 }
 
