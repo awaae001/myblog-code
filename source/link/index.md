@@ -6,7 +6,7 @@ title: 友情链接！
 updated: '2023-12-10T12:46:29.259+08:00'
 fancybox: false
 ---
-# 这是友情链接：
+## 这是友情链接：
 在这个焦躁的时代，能在互联网的角落拥有一个属于自己的站点绝对是一件值得高兴的事情，如果把大佬们的站点比作一个在偌大的院子里面高楼，小亭子，以及只能远望的高山那么，友链就是所谓的路，就是所谓的**传送门**
 
 使用友链系统让更多人认识你、我、他，同如今四通八达的道路一般。
@@ -196,7 +196,7 @@ fancybox: false
                     <div>
                         <a href="https://www.lizhichen.cn">懋和道人</a>
                     </div>
-                    <div class="info">一个招收vue弟子的道士</div>
+                    <div class="info">李懋和，俗名李栋梁。内地著名上清茅山宗道士，书法、国画爱好者</div>
                 </div>
             </div>
         </div>
@@ -454,6 +454,15 @@ fancybox: false
                     <div class="info">茶要泡开才好喝，人要想开才好过</div>
                 </div>
             </div>
+            <div class="card" title="不必借光而行，你我皆是星辰.">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
+            <div class="card-header">
+               <div>
+                  <a href="https://xrr.org.cn/">小染笔记</a>
+               </div>
+               <div class="info">不必借光而行，你我皆是星辰.</div>
+            </div>
+         </div>
         </div>
     </div>
 </div>
@@ -475,13 +484,13 @@ fancybox: false
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
-         <div class="card" title="网站发送了无效的响应">
-            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
+         <div class="card" title="诶，什么都没有诶！">
+            <img class="ava" src="https://blog.awaae001.top/ico.webp" />
             <div class="card-header">
                <div>
-                  <a href="https://xrr.org.cn/">小染笔记</a>
+                  <a href="/">呓语梦轩</a>
                </div>
-               <div class="info">网站发送了无效的响应</div>
+               <div class="info">诶，什么都没有诶！</div>
             </div>
          </div>
       </div>

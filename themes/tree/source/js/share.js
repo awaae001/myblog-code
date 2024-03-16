@@ -1,23 +1,21 @@
 //分享和赞助是在一起的，那我就偷个懒，写在一个JS里面了
 
 
-var openSupportDialogBtn = document.getElementById('openSupportDialogBtn');
-var closeSupportDialogBtn = document.getElementById('closeSupportDialogBtn');
-var generateAndCopyLinkBtn = document.getElementById('generateAndCopyLinkBtn');
+var openSupportDialogBtn = document.getElementById('openSupportDialogBtn()');
+var closeSupportDialogBtn = document.getElementById('closeSupportDialogBtn()');
+var generateAndCopyLinkBtn = document.getElementById('generateAndCopyLinkBtn()');
 // 添加点击事件监听器
-openSupportDialogBtn.addEventListener('click', openSupportDialog);
-closeSupportDialogBtn.addEventListener('click', closeSupportDialog);
 generateAndCopyLinkBtn.addEventListener('click', generateAndCopyLink);
 
 
 // 赞助的 显示/隐藏 部分
-function opensiteshow() {
+function openSupportDialog() {
     document.getElementById('support-dialog').style.display = 'block';
 }
-
-function closesiteshow() {
+function closeSupportDialog() {
     document.getElementById('support-dialog').style.display = 'none';
 }
+
 
 //分享链接的生成部分
 function generateAndCopyLink() {
