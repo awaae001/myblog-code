@@ -74,7 +74,8 @@ fancybox: false
 
 但只要心生向往，终可达云海之巅
 
->给我轮子的大佬
+>给我轮子的大佬<br>
+>在这里的都配享太庙
 
 <div class="post-body">
     <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
@@ -197,6 +198,15 @@ fancybox: false
                         <a href="https://www.lizhichen.cn">懋和道人</a>
                     </div>
                     <div class="info">李懋和，俗名李栋梁。内地著名上清茅山宗道士，书法、国画爱好者</div>
+                </div>
+            </div>
+            <div class="card" title="今日事，今日毕">
+                <img class="ava" src="https://registry.npmmirror.com/q78kg-website-npm-cdn/latest/files/avatar.png" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://anjiurine.top/">梦溯·镜影</a>
+                    </div>
+                    <div class="info">今日事，今日毕</div>
                 </div>
             </div>
         </div>
@@ -454,14 +464,6 @@ fancybox: false
                     <div class="info">茶要泡开才好喝，人要想开才好过</div>
                 </div>
             </div>
-        <div class="card" title="今日事，今日毕">
-            <img class="ava" src="https://registry.npmmirror.com/q78kg-website-npm-cdn/latest/files/avatar.png" />
-            <div class="card-header">
-               <div>
-                  <a href="https://anjiurine.top/">梦溯·镜影</a>
-               </div>
-               <div class="info">今日事，今日毕</div>
-            </div>
         </div>
     </div>
 </div>
@@ -583,5 +585,15 @@ fancybox: false
 
 ## 提交后？
 本站的友链为人工审核，同时，也没有后台，所以速度会相对那么慢一点点，~~毕竟还要等推送~~
+
+## 找不到你的链接（网站）?
+假如你没有在**主分区**找到你的链接，而且它也没有出现在**陋室**分区的话，请检查一下你的链接是不是有一下的问题：
+
+- 违反了我的[提交要求](/#tips)的站点，并未进行整改
+- 网站停止运营
+- 网址更改但并没有发布更改提示
+- 博主觉得你没有在运维你的博客
+
+**~~呓语梦轩（awaae001.top）保留一切解释权利~~**
 
 欢迎各位大佬的到来
