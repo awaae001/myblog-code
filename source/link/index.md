@@ -454,18 +454,18 @@ fancybox: false
                     <div class="info">茶要泡开才好喝，人要想开才好过</div>
                 </div>
             </div>
-            <div class="card" title="不必借光而行，你我皆是星辰.">
-            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
+        <div class="card" title="今日事，今日毕">
+            <img class="ava" src="https://registry.npmmirror.com/q78kg-website-npm-cdn/latest/files/avatar.png" />
             <div class="card-header">
                <div>
-                  <a href="https://xrr.org.cn/">小染笔记</a>
+                  <a href="https://anjiurine.top/">梦溯·镜影</a>
                </div>
-               <div class="info">不必借光而行，你我皆是星辰.</div>
+               <div class="info">今日事，今日毕</div>
             </div>
-         </div>
         </div>
     </div>
 </div>
+
 
 ## 陋室
 一方陋室的，被那门所遮挡，你不知道门后是什么
@@ -484,15 +484,15 @@ fancybox: false
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
-         <div class="card" title="诶，什么都没有诶！">
-            <img class="ava" src="https://blog.awaae001.top/ico.webp" />
+         <div class="card" title="不必借光而行，你我皆是星辰.">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
             <div class="card-header">
                <div>
-                  <a href="/">呓语梦轩</a>
+                  <a href="/">小染笔记</a>
                </div>
-               <div class="info">诶，什么都没有诶！</div>
+               <div class="info">未按要求反链</div>
             </div>
-         </div>
+        </div>
       </div>
    </div>
 </div>
@@ -522,6 +522,15 @@ fancybox: false
                   <a href="https://storeweb.cn/s/1954">虫洞</a>
                </div>
                <div class="info">个站商店</div>
+            </div>
+         </div>
+<div class="card" title="诶，什么都没有诶！">
+            <img class="ava" src="https://blog.awaae001.top/ico.webp" />
+            <div class="card-header">
+               <div>
+                  <a href="/">呓语梦轩</a>
+               </div>
+               <div class="info">诶，什么都没有诶！</div>
             </div>
          </div>
       </div>
