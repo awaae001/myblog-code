@@ -526,6 +526,7 @@ fancybox: false
                <div class="info">个站商店</div>
             </div>
          </div>
+         <div class="card">
          <img class="ava" src="https://www.styg.org.cn/zb_users/upload/2024/01/202401261706277157705448.png" />
             <div class="card-header">
                <div>
