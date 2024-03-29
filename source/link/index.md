@@ -464,10 +464,18 @@ fancybox: false
                     <div class="info">茶要泡开才好喝，人要想开才好过</div>
                 </div>
             </div>
+            <div class="card" title="遇事不决，可问春风">
+                <img class="ava" src="https://img.june-pj.cn/img/avatar.webp" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.june-pj.cn/">June's Blog</a>
+                    </div>
+                    <div class="info">遇事不决，可问春风</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
 
 ## 陋室
 一方陋室的，被那门所遮挡，你不知道门后是什么
