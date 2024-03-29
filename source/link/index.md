@@ -510,7 +510,7 @@ fancybox: false
 ## 小门
 藏在角落里面的小门，连主人也不知道通往何处
 
-> 各大收集站提供的随机跳转服务
+> 各大收集站提供的随机跳转服务以及公益服务
 
 <div class="post-body">
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
@@ -532,6 +532,15 @@ fancybox: false
                   <a href="https://storeweb.cn/s/1954">虫洞</a>
                </div>
                <div class="info">个站商店</div>
+            </div>
+         </div>
+         <div class="card">
+         <img class="ava" src="https://www.styg.org.cn/zb_users/upload/2024/01/202401261706277157705448.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://www.styg.org.cn">温岭慈善义工石塘服务队</a>
+               </div>
+               <div class="info">慈善义工在行动</div>
             </div>
          </div>
 <div class="card" title="诶，什么都没有诶！">
