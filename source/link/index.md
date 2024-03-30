@@ -473,6 +473,15 @@ fancybox: false
                     <div class="info">遇事不决，可问春风</div>
                 </div>
             </div>
+            <div class="card" title="柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜">
+                <img class="ava" src="https://www.qyliu.top/info/avatar.ico" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://www.qyliu.top/">清羽飞扬</a>
+                    </div>
+                    <div class="info">柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

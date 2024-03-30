@@ -33,7 +33,7 @@ cover: https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/busuanzi/busanzi.web
     <div class="card-info">
         <a class="card-links">外部链接【安全】:</a>
         <br>
-        <a href="" target="_blank" class="card-title">Github-soxft/busuanzi-自建不蒜子</a>
+        <a href="https://github.com/soxft/busuanzi/ " target="_blank" class="card-title">Github-soxft/busuanzi-自建不蒜子</a>
         <div class="card-excerpt">
         自建不蒜子，一个基于 Golang + Redis 的简易访问量统计系统，A simple visitor statistics system based on Golang + Redis，统计站点的，UV, PV统计子页面的 UV, PV，
         </div>
@@ -211,12 +211,15 @@ go: downloading github.com/go-playground/locales v0.13.0
 
 ![反向代理](https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/busuanzi/%E6%AD%A3%E6%96%87/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86_1d6cea9b.webp)
 
+回到`busuanzi`的根目录，在ssh中键入`./busuanzi`以启动服务器
+
 访问【你的域名】即可看到不蒜子服务器成功启动！
 
 **守护进程参见：链接**
 
 ## 使用
 部署完成了，接下来是使用
+
 
 你可以看到，自建不蒜子API页面已经有了使用的教程,但是,这里有一个小问题:**它不是你部署的那个不蒜子,而是开发者的Demo**。所以，你要使用的话，就必须将它给的api地址换成你的。
 

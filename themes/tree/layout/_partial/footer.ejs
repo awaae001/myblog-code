@@ -1,11 +1,25 @@
 <div id="footer">
-	<p>
-		<a href="//blog.awaae001.top/about" target="_blank">关于我</a>
-		|
-		<a href="//blog.awaae001.top/atom.xml" target="_blank">Rss订阅</a>
-		|
-		<a href="https://blog.awaae001.top/posts/57663.html" target="_blank">隐私协议</a>
-	</p>
+	<div class="footer-links">
+		<div>
+			<span>
+				友情链接-随机
+			</span>
+			<div id="randomLinks"></div>
+			<script src="/js/randomlinks.js"></script>
+		</div>
+		<div>
+			<span class="a-links">
+				<span>
+					其他链接
+				</span>
+				<a href="//blog.awaae001.top/about" target="_blank">关于我</a>
+				---
+				<a href="//blog.awaae001.top/atom.xml" target="_blank">Rss订阅</a>
+				---
+				<a href="https://blog.awaae001.top/posts/57663.html" target="_blank">隐私协议</a>
+			</span>
+		</div>
+	</div>
 	<p>
 		©<span id="footerYear-start"><%- theme.siteStartYear %></span>-<span id="footerYear-end"></span>
 		<% if (config.website){ %>

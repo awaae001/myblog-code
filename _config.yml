@@ -140,7 +140,7 @@ feed:
   limit: 10
   hub:
   content:
-  content_limit: 500
+  content_limit: 1024
   content_limit_delim: ' '
   order_by: -date
   icon: Rss.webp
