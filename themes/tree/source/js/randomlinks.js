@@ -1,5 +1,5 @@
 // 从外部 JSON 文件加载数据
-fetch('./links.json')
+fetch('//blog.awaae001.top/links.json')
     .then(response => response.json())
     .then(data => {
         // 函数来随机选择指定数量的项目
