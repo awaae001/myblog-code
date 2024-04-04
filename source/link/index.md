@@ -482,6 +482,15 @@ fancybox: false
                     <div class="info">柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜</div>
                 </div>
             </div>
+            <div class="card" title="记下每一刻">
+                <img class="ava" src="https://pic.awaae001.top/file/YLQ/IMG_4242.PNG" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.alenliu.space/">AlenLiu’s Blog</a>
+                    </div>
+                    <div class="info">始终📸嘅👺记下每一刻.✍️</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
