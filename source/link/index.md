@@ -441,7 +441,7 @@ fancybox: false
                 <img class="ava" src="https://cdn.oscode.top/wp/2023/09/20230903072315127-e1693725895386.png" />
                 <div class="card-header">
                     <div>
-                        <a href="https://jblog.oscode.top/">极客蜂巢</a>
+                        <a href="https://www.gkhive.com/">极客蜂巢</a>
                     </div>
                     <div class="info">共创型综合技术博客</div>
                 </div>
@@ -474,10 +474,10 @@ fancybox: false
                 </div>
             </div>
             <div class="card" title="柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜">
-                <img class="ava" src="https://www.qyliu.top/info/avatar.ico" />
+                <img class="ava" src="https://blog.qyliu.top/info/avatar.ico" />
                 <div class="card-header">
                     <div>
-                        <a href="https://www.qyliu.top/">清羽飞扬</a>
+                        <a href="https://blog.qyliu.top/">清羽飞扬</a>
                     </div>
                     <div class="info">柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜</div>
                 </div>
