@@ -345,15 +345,6 @@ fancybox: false
                     <div class="info">以博客记录生活与热爱！</div>
                 </div>
             </div>
-            <div class="card" title="见天地 观众生 识吾身">
-                <img class="ava" src="https://cdn.picui.cn/2024/01/18/65a8e4e742e81.ico" />
-                <div class="card-header">
-                    <div>
-                        <a href="https://waimiao.cn/">阿歪的朋友圈</a>
-                    </div>
-                    <div class="info">见天地 观众生 识吾身</div>
-                </div>
-            </div>
             <div class="card" title="用心记录-美好生活">
                 <img class="ava" src="https://pic.awaae001.top/file/YLQ/%E5%8D%9A%E5%AE%A2%20-%20Crant.ico" />
                 <div class="card-header">
@@ -516,11 +507,20 @@ fancybox: false
             <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
             <div class="card-header">
                <div>
-                  <a href="/">小染笔记</a>
+                  <a href="https://xrr.org.cn/">小染笔记</a>
                </div>
                <div class="info">未按要求反链</div>
             </div>
         </div>
+        <div class="card" title="见天地 观众生 识吾身">
+                <img class="ava" src="https://cdn.picui.cn/2024/01/18/65a8e4e742e81.ico" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://waimiao.cn/">阿歪的朋友圈</a>
+                    </div>
+                    <div class="info">未按要求反链</div>
+                </div>
+            </div>
       </div>
    </div>
 </div>

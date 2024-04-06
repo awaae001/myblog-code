@@ -51,7 +51,7 @@ cover: https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/busuanzi/busanzi.web
    - 1C1G
    - 10G硬盘
    - 安装宝塔面板环境 
-   - **安转[GO环境](https://zhuanlan.zhihu.com/p/653856066)！**
+   - **安装[GO环境](https://zhuanlan.zhihu.com/p/653856066)！**
 - 一个自己的域名
 - 脑子 （**这是喂奶级教程，不带也可以**）
 
@@ -71,7 +71,7 @@ go build -o busuanzi main.go
 ---
 
 ### 特殊编译环境准备：GO
-后面需要用到GO环境的编译服务器busuanzi核心文件，在这里使用包管理器安装GO！
+后面需要用到GO环境的编译服务器busuanzi核心文件，在这里使用包管理器安装GO
 
 - Ubuntu/Debian
 ```shell
