@@ -1,5 +1,5 @@
 // 从外部 JSON 文件加载数据
-fetch('https://link.m-c.top/friend.json')
+fetch('/link.json')
     .then(response => response.json())
     .then(data => {
         // 函数来随机选择指定数量的项目
