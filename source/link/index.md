@@ -115,6 +115,7 @@ fancybox: false
                </div>
                <div class="info">每个博客都是一座宝藏</div>
          </div>
+         </div>
       </div>
    </div>
 </div>
