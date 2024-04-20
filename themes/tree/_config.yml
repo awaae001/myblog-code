@@ -69,8 +69,8 @@ waline:
 
 artalk:
   enableComment: true
-  enable: "呓语梦轩"
-  server: "https://artalk.m-c.top"
+  enable: 呓语梦轩
+  server: https://talk.m-c.top
 
 
 # 是否开启“不蒜子”统计访问量，可选
