@@ -1,5 +1,5 @@
 // 从外部 JSON 文件加载数据
-fetch('/link.json')
+fetch('https://link.m-c.top/friend.json')
     .then(response => response.json())
     .then(data => {
         // 函数来随机选择指定数量的项目
@@ -9,7 +9,7 @@ fetch('/link.json')
         }
 
         // 选择两个随机项目
-        const randomItems = getRandomItems(data, 5);
+        const randomItems = getRandomItems(data.friends, 5);
 
         // 将随机选择的项目信息显示在页面上
         const randomLinksDiv = document.getElementById('randomLinks');
