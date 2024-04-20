@@ -53,19 +53,38 @@ fancybox: false
                <div class="info">网站整合分享</div>
             </div>
          </div>
-         <div class="card" title="希望在未来还能访问你的博客">
-            <img class="ava" src="https://www.wlxxq.com/web-logo.png" />
+         <div class="card" title="致敬还在写博客的我们！">
+            <img class="ava" src="https://photo.xiangming.site/img/blogscn_icon.png" />
             <div class="card-header">
                <div>
-                  <a href="https://www.wlxxq.com/">未来信息</a>
+                  <a href="https://blogscn.fun">笔墨迹</a>
                </div>
-               <div class="info">希望在未来还能访问你的博客</div>
+               <div class="info">致敬还在写博客的我们！</div>
+            </div>
+         </div>
+         <div class="card" title="致敬那些还在写博客的人">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/%E7%A7%AF%E8%96%AA.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://firewood.news/">积薪</a>
+               </div>
+               <div class="info">致敬那些还在写博客的人</div>
+            </div>
+         </div>         
+         <div class="card" title="博客人的朋友圈">
+            <img class="ava" src="https://www.boyouquan.com/assets/images/sites/logo/logo-small.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://www.boyouquan.com/home">博友圈</a>
+               </div>
+               <div class="info">博客人的朋友圈</div>
             </div>
          </div>
       </div>
    </div>
 </div>
 
+积薪
 
 # 友链
 
@@ -521,6 +540,15 @@ fancybox: false
                     <div class="info">未按要求反链</div>
                 </div>
             </div>
+                     <div class="card" title="希望在未来还能访问你的博客">
+            <img class="ava" src="https://www.wlxxq.com/web-logo.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://www.wlxxq.com/">未来信息</a>
+               </div>
+               <div class="info">站点超时</div>
+            </div>
+         </div>
       </div>
    </div>
 </div>
