@@ -5,6 +5,7 @@ abbrlink: 27079
 date: 2024-03-02 23:02:48
 tags:
 cc: ture
+tianligpt: ture
 ---
 我记得没错的话,我国有一句老话：**早死早超生**
 

@@ -5,6 +5,7 @@ abbrlink: 50701
 date: 2024-04-20 14:47:54
 tags:
 cover: https://pic.awaae001.top/%E5%A4%A7%E4%BA%8B%E8%AE%B0/%E8%8B%8D%E9%B9%AD%E4%B8%8E%E5%B0%91%E5%B9%B4/%E4%BD%A0%E6%83%B3%E6%B4%BB%E5%87%BA%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BA%BA%E7%94%9F_15e55ba9.webp
+tianligpt: ture
 ---
 ## 高塔、苍鹭
 

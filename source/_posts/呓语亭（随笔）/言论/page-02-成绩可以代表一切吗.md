@@ -5,6 +5,7 @@ abbrlink: 10312
 date: 2024-02-25 14:45:22
 tags:
 cc: ture
+tianligpt: ture
 ---
 成绩可以代表一切吗?
 

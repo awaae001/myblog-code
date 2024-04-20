@@ -6,6 +6,7 @@ date: 2024-01-19 21:42:19
 tags:
 keywords: AI,中文人工智能
 cc: ture
+tianligpt: ture
 ---
 回望2023，真的是魔幻的一年。
 
