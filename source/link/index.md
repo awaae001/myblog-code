@@ -79,12 +79,46 @@ fancybox: false
                </div>
                <div class="info">博客人的朋友圈</div>
             </div>
+         </div>         
+         <div class="card" title="致力于个人独立博客收集">
+            <img class="ava" src="https://bokequan.cn/wp-content/uploads/2024/04/1712562478-logo.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://bokequan.cn/">博客圈</a>
+               </div>
+               <div class="info">致力于个人独立博客收集</div>
+            </div>
+         </div>         
+         <div class="card" title="博客收录展示平台~">
+            <img class="ava" src="https://boke.lu/logo.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://boke.lu">博客录</a>
+               </div>
+               <div class="info">博客收录展示平台~</div>
+            </div>
+         </div>         
+         <div class="card" title="和成百上千博主一起，记录生活，书写记忆，感悟人生！">
+            <img class="ava" src="https://blogwe.com/img/logo200.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://blogwe.com/">BlogWe</a>
+               </div>
+               <div class="info">和成百上千博主一起，记录生活，书写记忆，感悟人生！</div>
+            </div>
+         </div>         
+         <div class="card" title="每个博客都是一座宝藏">
+         <img class="ava" src="https://bf.zzxworld.com/images/favicon.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://bf.zzxworld.com/">BlogFinder</a>
+               </div>
+               <div class="info">每个博客都是一座宝藏</div>
          </div>
       </div>
    </div>
 </div>
 
-积薪
 
 # 友链
 
