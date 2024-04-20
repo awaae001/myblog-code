@@ -67,6 +67,12 @@ waline:
   #表情回应
   reaction: true
 
+artalk:
+  enableComment: true
+  enable: "呓语梦轩"
+  server: "https://artalk.m-c.top"
+
+
 # 是否开启“不蒜子”统计访问量，可选
 busuanzi: false
 
@@ -93,6 +99,8 @@ sidebar:
 
 # 其他配置项...
 
+
+
 #页面背景图片
 blogBackgroundImage: "https://pic.awaae001.top/ai1_178504_e25aaeb4.webp"
 blogBackgroundSize: "cover" # 你可以根据需要选择 'cover', 'contain' 或其他值
@@ -117,7 +125,7 @@ postFooter:
   QrcodeA: https://image.m-c.top/?/images/2024/01/30/dJuwI48Rry/alipay.jpg
   QrcodeB: https://image.m-c.top/?/images/2024/01/30/OPzAQTymjZ/weixin.png
 
-  artalk:
-    enableComment: ture
-    enable: "呓语梦轩"
-    server: "https://artalk.m-c.top"
+#甜莉GPT
+tianligpt:
+  enableComment: ture
+  key: vgJgWKgS0Va

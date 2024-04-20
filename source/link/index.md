@@ -482,6 +482,15 @@ fancybox: false
                     <div class="info">始终📸嘅👺记下每一刻.✍️</div>
                 </div>
             </div>
+<div class="card" title="不必借光而行，你我皆是星辰.">
+            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
+            <div class="card-header">
+               <div>
+                  <a href="https://xrr.org.cn/">小染笔记</a>
+               </div>
+               <div class="info">不必借光而行，你我皆是星辰.</div>
+            </div>
+        </div>
         </div>
     </div>
 </div>
@@ -503,15 +512,6 @@ fancybox: false
    <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
    <div id="links">
       <div class="link-navigation">
-         <div class="card" title="不必借光而行，你我皆是星辰.">
-            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
-            <div class="card-header">
-               <div>
-                  <a href="https://xrr.org.cn/">小染笔记</a>
-               </div>
-               <div class="info">未按要求反链</div>
-            </div>
-        </div>
         <div class="card" title="见天地 观众生 识吾身">
                 <img class="ava" src="https://cdn.picui.cn/2024/01/18/65a8e4e742e81.ico" />
                 <div class="card-header">
