@@ -5,3 +5,10 @@ a.travellings {
     color: #b0ddce;
     font-size: 12px;
 }
+
+button.randomLinks{
+    border-radius: 2px;
+    width: 32px;
+    background-color: #60281e;
+    color: #dfb7b7;
+}

@@ -275,6 +275,42 @@ systemctl daemon-reload
 
 开机自启！
 
+### 关闭ssh就退出-tumx服务
+
+tmux是一种ssh持续化程序，它可以将你离开前的SSH服务保持为运行的状态,即使你关闭了ssh终端，你的命令依旧可以在服务器中运行，并不用担心你离开有服务就停止运行。
+
+但它是命令行程序，所以不太适合那些喜欢用服务器面板的读者。
+
+你可以使用
+
+centOS
+```shell
+yum install tmux
+```
+
+debian
+```shell
+apt-get install tmux
+```
+
+安装后在shell终端输入
+```shell
+tmux
+```
+即可！
+
+<div class="card-item">
+    <link type="text/css" rel="stylesheet" href="https://blog.awaae001.top/css/links-page.css" />
+    <div class="card-info">
+        <a class="card-links">扩展阅读【安全】:</a>
+        <br>
+        <a href="https://www.bilibili.com/video/BV18841197Xa" target="_blank" class="card-title">Tmux 使用教程</a>
+        <div class="card-excerpt">
+            命令行的典型使用方式是，打开一个终端窗口（terminal window，以下简称"窗口"），在里面输入命令。用户与计算机的这种临时的交互，称为一次"会话"（session。会话的一个重要特点是，窗口与其中启动的进程是连在一起的。打开窗口，会话开始；关闭窗口，会话结束，会话内部的进程也会随之终止，不管有没有运行完。一个典型的例子就是，SSH 登录远程计算机，打开一个远程窗口执行命令。这时，网络突然断线，再次登录的时候，是找不回上一次执行的命令的。因为上一次 SSH 会话已经终止了，里面的进程也随之消失了。
+        </div>
+    </div>
+</div>
+
 ## 最后的最后
 不蒜子只是对于文章活跃度的指标，有盗刷的风险，本质上是给人看的东西，那应该也要搞好，是吧？
 
