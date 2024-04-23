@@ -6,6 +6,7 @@ date: 2024-02-25 14:45:22
 tags:
 cc: ture
 tianligpt: ture
+fancybox: ture
 ---
 成绩可以代表一切吗?
 

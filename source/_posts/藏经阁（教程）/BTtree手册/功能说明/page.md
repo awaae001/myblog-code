@@ -38,4 +38,4 @@ tags:
 
 [Visual Studio Code如何设置中文](https://zhuanlan.zhihu.com/p/263036716)
 
-## 我们后面绝大部分操纵肚皮要用到VScode
+## 我们后面绝大部分操纵要用到VScode

@@ -7,6 +7,7 @@ tags:
 keywords: AI,中文人工智能
 cc: ture
 tianligpt: ture
+fancybox: ture
 ---
 回望2023，真的是魔幻的一年。
 

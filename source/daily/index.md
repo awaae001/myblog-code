@@ -3,13 +3,11 @@ layout: page
 title: 说说
 date: 2024-02-18 13:31:00
 tags:
+fancybox: ture
 ---
-
-
-
 <div>
     <link rel="script" type="text/script" href="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js">
-    <style>
+        <style>
         /* 页面初始化 */
         div#page {
             background: none;
@@ -30,6 +28,20 @@ tags:
             box-shadow: 0 5px 10px rgb(189 189 189 / 10%);
             transition: all .3s ease-in-out;
             border-radius: 12px;
+            color: #000000;
+        }
+        @media (prefers-color-scheme: dark) {
+            .talk_item,
+            .tk-expand,
+            .tk-comments-container>.tk-comment,
+            .tk-submit:nth-child(1) {
+                background: var(--card-bg);
+                border: 1px solid #e0e3ed;
+                box-shadow: 0 5px 10px rgb(189 189 189 / 10%);
+                transition: all .3s ease-in-out;
+                border-radius: 12px;
+                color: #c8d0d8;
+            }
         }
         .talk_item:hover,
         .tk-comments-container>.tk-comment:hover,
@@ -167,42 +179,7 @@ tags:
             text-decoration: none !important;
             color: #ff5143 !important
         }
-        /* 提醒 */
-        .limit {
-            transition: all .3s ease-in-out;
-            color: rgba(76, 73, 72, 0.6);
-        }
-        [data-theme=dark] .limit {
-            color: rgba(255, 255, 255, 0.5);
-        }
-        .limit {
-            display: none;
-            text-align: center;
-            margin-top: 20px;
-            color: var(--font-color);
-        }
-        @media screen and (max-width: 900px) {
-            .zone_imgbox {
-                --w: calc(33% - 5px);
-            }
-            #talk {
-                margin: 10px 3px 0;
-            }
-            #post-comment {
-                margin: 0 3px
-            }
-        }
-        @media screen and (max-width: 768px) {
-            .zone_imgbox {
-                gap: 6px;
-            }
-            .zone_imgbox {
-                --w: calc(50% - 3px);
-            }
-            span.talk_date {
-                font-size: 14px;
-            }
-        }
+        /*加载动画的CSS*/
         .loading {
             --speed-of-animation: 0.9s;
             --gap: 6px;

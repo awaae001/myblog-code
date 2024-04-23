@@ -5,6 +5,7 @@ layout: post
 tags: null
 title: 00-少年：江湖走马，陪剑长行
 keywords: 
+fancybox: ture
 ---
 我一直在想：何为少年
 
