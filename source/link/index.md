@@ -272,6 +272,15 @@ fancybox: false
                     </div>
                     <div class="info">今日事，今日毕</div>
                 </div>
+            </div>            
+            <div class="card" title="一切皆是因为好玩～">
+                <img class="ava" src="https://lozhu.happy365.day/images/logo.png" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://lozhu.happy365.day">lozhu's blog</a>
+                    </div>
+                    <div class="info">一切皆是因为好玩～</div>
+                </div>
             </div>
         </div>
     </div>
