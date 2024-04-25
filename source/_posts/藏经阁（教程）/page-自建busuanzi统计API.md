@@ -6,6 +6,7 @@ abbrlink: 63154
 date: 2024-03-24 08:03:41
 tags:
 cover: https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/busuanzi/busanzi.webp
+fancybox: ture
 ---
 ## 导入
 目前网上的统计其实也挺多的，比如:51La、百度统计、微软清晰度。但它们都有一个通病：只有一个后台，无法在前端显示这篇文章(博文)的具体数据，也就无法让访客直观的看到这篇文章的访问量或者说是热度。
