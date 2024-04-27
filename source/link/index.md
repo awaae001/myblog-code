@@ -11,6 +11,17 @@ fancybox: false
 
 使用友链系统让更多人认识你、我、他，同如今四通八达的道路一般。
 
+<div class="card-item">
+    <link type="text/css" rel="stylesheet" href="https://blog.awaae001.top/css/links-page.css" />
+    <div class="card-info">
+        <a class="card-links">内部链接:</a>
+        <br>
+        <a href="./friend/" target="_blank" class="card-title">友链朋友圈</a>
+        <div class="card-excerpt">
+            这里面是呓语梦轩的友链朋友圈，用来收集和处理大佬文章，基于python+RSS自动脚本，每天0点自动更新。
+        </div>
+    </div>
+</div>
 
 > 欢迎
 
