@@ -576,7 +576,7 @@ fancybox: false
             </div>
         </div>
         <div class="card" title="星辰大海">
-                <img class="ava" src="https://pic.awaae001.com/file/YLQ/qqtou_3c94efda.jpg" />
+                <img class="ava" src="https://pic.awaae001.top/file/YLQ/qqtou_3c94efda.jpg" />
                 <div class="card-header">
                     <div>
                         <a href="https://blog.6ing.top/">Xc's Blog</a>
@@ -585,7 +585,7 @@ fancybox: false
                 </div>
             </div>
             <div class="card" title="追随梦想需竭尽全力">
-                <img class="ava" src="https://pic.awaae001.top.com/file/YLQ/LEl_FENG_40a15d08.jpg" />
+                <img class="ava" src="https://pic.awaae001.top/file/YLQ/LEl_FENG_40a15d08.jpg" />
                 <div class="card-header">
                     <div>
                         <a href="https://blog.xpdbk.com">XiaoPang</a>
