@@ -593,6 +593,15 @@ fancybox: false
                     <div class="info">追随梦想需竭尽全力</div>
                 </div>
             </div>
+            <div class="card" title="突破了瓶颈，发现还有瓶盖qwq">
+                <img class="ava" src="https://cdn.luogu.com.cn/upload/image_hosting/k9pgunlv.png" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.wsq127.top/">词琼</a>
+                    </div>
+                    <div class="info">突破了瓶颈，发现还有瓶盖qwq</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
