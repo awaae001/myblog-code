@@ -7,6 +7,8 @@ tags:
 
 基于RSS订阅的友链朋友圈，用来收集各位大佬的文章！
 
+[返回上一级](/link)
+
 <div class="message-friend">
     <link rel="stylesheet" type="text/css" href="/css/friend.css">
     <div id="messages-container"></div>

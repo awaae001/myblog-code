@@ -575,9 +575,29 @@ fancybox: false
                <div class="info">不必借光而行，你我皆是星辰.</div>
             </div>
         </div>
+        <div class="card" title="星辰大海">
+                <img class="ava" src="https://pic.awaae001.com/file/YLQ/qqtou_3c94efda.jpg" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.6ing.top/">Xc's Blog</a>
+                    </div>
+                    <div class="info">星辰大海</div>
+                </div>
+            </div>
+            <div class="card" title="追随梦想需竭尽全力">
+                <img class="ava" src="https://pic.awaae001.top.com/file/YLQ/LEl_FENG_40a15d08.jpg" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.xpdbk.com">XiaoPang</a>
+                    </div>
+                    <div class="info">追随梦想需竭尽全力</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+
 
 ## 陋室
 一方陋室的，被那门所遮挡，你不知道门后是什么
