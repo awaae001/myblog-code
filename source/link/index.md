@@ -321,15 +321,6 @@ fancybox: false
                     <div class="info">水风清，晚霞明</div>
                 </div>
             </div>
-            <div class="card" title="热爱生活点滴，分享时刻精彩。">
-                <img class="ava" src="https://pic.awaae001.top/file/YLQ/milkTea_favicon_200.webp" />
-                <div class="card-header">
-                    <div>
-                        <a href="https://blog.shineyu.cn">Shine</a>
-                    </div>
-                    <div class="info">热爱生活点滴，分享时刻精彩。</div>
-                </div>
-            </div>
             <div class="card" title="归途依旧可爱">
                 <img class="ava" src="https://pic.awaae001.top/file/YLQ/6524e2dc0735a.webp" />
                 <div class="card-header">
@@ -540,7 +531,7 @@ fancybox: false
                 </div>
             </div>
             <div class="card" title="遇事不决，可问春风">
-                <img class="ava" src="https://img.june-pj.cn/img/avatar.webp" />
+                <img class="ava" src="https://pic.awaae001.top/file/YLQ/June_4f76e52c.webp" />
                 <div class="card-header">
                     <div>
                         <a href="https://blog.june-pj.cn/">June's Blog</a>
@@ -593,15 +584,6 @@ fancybox: false
                     <div class="info">追随梦想需竭尽全力</div>
                 </div>
             </div>
-            <div class="card" title="突破了瓶颈，发现还有瓶盖qwq">
-                <img class="ava" src="https://cdn.luogu.com.cn/upload/image_hosting/k9pgunlv.png" />
-                <div class="card-header">
-                    <div>
-                        <a href="https://blog.wsq127.top/">词琼</a>
-                    </div>
-                    <div class="info">突破了瓶颈，发现还有瓶盖qwq</div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
@@ -626,7 +608,7 @@ fancybox: false
    <div id="links">
       <div class="link-navigation">
         <div class="card" title="见天地 观众生 识吾身">
-                <img class="ava" src="https://cdn.picui.cn/2024/01/18/65a8e4e742e81.ico" />
+                <img class="ava" src="/Rss.webp" />
                 <div class="card-header">
                     <div>
                         <a href="https://waimiao.cn/">阿歪的朋友圈</a>
@@ -634,8 +616,8 @@ fancybox: false
                     <div class="info">未按要求反链</div>
                 </div>
             </div>
-                     <div class="card" title="希望在未来还能访问你的博客">
-            <img class="ava" src="https://www.wlxxq.com/web-logo.png" />
+            <div class="card" title="希望在未来还能访问你的博客">
+            <img class="ava" src="/Rss.webp" />
             <div class="card-header">
                <div>
                   <a href="https://www.wlxxq.com/">未来信息</a>
@@ -643,6 +625,15 @@ fancybox: false
                <div class="info">站点超时</div>
             </div>
          </div>
+            <div class="card" title="热爱生活点滴，分享时刻精彩。">
+                <img class="ava" src="/Rss.webp" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.shineyu.cn">Shine</a>
+                    </div>
+                    <div class="info">站点超时</div>
+                </div>
+            </div>
       </div>
    </div>
 </div>
@@ -683,10 +674,18 @@ fancybox: false
                <div class="info">诶，什么都没有诶！</div>
             </div>
          </div>
+         <div class="card">
+         <img class="ava" src="https://www.styg.org.cn/zb_users/upload/2024/01/202401261706277157705448.png" />
+            <div class="card-header">
+               <div>
+                  <a href="https://www.styg.org.cn">温岭慈善义工石塘服务队</a>
+               </div>
+               <div class="info">慈善义工在行动</div>
+            </div>
+         </div>
       </div>
    </div>
 </div>
-
 
 ### tips:
 
