@@ -21,13 +21,13 @@ links:
   # 普通链接，可配置多个，以下是示例
   custom:
     - name: 友人帐
-      URL: /link
+      URL: /link/
 
     - name: 说说
-      URL: /daily
+      URL: /daily/
 
     - name: 十年之约
-      URL: /box
+      URL: /box/
 
 # 可选, giscus 评论系统
 # 这里配置 https://giscus.app/zh-CN，将生成好的填在下面
