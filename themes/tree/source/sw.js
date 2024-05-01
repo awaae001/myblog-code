@@ -179,7 +179,7 @@ const handle = async(req)=>{
     const domain = urlObj.hostname;
     //从这里开始
     lxs=[]
-    if(domain === "awaae001.top"){//这里写你需要拦截的域名
+    if(domain === "blog.awaae001.top"){//这里写你需要拦截的域名
         var l=lfetch(generate_blog_urls('awaae001blog',await db.read('blog_version') || 'latest',fullpath(urlPath)))
         return l
         .then(res=>res.arrayBuffer())
