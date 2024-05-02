@@ -1,191 +1,179 @@
-const CACHE_NAME = 'ICDNCache';
-let cachelist = [];
-self.addEventListener('install', async function (installEvent) {
-    self.skipWaiting();
-    installEvent.waitUntil(
-        caches.open(CACHE_NAME)
-            .then(function (cache) {
-                console.log('Opened cache');
-                return cache.addAll(cachelist);
-            })
-    );
-});
-self.addEventListener('fetch', async event => {
-    try {
-        event.respondWith(handle(event.request))
-    } catch (msg) {
-        event.respondWith(handleerr(event.request, msg))
-    }
-});
-const handleerr = async (req, msg) => {
-    return new Response(`<h1>CDN分流器遇到了致命错误</h1>
-    <b>${msg}</b>`, { headers: { "content-type": "text/html; charset=utf-8" } })
-}
-const lfetch = async (urls, url) => {
-    let controller = new AbortController();
-    const PauseProgress = async (res) => {
-        return new Response(await (res).arrayBuffer(), { status: res.status, headers: res.headers });
-    };
-    if (!Promise.any) {
-        Promise.any = function (promises) {
-            return new Promise((resolve, reject) => {
-                promises = Array.isArray(promises) ? promises : []
-                let len = promises.length
-                let errs = []
-                if (len === 0) return reject(new AggregateError('All promises were rejected'))
-                promises.forEach((promise) => {
-                    promise.then(value => {
-                        resolve(value)
-                    }, err => {
-                        len--
-                        errs.push(err)
-                        if (len === 0) {
-                            reject(new AggregateError(errs))
-                        }
-                    })
-                })
-            })
-        }
-    }
-    return Promise.any(urls.map(urls => {
-        return new Promise((resolve, reject) => {
-            fetch(urls, {
-                signal: controller.signal
-            })
-                .then(PauseProgress)
-                .then(res => {
-                    if (res.status == 200) {
-                        controller.abort();
-                        resolve(res)
-                    } else {
-                        reject(res)
-                    }
-                })
-        })
-    }))
-}
-self.addEventListener('fetch', async event => {
-    try{
-        event.respondWith(handle(event.request))
-    }catch(err){
-        if(fullpath(urlPath).indexOf(".html")!=-1){
-            event.respondWith(fetch("/404.html"))
-        }
-    }
-});
-const fullpath = (path) => {
-    path = path.split('?')[0].split('#')[0]
-    if (path.match(/\/$/)) {
-        path += 'index'
-    }
-    if (!path.match(/\.[a-zA-Z]+$/)) {
-        path += '.html'
-    }
-    return path
-}
-const generate_blog_urls = (packagename, blogversion, path) => {
-    const npmmirror = [
-        // `https://unpkg.zhimg.com/${packagename}@${blogversion}`,
-        // `https://npm.elemecdn.com/${packagename}@${blogversion}`,
-        // `https://cdn1.tianli0.top/npm/${packagename}@${blogversion}`,
-        // `https://cdn.afdelivr.top/npm/${packagename}@${blogversion}`,
-        //`https://ariasakablog.s3.ladydaily.com`,
-        `https://registry.npmmirror.com/${packagename}/${blogversion}/files`
-    ]
-    for (var i in npmmirror) {
-        npmmirror[i] += path
-    }
-    return npmmirror
-}
-const mirror = [
-    // `https://registry.npmmirror.com/ariasakablog/latest`,
-    // `https://registry.npmjs.org/ariasakablog/latest`,
-    // `https://mirrors.cloud.tencent.com/npm/ariasakablog/latest`,
-    `https://registry.npmmirror.com/awaae001blog/latest`
-]
-const get_newest_version = async (mirror) => {
-return lfetch(mirror, mirror[0])
-    .then(res => res.json())
-    .then(res.version)
-}
-self.db = { //全局定义db,只要read和write,看不懂可以略过
-    read: (key, config) => {
-        if (!config) { config = { type: "text" } }
-        return new Promise((resolve, reject) => {
-            caches.open(CACHE_NAME).then(cache => {
-                cache.match(new Request(`https://LOCALCACHE/${encodeURIComponent(key)}`)).then(function (res) {
-                    if (!res) resolve(null)
-                    res.text().then(text => resolve(text))
-                }).catch(() => {
-                    resolve(null)
-                })
-            })
-        })
-    },
-    write: (key, value) => {
-        return new Promise((resolve, reject) => {
-            caches.open(CACHE_NAME).then(function (cache) {
-                cache.put(new Request(`https://LOCALCACHE/${encodeURIComponent(key)}`), new Response(value));
-                resolve()
-            }).catch(() => {
-                reject()
-            })
-        })
-    }
+self.importScripts(
+  "https://registry.npmmirror.com/localforage/1.10.0/files/dist/localforage.js"
+);
+
+let blogVersion = "";
+let checkJson = {};
+let isDataFetched = false;
+
+const NPM_REGISTRY_BASE_URL = "https://registry.npmmirror.com/";
+const packageName = "awaae001blog"; // 博客包名，根据实际情况替换
+const blogDomain = "blog.awaae001.top"; // 博客域名，根据实际情况替换
+const localMode = true; // 本地模式标志，设置为true时将忽略域名检查
+
+// 检查版本并更新
+function storageOperation(newVersion) {
+  // 定义 storageOperation 函数
+  return localforage
+    .getItem("version")
+    .then((nowVersion) => {
+      // 通过 localforage 操作 IndexedDB
+      if (!nowVersion || nowVersion !== newVersion) {
+        // 条件判断 最新版本不存在 & 当前版本不等于传入参数：newVersion
+        return localforage.setItem("version", newVersion).then(() => {
+          // 调用 localforage 更新 IndexedDB 中的值并回调
+          console.log(`版本已更新到：${newVersion}`);
+          return true; // 表示有新的版本更新
+        });
+      } else {
+        console.log("当前是最新版本");
+        return false; // 表示当前版本已是最新，无需更新
+      }
+    })
+    .catch((error) => {
+      console.error("获取或设置版本信息时出现错误:", error);
+      throw error; // 抛出错误
+    });
 }
 
-const set_newest_version = async (mirror) => { //改为最新版本写入数据库
-    return lfetch(mirror, mirror[0])
-        .then(res => res.json()) //JSON Parse
-        .then(async res => {
-            await db.write('blog_version', res.version) //写入
-            return;
-        })
+function checkUpdate(data) {
+  // 定义一个 checkUpdate 函数
+  const latestVersion = data["dist-tags"].latest; // 从传入参数：data 数组的 dist-tags 中读取 latest 值
+
+  storageOperation(latestVersion) // 调用 storageOperation 进行 IndexedDB 的更新操作
+    .then((isUpdated) => {
+      if (isUpdated) {
+        // 如果 storageOperation(data) 比对并进行了版本修改
+        console.log("博客缓存版本已更新");
+      } else {
+        // 如果 storageOperation(data) 无操作
+        console.log(`当前版本: ${latestVersion} 是最新的`);
+      }
+    })
+    .catch((error) => {
+      console.error("更新检查失败:", error);
+    });
 }
 
-setInterval(async() => {
-    await set_newest_version(mirror) //定时更新,一分钟一次
-}, 60*1000);
+function getNewestData() {
+  // 获得最新的版本信息
+  const checkURL = `${NPM_REGISTRY_BASE_URL}${packageName}`; // 拼接 API 字符串
+  self
+    .fetch(checkURL)
+    .then((response) => response.json())
+    .then((data) => checkUpdate(data)) // 将请求返回的数据：data 传给 checkUpdate 函数
+    .catch((error) => console.error("Fetch 更新信息失败:", error));
+}
 
-setTimeout(async() => {
-    await set_newest_version(mirror)//打开五秒后更新,避免堵塞
-},5000)
-function getFileType(fileName) {
-    suffix=fileName.split('.')[fileName.split('.').length-1]
-    if(suffix=="html"||suffix=="htm") {
-        return 'text/html';
-    }
-    if(suffix=="js") {
-        return 'text/javascript';
-    }
-    if(suffix=="css") {
-        return 'text/css';
-    }
-    if(suffix=="jpg"||suffix=="jpeg") {
-        return 'image/jpeg';
-    }
-    if(suffix=="ico") {
-        return 'image/x-icon';
-    }
-    if(suffix=="png") {
-        return 'image/png';
-    }
-    return 'text/plain';
+function fetchNewestDataIfNeeded() {
+  if (!isDataFetched) {
+    getNewestData();
+    isDataFetched = true; // 标记为已获取数据
   }
-const handle = async(req)=>{
-    const urlStr = req.url
-    const urlObj = new URL(urlStr);
-    const urlPath = urlObj.pathname;
-    const domain = urlObj.hostname;
-    //从这里开始
-    lxs=[]
-    if(domain === "blog.awaae001.top"){//这里写你需要拦截的域名
-        var l=lfetch(generate_blog_urls('awaae001blog',await db.read('blog_version') || 'latest',fullpath(urlPath)))
-        return l
-        .then(res=>res.arrayBuffer())
-        .then(buffer=>new Response(buffer,{headers:{"Content-Type":`${getFileType(fullpath(urlPath).split("/")[fullpath(urlPath).split("/").length-1].split("\\")[fullpath(urlPath).split("/")[fullpath(urlPath).split("/").length-1].split("\\").length-1])};charset=utf-8`}}));//重新定义header
+}
+
+self.addEventListener("install", (event) => {
+  self.skipWaiting();
+});
+
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    self.clients.claim().then(() => {
+      fetchNewestDataIfNeeded();
+    })
+  );
+});
+
+self.addEventListener("fetch", (event) => {
+  const url = new URL(event.request.url);
+
+  // 判断当前是否处于本地开发模式或者请求的域名是否为博客域名
+  const shouldIntercept = localMode || url.hostname === blogDomain;
+
+  // 判断请求是否需要通过NPM镜像获取且不是对Service Worker本身的请求
+  const shouldHandleFetch =
+    shouldIntercept &&
+    event.request.url.startsWith(self.location.origin) &&
+    !event.request.url.includes("sw.js");
+
+  if (shouldHandleFetch) {
+    let relPath = url.pathname; // 获取相对路径
+
+    // 如果路径以斜杠结尾，那么视它为目录请求并自动加上 'index.html'
+    if (relPath.endsWith("/")) {
+      relPath += "index.html";
     }
-    else{
-        return fetch(req);
-    }
+
+    // 处理版本信息
+    localforage
+      .getItem("version")
+      .then((nowVersion) => {
+        if (nowVersion) {
+          // 如果存在版本信息，则使用该版本
+          blogVersion = nowVersion;
+        } else {
+          // 如果不存在本地版本信息，则从远程获取最新数据
+          getNewestData();
+        }
+      })
+      .catch((error) => {
+        console.error("获取版本信息失败:", error);
+      });
+
+    const npmPath = `${NPM_REGISTRY_BASE_URL}${packageName}/${blogVersion}/files${relPath}`;
+
+    event.respondWith(
+      fetch(npmPath)
+        .then((response) => {
+          if (!response.ok) {
+            // 如果第一个请求不成功，则尝试原始请求
+            throw new Error("NPM Mirror 响应出现问题：范围脱离 200 ~ 299");
+          }
+          return corsResponse(response);
+        })
+        .catch((error) => {
+          console.log(
+            "从 NPM Mirror 获取数据失败，尝试原始请求：",
+            error.message
+          );
+          // 尝试原始请求
+          return fetch(event.request)
+            .then((response) => {
+              if (!response.ok) {
+                // 如果原始请求也不成功，返回404页面
+                throw new Error("原始请求失败");
+              }
+              return corsResponse(response);
+            })
+            .catch((error) => {
+              console.log("原始请求失败，返回404页面：", error.message);
+              // 返回404页面
+              return fetch(
+                `${NPM_REGISTRY_BASE_URL}${packageName}/${blogVersion}/files/404.html`
+              ).then(response => corsResponse(response));
+            });
+        })
+    );
+  } else {
+    // 对于不符合条件的请求，保持原样不做处理
+    return fetch(event.request);
+  }
+});
+
+self.addEventListener("terminate", (event) => {
+  isDataFetched = false; // 重置数据获取标志
+});
+
+
+// 处理CORS的函数
+function corsResponse(response) {
+  const headers = new Headers(response.headers);
+  headers.set("Access-Control-Allow-Origin", "*");
+  headers.set("Access-Control-Allow-Methods", "GET, HEAD, POST, OPTIONS");
+  headers.set("Access-Control-Allow-Headers", "Content-Type");
+
+  return new Response(response.body, {
+    status: response.status,
+    headers: headers,
+  });
 }
