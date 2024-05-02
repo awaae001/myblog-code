@@ -2,7 +2,7 @@
 date: '2023-12-09T15:32:43+08:00'
 layout: page
 tags: null
-title: 友情链接！
+title: 友情链接-友人帐
 updated: '2023-12-10T12:46:29.259+08:00'
 fancybox: false
 ---
@@ -165,22 +165,13 @@ fancybox: false
                     <div class="info">店长！ </div>
                 </div>
             </div>
-            <div class="card" title="分享网络安全与科技生活">
-                <img class="ava" src="https://avatar.qjqq.cn/1/6503bb1b7fa1a.webp!avatar" />
-                <div class="card-header">
-                    <div>
-                        <a href="https://blog.qjqq.cn/">青桔气球</a>
-                    </div>
-                    <div class="info">分享网络安全与科技生活</div>
-                </div>
-            </div>
             <div class="card" title="人文 科技 白日梦">
                 <img class="ava" src="https://blog.redish101.top/favicon.ico" />
                 <div class="card-header">
                     <div>
                         <a href="https://blog.redish101.top">Redish101 Blog</a>
                     </div>
-                    <div class="info">人文 科技 白日梦</div>
+                    <div class="info">博客暗夜模式配色</div>
                 </div>
             </div>
             <div class="card" title="主题作者">
@@ -210,6 +201,15 @@ fancybox: false
                     <div class="info">说说系统CSS</div>
                 </div>
             </div>
+            <div class="card" title="今日事，今日毕">
+                <img class="ava" src="https://registry.npmmirror.com/q78kg-website-npm-cdn/latest/files/avatar.png" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://anjiurine.top/">梦溯·镜影</a>
+                    </div>
+                    <div class="info">SW提供\在线技术支持</div>
+                </div>
+            </div>    
         </div>
     </div>
 </div>
@@ -319,6 +319,15 @@ fancybox: false
                         <a href="https://yuuu.org">微霞</a>
                     </div>
                     <div class="info">水风清，晚霞明</div>
+                </div>
+            </div>
+            <div class="card" title="分享网络安全与科技生活">
+                <img class="ava" src="https://avatar.qjqq.cn/1/6503bb1b7fa1a.webp!avatar" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.qjqq.cn/">青桔气球</a>
+                    </div>
+                    <div class="info">分享网络安全与科技生活</div>
                 </div>
             </div>
             <div class="card" title="归途依旧可爱">
@@ -512,15 +521,6 @@ fancybox: false
                     <div class="info">共创型综合技术博客</div>
                 </div>
             </div>
-            <div class="card" title="一个技术分享与教程交流博客论坛">
-                <img class="ava" src="https://blog.yaqwq.top/wp-content/uploads/2023/06/png.png" />
-                <div class="card-header">
-                    <div>
-                        <a href="https://blog.yaqwq.top">丫丫</a>
-                    </div>
-                    <div class="info">一个技术分享与教程交流博客论坛</div>
-                </div>
-            </div>
             <div class="card" title="茶要泡开才好喝，人要想开才好过">
                 <img class="ava" src="https://leslieblog.top/images/avatar.png" />
                 <div class="card-header">
@@ -582,6 +582,15 @@ fancybox: false
                         <a href="https://blog.xpdbk.com">XiaoPang</a>
                     </div>
                     <div class="info">追随梦想需竭尽全力</div>
+                </div>
+            </div>
+            <div class="card" title="一个技术分享与教程交流博客论坛">
+                <img class="ava" src="https://tc.yaqwq.top/i/2024/05/01/6632054298a49.png" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.yaqwq.top">丫丫</a>
+                    </div>
+                    <div class="info">一个技术分享与教程交流博客论坛</div>
                 </div>
             </div>
         </div>
