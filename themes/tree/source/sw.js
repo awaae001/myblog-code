@@ -37,32 +37,11 @@ const handleerr = async (req, msg) => {
 const lfetch = async (urls, url) => {
     let controller = new AbortController();
     const PauseProgress = async (res) => {
-        return new Response(await (res).arrayBuffer(), { status: res.status, headers: res.headers });
+        return new Response(await res.arrayBuffer(), { status: res.status, headers: res.headers });
     };
-    if (!Promise.any) {
-        Promise.any = function (promises) {
-            return new Promise((resolve, reject) => {
-                promises = Array.isArray(promises) ? promises : [];
-                let len = promises.length;
-                let errs = [];
-                if (len === 0) return reject(new AggregateError('All promises were rejected'));
-                promises.forEach((promise) => {
-                    promise.then(value => {
-                        resolve(value);
-                    }, err => {
-                        len--;
-                        errs.push(err);
-                        if (len === 0) {
-                            reject(new AggregateError(errs));
-                        }
-                    });
-                });
-            });
-        };
-    }
-    return Promise.any(urls.map(urls => {
+    return Promise.any(urls.map(url => {
         return new Promise((resolve, reject) => {
-            fetch(urls, {
+            fetch(url, {
                 signal: controller.signal
             })
                 .then(PauseProgress)
@@ -71,8 +50,11 @@ const lfetch = async (urls, url) => {
                         controller.abort();
                         resolve(res);
                     } else {
-                        reject(res);
+                        reject(new Error('Non-200 status code'));
                     }
+                })
+                .catch(err => {
+                    reject(err);
                 });
         });
     }));
