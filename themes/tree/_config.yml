@@ -61,14 +61,14 @@ valine:
 #是上面的valine的有服务器后端版本，在现在的环境下可用。
 waline:
   #评论系统开关
-  enableComment: false
+  enableComment: ture
   #服务器地址
-  serverURL: api.m-c.top
+  serverURL: waline.m-c.top
   #表情回应
   reaction: true
 
 artalk:
-  enableComment: true
+  enableComment: false
   enable: 呓语梦轩
   server: https://talk.m-c.top
 
