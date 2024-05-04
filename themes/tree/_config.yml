@@ -63,7 +63,7 @@ waline:
   #评论系统开关
   enableComment: ture
   #服务器地址
-  serverURL: waline.m-c.top
+  serverURL: https://waline.m-c.top
   #表情回应
   reaction: true
 

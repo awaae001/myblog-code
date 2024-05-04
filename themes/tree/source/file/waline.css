@@ -16,7 +16,7 @@
     --waline-bq-color: #f0f0f0;
     --waline-avatar-size: 3.25rem;
     --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
-    --waline-badge-color: #3498db;
+    --waline-badge-color: #2b6964;
     --waline-badge-font-size: 0.75em;
     --waline-info-bgcolor: #f8f8f8;
     --waline-info-color: #999;
@@ -33,19 +33,19 @@
         --waline-light-grey: #999;
         --waline-dark-grey: #666;
         --waline-theme-color: #27ae60;
-        --waline-active-color: #2ecc71;
-        --waline-color: #dfdfdf;
-        --waline-bgcolor: #fff;
+        --waline-active-color: #183a37;
+        --waline-color: #c9d1d9;
+        --waline-bgcolor: #282c38;
         --waline-bgcolor-light: #f8f8f8;
         --waline-bgcolor-hover: #f0f0f0;
-        --waline-border-color: #ddd;
+        --waline-border-color: #181c27;
         --waline-disable-bgcolor: #f8f8f8;
         --waline-disable-color: #000;
         --waline-code-bgcolor: #282c34;
         --waline-bq-color: #f0f0f0;
         --waline-avatar-size: 3.25rem;
         --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
-        --waline-badge-color: #3498db;
+        --waline-badge-color: #a0cbbd;
         --waline-badge-font-size: 0.75em;
         --waline-info-bgcolor: #f8f8f8;
         --waline-info-color: #999;
@@ -393,6 +393,26 @@
     background: var(--waline-bgcolor-light)
 }
 
+@media (prefers-color-scheme: dark) {
+
+    .wl-editor,
+    .wl-input {
+        max-width: 100%;
+        border: none;
+        color: #c9d1d9;
+        background-color: #181c27;
+        outline: none;
+        transition: all .25s ease
+    }
+
+    .wl-editor:focus,
+    .wl-input:focus {
+        /*background: var(--waline-bgcolor-light)*/
+        background-color: #181c27;
+    }
+
+}
+
 .wl-preview {
     padding: 0 .5em .5em
 }
@@ -400,14 +420,25 @@
 .wl-preview h4 {
     margin: .25em;
     font-weight: bold;
-    font-size: .9375em
+    font-size: .9375em;
+    color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    .wl-preview h4 {
+        margin: .25em;
+        font-weight: bold;
+        font-size: .9375em;
+        color: #fff;
+    }
 }
 
 .wl-preview .wl-content {
     min-height: 1.25em;
     padding: .25em;
     word-break: break-word;
-    hyphens: auto
+    hyphens: auto;
+    color: #000
 }
 
 .wl-preview .wl-content>*:first-child {
@@ -958,7 +989,17 @@
 .wl-count {
     flex: 1;
     font-weight: bold;
-    font-size: 1.25em
+    font-size: 1.25em;
+    color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    .wl-count {
+        flex: 1;
+        font-weight: bold;
+        font-size: 1.25em;
+        color: #c9d1d9;
+    }
 }
 
 .wl-empty {
@@ -1023,9 +1064,19 @@
 }
 
 .wl-reaction-title {
+    color: #000;
     margin: 16px auto;
     font-weight: bold;
     font-size: 18px
+}
+
+@media (prefers-color-scheme: dark) {
+    .wl-reaction-title {
+        color: #c9d1d9;
+        margin: 16px auto;
+        font-weight: bold;
+        font-size: 18px
+    }
 }
 
 .wl-reaction-list {
