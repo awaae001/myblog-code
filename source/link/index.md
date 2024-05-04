@@ -293,6 +293,15 @@ fancybox: false
                     <div class="info">一切皆是因为好玩～</div>
                 </div>
             </div>
+            <div class="card" title="An Open Source worker.">
+                <img class="ava" src="https://s3.qjqq.cn/47/660a7ece07609.webp!color" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://www.efu.me">Efu</a>
+                    </div>
+                    <div class="info">An Open Source worker.</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

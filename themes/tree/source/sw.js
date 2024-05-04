@@ -9,7 +9,7 @@ let isDataFetched = false;
 const NPM_REGISTRY_BASE_URL = "https://registry.npmmirror.com/";
 const packageName = "awaae001blog"; // 博客包名，根据实际情况替换
 const blogDomain = "blog.awaae001.top"; // 博客域名，根据实际情况替换
-const localMode = true; // 本地模式标志，设置为true时将忽略域名检查
+const localMode = false; // 本地模式标志，设置为true时将忽略域名检查
 
 // 检查版本并更新
 function storageOperation(newVersion) {
