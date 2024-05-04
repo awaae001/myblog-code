@@ -592,12 +592,28 @@ fancybox: false
                     </div>
                     <div class="info">一个技术分享与教程交流博客论坛</div>
                 </div>
+            </div>            
+            <div class="card" title="突破了瓶颈，发现还有瓶盖qwq">
+                <img class="ava" src="https://cdn.luogu.com.cn/upload/image_hosting/k9pgunlv.png" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://blog.wsq127.top/">辞琼</a>
+                    </div>
+                    <div class="info">突破了瓶颈，发现还有瓶盖qwq</div>
+                </div>
+            </div>
+            <div class="card" title="互联网上的一座小岛">
+                <img class="ava" src="https://howiehz.top/upload/ico.ico" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://howiehz.top">皓子</a>
+                    </div>
+                    <div class="info">互联网上的一座小岛</div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
 
 ## 陋室
 一方陋室的，被那门所遮挡，你不知道门后是什么
@@ -708,6 +724,7 @@ fancybox: false
 > - 网站内没有影响浏览体验的广告<br>
 > - 网站支持 HTTPS 访问<br>
 > - 在一定情况下，可以不要求反链。<br>
+> - 如果你要加入本站友链朋友圈，请自备RSS
 
 
 ### 特别注意
@@ -727,6 +744,7 @@ fancybox: false
   - 网站头像
   - 网站介绍
   - 站点链接
+  - RSS（可选）
   
   如果你的博客名中包含：“博客”/"小站"，那请您提交一个好听一点的，谢谢配合，如果你没有提交的话，我自行移除以上字段。
 

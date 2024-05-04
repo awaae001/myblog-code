@@ -26,8 +26,8 @@ links:
     - name: 说说
       URL: /daily/
 
-    - name: 十年之约
-      URL: /box/
+    - name: 留言板
+      URL: /link/commit/
 
 # 可选, giscus 评论系统
 # 这里配置 https://giscus.app/zh-CN，将生成好的填在下面
