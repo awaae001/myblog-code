@@ -312,4 +312,4 @@ fancybox: ture
 
 自豪地使用了[memos](https://memos.awaae001.top)摆烂了说说系统
 
-特别感谢来自[Akilarの糖果屋](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=uEfrjHDCJp-EYcdnj-PvIU2OqgLxeNG5&authKey=uI8uO3TDMeddrF04NKA2s6wTC4yJMQ0G%2FhYXkKE0py%2F9vD3gHKUzGjdf9y%2BnA2dx&noverify=0&group_code=589330978)的群友们的特别帮助，谢谢各位！
+特别感谢来自[Akilarの糖果屋](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=m4dvp-yiBp-6JOd2gCpiGT2cWCr8M9kp&authKey=vAk7tCk81WHCFBP7fGTXZ0cA7Np6NuLBfox01SBr7JMVokwbdrfJcCysdtgxfokg&noverify=0&group_code=725597418)的群友们的特别帮助，谢谢各位！
