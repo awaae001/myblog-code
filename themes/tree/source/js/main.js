@@ -329,3 +329,25 @@ function scrollOff() {
   $footer.addClass('off');
   $footer.removeClass('header-on');
 }
+
+document.getElementById('footer-toggle').addEventListener('click', function() {
+  var commentElement = document.getElementById('comment');
+  if (commentElement) {
+      commentElement.scrollIntoView({ behavior: 'smooth' });
+  } else {
+      var modal = document.getElementById('myModal');
+      modal.style.display = "block";
+      setTimeout(function() {
+          modal.style.display = "none";
+          window.location.href = '/link/commit/';
+      }, 3000); // 3秒后关闭模态框并跳转到留言板
+  }
+});
+
+// 当用户点击模态框之外的区域，关闭模态框
+window.onclick = function(event) {
+  var modal = document.getElementById('myModal');
+  if (event.target == modal) {
+      modal.style.display = "none";
+  }
+}

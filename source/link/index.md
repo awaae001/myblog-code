@@ -393,15 +393,6 @@ fancybox: false
                     <div class="info">On the other side of obstacles</div>
                 </div>
             </div>
-            <div class="card" title="宁静致远，热爱生活。">
-                <img class="ava" src="https://bu.dusays.com/2023/12/19/658179febbfb5.png" />
-                <div class="card-header">
-                    <div>
-                        <a href="https://blog.wzsco.top/">王卓Sco</a>
-                    </div>
-                    <div class="info">宁静致远，热爱生活。</div>
-                </div>
-            </div>
             <div class="card" title="人生缓缓自有答案。">
                 <img class="ava" src="https://halo-kakarot.oss-cn-beijing.aliyuncs.com/512.png" />
                 <div class="card-header">

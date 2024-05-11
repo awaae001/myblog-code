@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【游戏】《饿殍：明末千里行》
+title: 饿殍：明末千里行-岁大饥，人相食
 abbrlink: 23024
 date: 2024-05-05 14:10:21
 tags:
