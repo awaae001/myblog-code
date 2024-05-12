@@ -4,6 +4,10 @@
 	border: 0;
 }
 
+body{
+	font-family: 'Source Han Serif CN Medium'
+}
+
 /*links*/
 div.footer-links {
 	display: flex;

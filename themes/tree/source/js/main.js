@@ -330,6 +330,7 @@ function scrollOff() {
   $footer.removeClass('header-on');
 }
 
+//评论按钮
 document.getElementById('footer-toggle').addEventListener('click', function() {
   var commentElement = document.getElementById('comment');
   if (commentElement) {
@@ -351,3 +352,14 @@ window.onclick = function(event) {
       modal.style.display = "none";
   }
 }
+
+document.onreadystatechange = function () {
+  if (document.readyState === "complete") {
+      // 页面加载完成时隐藏进度条
+      document.getElementById("progress-bar").style.display = "none";
+  }
+};
+window.onload = function () {
+  // 页面所有资源加载完成时隐藏进度条
+  document.getElementById("progress-bar").style.display = "none";
+};

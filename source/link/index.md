@@ -26,7 +26,7 @@ fancybox: false
 > 欢迎
 
 # 推荐服务/赞助服务
-
+ 
 ## cerycloud-可爱的网络加速
 
 [官网地址](https://dash2.cerycloud.com/index.php/#/register?code=RjEQAMRe)
@@ -611,6 +611,15 @@ fancybox: false
                     <div class="info">互联网上的一座小岛</div>
                 </div>
             </div>
+            <div class="card" title="愿用萤光，守护一方净土">
+                <img class="ava" src="https://alampy.com/images/avatar.jpg" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://alampy.com/">萤火之光</a>
+                    </div>
+                    <div class="info">愿用萤光，守护一方净土</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -759,6 +768,10 @@ fancybox: false
 
 ## 提交后？
 本站的友链为人工审核，同时，也没有后台，所以速度会相对那么慢一点点，~~毕竟还要等推送~~
+
+## 为什么我的站点到达了上一层的指标却没有升级？
+
+本站存在友链分区，但我无法时刻监测各位大佬的文章数量，如果你的站点达到你升级要求，可以在评论区要求升级，谢谢
 
 ## 找不到你的链接（网站）?
 假如你没有在**主分区**找到你的链接，而且它也没有出现在**陋室**分区的话，请检查一下你的链接是不是有一下的问题：
