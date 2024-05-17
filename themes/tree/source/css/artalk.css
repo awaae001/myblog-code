@@ -9,7 +9,7 @@
     --at-color-meta: #697182;
     --at-color-border: #eceff2;
     --at-color-light: #4285f4;
-    --at-color-bg: #FFF;
+    --at-color-bg: #fff;
     --at-color-bg-transl: rgba(255, 255, 255, .94);
     --at-color-bg-grey: #f3f4f5;
     --at-color-bg-grey-transl: rgba(244, 244, 244, .75);
@@ -33,7 +33,7 @@
         --at-color-meta: #fff;
         --at-color-border: #2d3235;
         --at-color-light: #687a86;
-        --at-color-bg: rgba(24, 28, 39);
+        --at-color-bg: #1e2224;
         --at-color-bg-transl: rgba(30, 34, 36, .95);
         --at-color-bg-grey: #46494e;
         --at-color-bg-grey-transl: rgba(8, 8, 8, .95);
@@ -1396,6 +1396,27 @@
 
 .atk-error-layer .atk-error-text a {
     color: var(--at-color-meta)
+}
+
+.atk-version-check-notice {
+    background: var(--at-color-bg-grey);
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 14px
+}
+
+.atk-version-check-notice .atk-info {
+    color: var(--at-color-meta)
+}
+
+.atk-version-check-notice .atk-ignore-btn {
+    cursor: pointer;
+    float: right
+}
+
+.atk-version-check-notice .atk-ignore-btn:hover {
+    opacity: .8
 }
 
 .atk-layer-dialog-wrap {
