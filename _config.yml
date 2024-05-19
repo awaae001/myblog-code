@@ -5,10 +5,10 @@
 # Site
 title: 呓语梦轩
 description: '一个小站点,很小，很破，很温馨-awaae'
-keywords: 小说;游戏;hexo;原始人，起洞！
+keywords: 小说,游戏,hexo,教程
 author: awaae(player8635)
 language: zh-CN
-timezone: ''
+timezone: "Asia/Hong_Kong"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
