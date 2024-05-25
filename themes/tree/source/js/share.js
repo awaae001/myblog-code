@@ -4,9 +4,6 @@
 var openSupportDialogBtn = document.getElementById('openSupportDialogBtn()');
 var closeSupportDialogBtn = document.getElementById('closeSupportDialogBtn()');
 var generateAndCopyLinkBtn = document.getElementById('generateAndCopyLinkBtn()');
-// 添加点击事件监听器
-generateAndCopyLinkBtn.addEventListener('click', generateAndCopyLink);
-
 
 // 赞助的 显示/隐藏 部分
 function openSupportDialog() {

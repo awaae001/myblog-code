@@ -6,7 +6,7 @@ a.travellings {
     font-size: 12px;
 }
 
-button.randomLinks{
+button.randomLinks {
     border-radius: 2px;
     width: 32px;
     background-color: #60281e;
@@ -16,10 +16,47 @@ button.randomLinks{
 /**
 前往评论区按钮
 **/
-div#toggle{
+
+.toggle {
+	border: none;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+	opacity: 0.5;
+}
+
+div#toggle-bord {
     position: fixed;
 	bottom: 80px;
 	right: 75px;
+}
+
+.toggle-tocommet{
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+}
+
+#sidebar-toggle {
+	top: 60px;
+	left: 260px;
+	position: absolute;
+}
+
+.toggle:hover {
+	opacity: 1;
+}
+
+.toggle-tocommet:hover{
+    opacity: 1;
 }
 
 .modal {
@@ -52,8 +89,30 @@ div#toggle{
         padding: 20px;
         border: 1px solid #aedbcc;
         color: #aedbcc;
-        width: 50%;
-        border-radius: 15px;
-        text-align: center;
     }
+}
+
+
+/**
+博客园塔-css
+**/
+button.blog-links {
+    background-color: #60281e;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Source Han Serif CN Medium';
+}
+
+button.blog-links:hover {
+    cursor: pointer;
+}
+
+#blogLinks {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+#blogLinks.show {
+    max-height: 1000px;
 }

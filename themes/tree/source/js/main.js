@@ -29,7 +29,7 @@ function pageScroll() {
 
 // 回到顶部
 function scrollToTop() {
-  $("#totop-toggle").on("click", function (e) {
+  $("#totop-toggle-totop").on("click", function (e) {
     $("html").animate({ scrollTop: 0 }, 200);
   });
 }
@@ -331,7 +331,7 @@ function scrollOff() {
 }
 
 //评论按钮
-document.getElementById('footer-toggle').addEventListener('click', function() {
+document.getElementById('footer-toggle-tocommet').addEventListener('click', function() {
   var commentElement = document.getElementById('comment');
   if (commentElement) {
       commentElement.scrollIntoView({ behavior: 'smooth' });
@@ -344,22 +344,3 @@ document.getElementById('footer-toggle').addEventListener('click', function() {
       }, 3000); // 3秒后关闭模态框并跳转到留言板
   }
 });
-
-// 当用户点击模态框之外的区域，关闭模态框
-window.onclick = function(event) {
-  var modal = document.getElementById('myModal');
-  if (event.target == modal) {
-      modal.style.display = "none";
-  }
-}
-
-document.onreadystatechange = function () {
-  if (document.readyState === "complete") {
-      // 页面加载完成时隐藏进度条
-      document.getElementById("progress-bar").style.display = "none";
-  }
-};
-window.onload = function () {
-  // 页面所有资源加载完成时隐藏进度条
-  document.getElementById("progress-bar").style.display = "none";
-};
