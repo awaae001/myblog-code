@@ -25,17 +25,11 @@
             data-flag-title="<%- page.title %>"></span>
         </span>
         <% } %>
-        <span>
-          阅读量
-          <span id="busuanzi_page_pv">EEROE</span>
-          次
-        </span>
-
-        <% if (page.fancybox) {%>
-        <span>
-          本文已启用fancybox灯箱
-        </span>
-        <%}%>
+          <span>
+            阅读量
+            <span id="busuanzi_page_pv">EEROE</span>
+            次
+          </span>
 
           <span><%- config.author %></span>
           <span><%- date(page.date, "YYYY-MM-DD HH:mm:ss" ) %></span>
@@ -69,6 +63,16 @@
                               <% } %>
                                 <% } %>
                                   <% } %>
+
+
+                                    <% if (page.fancybox) {%>
+                                      <span>
+                                        本文已启用fancybox灯箱
+                                      </span>
+                                      <%}%>
+
+                                        </br>
+
           </div>
 
 </div>
@@ -114,7 +118,7 @@
           <a href="//image.m-c.top">博主自建图床</a>
           上传再分享
         </span>
-      </br>
+        </br>
         <span class="span-info">
           欢迎阅读本站评论区
           <a href="/">指南</a>
@@ -122,7 +126,7 @@
         </span>
       </div>
 
-      <div id="comment">
+      <div id="comment" style="margin-top: 16px;">
         <%- partial('_talk/waline.ejs') %>
           <%- partial('_talk/valine.ejs') %>
             <%- partial('_talk/giscus.ejs') %>

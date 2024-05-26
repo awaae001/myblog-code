@@ -38,7 +38,7 @@ div#toggle-bord {
     border: none;
     height: 45px;
     width: 100px;
-    border-radius: 25%;
+    border-radius: 4em;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     transition: all 0.3s ease-in-out;

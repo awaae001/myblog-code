@@ -375,15 +375,6 @@ fancybox: false
                     <div class="info">寒蝉黎明之时，便是重生之日</div>
                 </div>
             </div>
-            <div class="card" title="我自是年少，韶华倾负">
-                <img class="ava" src="https://pic.awaae001.top/file/YLQ/6519291503349.webp" />
-                <div class="card-header">
-                    <div>
-                        <a href="https://byer.top/">星の野</a>
-                    </div>
-                    <div class="info">我自是年少，韶华倾负</div>
-                </div>
-            </div>
             <div class="card" title="人生缓缓自有答案。">
                 <img class="ava" src="https://halo-kakarot.oss-cn-beijing.aliyuncs.com/512.png" />
                 <div class="card-header">
@@ -548,15 +539,6 @@ fancybox: false
                     <div class="info">始终📸嘅👺记下每一刻.✍️</div>
                 </div>
             </div>
-<div class="card" title="不必借光而行，你我皆是星辰.">
-            <img class="ava" src="https://pic.awaae001.top/file/YLQ/tx.webp" />
-            <div class="card-header">
-               <div>
-                  <a href="https://xrr.org.cn/">小染笔记</a>
-               </div>
-               <div class="info">不必借光而行，你我皆是星辰.</div>
-            </div>
-        </div>
         <div class="card" title="星辰大海">
                 <img class="ava" src="https://pic.awaae001.top/file/YLQ/qqtou_3c94efda.jpg" />
                 <div class="card-header">
@@ -659,6 +641,15 @@ fancybox: false
                     <div class="info">站点超时</div>
                 </div>
             </div>
+            <div class="card" title="不必借光而行，你我皆是星辰.">
+                <img class="ava" src="/Rss.webp" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://xrr.org.cn/">小染笔记</a>
+                    </div>
+                <div class="info">站点错误</div>
+            </div>
+        </div>
       </div>
    </div>
 </div>
