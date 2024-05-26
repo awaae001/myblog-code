@@ -5,6 +5,7 @@ tags: null
 title: 友情链接-友人帐
 updated: '2023-12-10T12:46:29.259+08:00'
 fancybox: false
+description: 在这个焦躁的时代，能在互联网的角落拥有一个属于自己的站点绝对是一件值得高兴的事情，如果把大佬们的站点比作一个在偌大的院子里面高楼，小亭子，以及只能远望的高山那么，友链就是所谓的路，就是所谓的传送门
 ---
 ## 这是友情链接：
 在这个焦躁的时代，能在互联网的角落拥有一个属于自己的站点绝对是一件值得高兴的事情，如果把大佬们的站点比作一个在偌大的院子里面高楼，小亭子，以及只能远望的高山那么，友链就是所谓的路，就是所谓的**传送门**
@@ -300,6 +301,15 @@ fancybox: false
                         <a href="https://www.efu.me">Efu</a>
                     </div>
                     <div class="info">An Open Source worker.</div>
+                </div>
+            </div>
+            <div class="card" title="一个专注于记录, 分享, 学习的网站">
+                <img class="ava" src="https://www.logdict.com/avatar" />
+                <div class="card-header">
+                    <div>
+                        <a href="https://www.logdict.com">LogDict</a>
+                    </div>
+                    <div class="info">一个专注于记录, 分享, 学习的网站</div>
                 </div>
             </div>
         </div>
