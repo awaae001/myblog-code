@@ -94,7 +94,7 @@ tags:
     <div class="card-info">
         <a class="card-links">外部链接【安全】:</a>
         <br>
-        <a href="" target="_blank" class="card-title">呓语梦轩-cloud:文件分享</a>
+        <a href="https://cloud.awaae001.top/%E5%BA%94%E7%94%A8/%E5%88%86%E4%BA%AB/%E5%8F%8B%E9%93%BE%E5%8C%BA-js" target="_blank" class="card-title">呓语梦轩-cloud:文件分享</a>
         <div class="card-excerpt">
            呓语梦轩-cloud:基于Alist的云盘服务，快速获取文件，方便的分享服务-【友链区-js】
         </div>

@@ -305,7 +305,7 @@ tmux
     <div class="card-info">
         <a class="card-links">扩展阅读【安全】:</a>
         <br>
-        <a href="https://www.bilibili.com/video/BV18841197Xa" target="_blank" class="card-title">Tmux 使用教程</a>
+        <a href="https://www.ruanyifeng.com/blog/2019/10/tmux.html" target="_blank" class="card-title">Tmux 使用教程</a>
         <div class="card-excerpt">
             命令行的典型使用方式是，打开一个终端窗口（terminal window，以下简称"窗口"），在里面输入命令。用户与计算机的这种临时的交互，称为一次"会话"（session。会话的一个重要特点是，窗口与其中启动的进程是连在一起的。打开窗口，会话开始；关闭窗口，会话结束，会话内部的进程也会随之终止，不管有没有运行完。一个典型的例子就是，SSH 登录远程计算机，打开一个远程窗口执行命令。这时，网络突然断线，再次登录的时候，是找不回上一次执行的命令的。因为上一次 SSH 会话已经终止了，里面的进程也随之消失了。
         </div>
