@@ -330,7 +330,6 @@ function scrollOff() {
   $footer.removeClass('header-on');
 }
 
-//评论按钮
 document.getElementById('footer-toggle-tocommet').addEventListener('click', function() {
   var commentElement = document.getElementById('comment');
   if (commentElement) {
@@ -344,3 +343,29 @@ document.getElementById('footer-toggle-tocommet').addEventListener('click', func
       }, 3000); // 3秒后关闭模态框并跳转到留言板
   }
 });
+
+/**
+ * 根据屏幕宽度调整按钮文字和宽度
+ */
+function adjustButtonLabel() {
+    var button = document.getElementById('footer-toggle-tocommet');
+    var buttonText = button.querySelector('.button-text');
+    if (window.innerWidth < 460) {
+        buttonText.style.display = 'none';
+        button.style.width = '45px'; // 与高度一致，保持圆形按钮
+    } else if (window.innerWidth < 900) {
+        buttonText.style.display = 'inline';
+        buttonText.textContent = '评论区';
+        button.style.width = '80px'; // 根据内容调整宽度
+    } else {
+        buttonText.style.display = 'inline';
+        buttonText.textContent = '前往评论区';
+        button.style.width = 'auto'; // 根据内容调整宽度
+    }
+}
+
+// 初始调整
+adjustButtonLabel();
+
+// 在窗口大小变化时调整
+window.addEventListener('resize', adjustButtonLabel);

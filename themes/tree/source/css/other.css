@@ -16,46 +16,51 @@ button.randomLinks {
 /**
 前往评论区按钮
 **/
-
+/* 默认样式 */
 .toggle {
-	border: none;
-	height: 45px;
-	width: 45px;
-	border-radius: 50%;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: #fff;
-	transition: all 0.3s ease-in-out;
-	opacity: 0.5;
-}
-
-div#toggle-bord {
-    position: fixed;
-	bottom: 80px;
-	right: 75px;
-}
-
-.toggle-tocommet{
     border: none;
     height: 45px;
-    width: 100px;
-    border-radius: 4em;
+    width: 45px;
+    border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     transition: all 0.3s ease-in-out;
     opacity: 0.5;
 }
 
+div#toggle-bord {
+    position: fixed;
+    bottom: 80px;
+    right: 75px;
+    display: flex;
+}
+
+.toggle-tocommet {
+    border: none;
+    height: 45px;
+    border-radius: 4em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    margin-left: 8px;
+}
+
 #sidebar-toggle {
-	top: 60px;
-	left: 260px;
-	position: absolute;
+    top: 60px;
+    left: 260px;
+    position: absolute;
 }
 
 .toggle:hover {
-	opacity: 1;
+    opacity: 1;
 }
 
-.toggle-tocommet:hover{
+.toggle-tocommet:hover {
     opacity: 1;
 }
 
@@ -91,7 +96,6 @@ div#toggle-bord {
         color: #aedbcc;
     }
 }
-
 
 /**
 博客园塔-css
