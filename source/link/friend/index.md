@@ -24,20 +24,10 @@ tags:
         .chat-container {
             max-width: 750px;
             margin: 20px auto;
-            background-color: #fff;
+            background-color: var(--theme-bgcolor);
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-        }
-        @media (prefers-color-scheme: dark) {
-            .chat-container {
-                max-width: 750px;
-                margin: 20px auto;
-                background-color: rgba(24, 28, 39);
-                border-radius: 8px;
-                box-shadow: 0 0 10px rgba(24, 28, 39);
-                overflow: hidden;
-            }
         }
         .message {
             display: flex;
@@ -60,13 +50,7 @@ tags:
         }
         .text {
             word-wrap: break-word;
-            color: rgb(0 0 0)
-        }
-        @media (prefers-color-scheme: dark) {
-            .text {
-                word-wrap: break-word;
-                color: rgba(201, 209, 217)
-            }
+            color: var(--theme-font)
         }
         div.messager-time {
             font-size: 14px;
@@ -101,14 +85,6 @@ tags:
             vertical-align: middle;
             color: rgba(201, 209, 217);
             font-size: 14px;
-        }
-        @media (prefers-color-scheme: dark) {
-            button#load-more-btn span {
-                color: rgba(201, 209, 217);
-                font-size: 14px;
-                display: inline-block;
-                vertical-align: middle;
-            }
         }
     </style>
     <div id="messages-container"></div>

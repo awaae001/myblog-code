@@ -16,7 +16,7 @@
     --waline-bq-color: #f0f0f0;
     --waline-avatar-size: 3.25rem;
     --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
-    --waline-badge-color: #2b6964;
+    --waline-badge-color: var(--theme-color);
     --waline-badge-font-size: 0.75em;
     --waline-info-bgcolor: #f8f8f8;
     --waline-info-color: #999;
@@ -400,7 +400,7 @@
         max-width: 100%;
         border: none;
         color: #c9d1d9;
-        background-color: #181c27;
+        background-color: var(--theme-bgcolor);
         outline: none;
         transition: all .25s ease
     }
@@ -408,7 +408,7 @@
     .wl-editor:focus,
     .wl-input:focus {
         /*background: var(--waline-bgcolor-light)*/
-        background-color: #181c27;
+        background-color: var(--theme-bgcolor);
     }
 
 }

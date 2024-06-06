@@ -23,7 +23,7 @@
 		</div>
 	</div>
 	<p>
-		©<span id="footerYear-start"><%- theme.siteStartYear %></span>-<span id="footerYear-end"></span>
+		©&nbsp;<span id="footerYear-start"><%- theme.siteStartYear %></span>-<span id="footerYear-end"></span>
 		<% if (config.website){ %>
 			<a href='<%- config.website %>' target="_blank"><%- config.author %></a>
 			<% } else { %>
@@ -166,7 +166,7 @@
 	<% if (theme.custom.enableRuntimeCard) { %>
 		<div id="runtime-card" style="background-color: #60281e; color: #fff; text-align: center; padding: 10px;">
 			<%- theme.custom.siteword %>：
-			</br>
+				</br>
 				<span id="uptime">加载中...</span>
 		</div>
 		<% } %>
@@ -201,8 +201,7 @@
 						" 分 " +
 						String(int_sec) +
 						" 秒 " +
-						//String(int_msec).padStart(3, "0") +
-						//" 毫秒 (共：" +
+						"(共：" +
 						int_years +
 						" 年)";
 				}
@@ -212,11 +211,21 @@
 			</script>
 
 
-			<% if (config.mermaid && config.mermaid.enable) { %>
-				<script src='https://unpkg.com/mermaid@<%= config.mermaid.version %>/dist/mermaid.min.js'></script>
-				<script>
-					if (window.mermaid) {
-						mermaid.initialize({ theme: 'forest' });
-					}
+			<% if (theme.siteStartYear==undefined) { %>
+				<script type="text/javascript">
+					document.getElementById('footerYear-start').innerHTML = new Date().getFullYear() + '';
 				</script>
 				<% } %>
+					<script type="text/javascript">
+						document.getElementById('footerYear-end').innerHTML = new Date().getFullYear() + '';
+					</script>
+
+					<% if (config.mermaid && config.mermaid.enable) { %>
+						<script
+							src='https://unpkg.com/mermaid@<%= config.mermaid.version %>/dist/mermaid.min.js'></script>
+						<script>
+							if (window.mermaid) {
+								mermaid.initialize({ theme: 'forest' });
+							}
+						</script>
+						<% } %>

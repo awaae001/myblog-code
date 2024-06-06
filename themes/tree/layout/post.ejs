@@ -90,7 +90,7 @@
   </div>
 
   <% if (theme.postFooter.div) { %>
-    <div style="animation:both; margin: 16px 8px;">
+    <div id="share-give">
       <div class="share-button-container">
         <link rel="stylesheet" type="text/css" href="/css/pach-post.css">
         <div>
@@ -101,8 +101,8 @@
               <%- config.title %>-<%- theme.postFooter.likewordA%>
             </p>
             <div id="image-container">
-              <img src="<%- theme.postFooter.QrcodeA %>" alt="Support Image">
-              <img src="<%- theme.postFooter.QrcodeB %>" alt="Support Image">
+              <img class="give-img" src="<%- theme.postFooter.QrcodeA %>" alt="Support Image">
+              <img class="give-img" src="<%- theme.postFooter.QrcodeB %>" alt="Support Image">
             </div>
             <p class="like-p"><%- theme.postFooter.yaofan %></p>
             <button class="close-button" onclick="closeSupportDialog()">好的</button>

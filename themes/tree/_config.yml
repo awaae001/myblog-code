@@ -122,8 +122,8 @@ postFooter:
   likewordA: 赞助
   yaofan: 啊，没钱了，谁来帮帮我啊
   shareword: 分享
-  QrcodeA: https://image.m-c.top/?/images/2024/01/30/dJuwI48Rry/alipay.jpg
-  QrcodeB: https://image.m-c.top/?/images/2024/01/30/OPzAQTymjZ/weixin.png
+  QrcodeA: /file/微信.webp
+  QrcodeB: /file/支付宝.webp
 
 #甜莉GPT
 tianligpt:

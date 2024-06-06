@@ -6,6 +6,11 @@
    /* 设置按钮之间的间距，可以根据需要调整 */
  }
 
+ div#share-give {
+   animation: both;
+   margin: 16px 8px;
+ }
+
  .share-button-container button {
    font-size: 16px;
    padding: 10px 20px;
@@ -75,10 +80,12 @@
  }
 
  #image-container img {
-   max-width: 30%;
+   max-width: 45%;
    height: auto;
    border-radius: 15px;
  }
+
+ 
 
  .close-button {
    cursor: pointer;
@@ -103,12 +110,3 @@
    }
  }
 
- /* 添加淡入动画 */
-.fade-in {
-  opacity: 1;
-}
-
-/* 添加淡出动画 */
-.fade-out {
-  opacity: 0;
-}

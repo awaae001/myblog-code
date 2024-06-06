@@ -22,8 +22,8 @@
     --heo-shadow-green: 0 8px 12px -3px #87ee7936;
     --heo-logo-color: linear-gradient(215deg, #4584ff 0%, #cf0db9 100%);
     --heo-snackbar-time: 5s;
-    --heo-theme: #2b6964;
-    --heo-theme-op: #4259ef2;
+    --heo-theme: #425AEF;
+    --heo-theme-op: #4259ef23;
     --heo-theme-op-deep: #4259efdd;
     --heo-theme-none: #4259ef01;
     --heo-blue: #425AEF;
@@ -38,9 +38,9 @@
     --heo-reverse: #000;
     --heo-maskbg: rgba(255, 255, 255, 0.6);
     --heo-maskbgdeep: rgba(255, 255, 255, 0.85);
-    --heo-hovertext: #2b6964;
+    --heo-hovertext: var(--heo-main);
     --heo-ahoverbg: #F7F7FA;
-    --heo-lighttext: #2b6964;
+    --heo-lighttext: var(--heo-main);
     --heo-secondtext: rgba(60, 60, 67, 0.8);
     --heo-scrollbar: rgba(60, 60, 67, 0.4);
     --heo-card-btn-bg: #edf0f7;
@@ -138,7 +138,7 @@
         --heo-post-tabs-bg: #121212;
         --heo-secondbg: #30343f;
         --heo-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
-        --heo-card-bg: #181c27;
+        --heo-card-bg: var(--theme-bgcolor);
         --heo-card-bg-op: var(--heo-white-op);
         --heo-card-bg-none: #1d1b2600;
         --heo-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0.0);

@@ -23,15 +23,15 @@ https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/bttree/%E7%BD%91%E7%AB%99%E
 		background-color: rgb(24, 28, 39);
 
 		body {
-			color: rgb(201, 209, 217);
+			color: var(--theme-font);
 		}
 
 		h1 {
-			color: rgb(201, 209, 217);
+			color: var(--theme-font);
 		}
 
 		h2 {
-			color: rgb(201, 209, 217);
+			color: var(--theme-font);
 		}
 	}
 }

@@ -14,7 +14,7 @@
     --at-color-bg-grey: #f3f4f5;
     --at-color-bg-grey-transl: rgba(244, 244, 244, .75);
     --at-color-bg-light: rgba(29, 161, 242, .1);
-    --at-color-main: #0083ff;
+    --at-color-main: rgb(43, 105, 100);
     --at-color-red: #ff5652;
     --at-color-pink: #fa5a57;
     --at-color-yellow: #ff7c37;
@@ -38,7 +38,7 @@
         --at-color-bg-grey: #46494e;
         --at-color-bg-grey-transl: rgba(8, 8, 8, .95);
         --at-color-bg-light: rgba(29, 161, 242, .1);
-        --at-color-main: #0083ff;
+        --at-color-main: rgb(68, 138, 133);
         --at-color-red: #ff5652;
         --at-color-pink: #fa5a57;
         --at-color-yellow: #ff7c37;
