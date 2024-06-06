@@ -109,7 +109,7 @@ blurAmount: 10px # 可以在这里设置模糊值
 #页面底部的网站运行时长,注意：时间格式为 年-月-日，单数必须要要加零
 custom:
   enableRuntimeCard: ture
-  siteStartDate: "2023-05-27"
+  siteStartDate: 5/28/2023 14:13:45
   siteword: 本站已运行
 
 #一个有问题无法再配置文件更改的功能
@@ -119,9 +119,9 @@ custom:
 
 postFooter:
   div: ture
-  likewordA: 赞助我！
+  likewordA: 赞助
   yaofan: 啊，没钱了，谁来帮帮我啊
-  shareword: 分享啊！
+  shareword: 分享
   QrcodeA: https://image.m-c.top/?/images/2024/01/30/dJuwI48Rry/alipay.jpg
   QrcodeB: https://image.m-c.top/?/images/2024/01/30/OPzAQTymjZ/weixin.png
 

@@ -117,5 +117,5 @@ tags:
             加载更多
         </span>
     </button>
-    <script type="text/javascript" src="//blog.awaae001.top/js/friend.js"></script>
+    <script type="text/javascript" src="/js/friend.js"></script>
 </div>

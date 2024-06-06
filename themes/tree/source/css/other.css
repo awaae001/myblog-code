@@ -120,3 +120,7 @@ button.blog-links:hover {
 #blogLinks.show {
     max-height: 1000px;
 }
+
+figure{
+    overflow:auto
+}

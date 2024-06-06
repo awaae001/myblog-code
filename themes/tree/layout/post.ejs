@@ -89,6 +89,30 @@
     <%- page.content %>
   </div>
 
+  <% if (theme.postFooter.div) { %>
+    <div style="animation:both; margin: 16px 8px;">
+      <div class="share-button-container">
+        <link rel="stylesheet" type="text/css" href="/css/pach-post.css">
+        <div>
+          <button class="support-button" onclick="openSupportDialog()"><i class="fa fa-qrcode" aria-hidden="true" style="margin-right: 4px;"></i><%- theme.postFooter.likewordA%></button>
+
+          <div id="support-dialog">
+            <p class="info">
+              <%- config.title %>-<%- theme.postFooter.likewordA%>
+            </p>
+            <div id="image-container">
+              <img src="<%- theme.postFooter.QrcodeA %>" alt="Support Image">
+              <img src="<%- theme.postFooter.QrcodeB %>" alt="Support Image">
+            </div>
+            <p class="like-p"><%- theme.postFooter.yaofan %></p>
+            <button class="close-button" onclick="closeSupportDialog()">好的</button>
+          </div>
+        </div>
+        <button class="share-button" onclick="generateAndCopyLink()"><i class="	fa fa-share-square"aria-hidden="true" style="margin-right: 4px;"></i><%- theme.postFooter.shareword%></button>
+      </div>
+    </div>
+    <% } %>
+
   <!-- post-guide -->
   <% if (is_post()){ %>
     <div class="post-guide">
@@ -132,24 +156,3 @@
             <%- partial('_talk/giscus.ejs') %>
               <%- partial('_talk/artalk.ejs') %>
       </div>
-
-      <% if (theme.postFooter.div) { %>
-        <div style="animation:both">
-          <div class="share-button-container">
-            <link rel="stylesheet" type="text/css" href="/css/pach-post.css">
-            <div>
-              <button class="support-button" onclick="openSupportDialog()"><%- theme.postFooter.likewordA%></button>
-
-              <div id="support-dialog">
-                <div id="image-container">
-                  <img src="<%- theme.postFooter.QrcodeA %>" alt="Support Image">
-                  <img src="<%- theme.postFooter.QrcodeB %>" alt="Support Image">
-                </div>
-                <p class="like-p"><%- theme.postFooter.yaofan %></p>
-                <button class="close-button" onclick="closeSupportDialog()">好的</button>
-              </div>
-            </div>
-            <button class="share-button" onclick="generateAndCopyLink()"><%- theme.postFooter.shareword%></button>
-          </div>
-        </div>
-        <% } %>
