@@ -189,8 +189,8 @@
 					var int_mins = parseInt(mins); // 计算完整的分钟
 					var sec = (mins - int_mins) * 60; // 计算除去完整的天,小时,分钟 剩下不完整的分钟 x60得到有多少秒
 					var int_sec = parseInt(sec); // 计算完整的秒
-					var msec = (sec - int_sec) * 1000; // 计算除去完整的天,小时,分钟,秒 剩下不完整的秒 x1000得到有多少毫秒
-					var int_msec = parseInt(msec); // 计算完整的毫秒
+					//var msec = (sec - int_sec) * 1000; 计算除去完整的天,小时,分钟,秒 剩下不完整的秒 x1000得到有多少毫秒
+					//var int_msec = parseInt(msec); 计算完整的毫秒
 
 					website_uptime_banner.innerHTML =
 						int_days +
@@ -201,14 +201,14 @@
 						" 分 " +
 						String(int_sec) +
 						" 秒 " +
-						String(int_msec).padStart(3, "0") +
-						" 毫秒 (共：" +
+						//String(int_msec).padStart(3, "0") +
+						//" 毫秒 (共：" +
 						int_years +
 						" 年)";
 				}
 
 				update_website_uptime_banner();
-				setInterval(update_website_uptime_banner, 1);
+				setInterval(update_website_uptime_banner, 1000);
 			</script>
 
 
