@@ -75,8 +75,9 @@ tips:
 
 ### 易错省流版
 
-1.git clone https://github.com/soxft/busuanzi.git && cd busuanzi
-go build -o busuanzi main.go
+1. `git clone https://github.com/soxft/busuanzi.git && cd busuanzi`
+
+   `go build -o busuanzi main.go`
 
 2.根据提示修改 config.yml
 
