@@ -31,9 +31,8 @@ tags:
         }
         .message {
             display: flex;
-            align-items: flex-start;
+            flex-direction: column;
             margin: 10px;
-            flex-wrap: wrap;
             min-height: 50px;
             border-style: solid;
             border-radius: 5px;
@@ -55,6 +54,13 @@ tags:
         div.messager-time {
             font-size: 14px;
             color: #000;
+        }
+        div.meta-info {
+            color: var(--theme-font);
+            margin-left: 16px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 16px;
         }
         @media (prefers-color-scheme: dark) {
             div.messager-time {

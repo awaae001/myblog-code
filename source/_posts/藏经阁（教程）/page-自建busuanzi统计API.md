@@ -17,10 +17,10 @@ fancybox: ture
 
 >静态网站建站现在有很多快速的技术和平台，但静态是优点也有缺点，由于是静态的，一些动态的内容如评论、计数等等模块就需要借助外来平台，评论有“[多说](http://duoshuo.com/)”，计数有“[不蒜](https://busuanzi.ibruce.info/)”！**（多说即将关闭，不蒜子还活着涅，这是程序员对程序员的承诺。）**
 
-但，随着[github page](https://pages.github.com/?(null)) / [verce](https://vercel.com/) 等项目的上线，静态博客公开API的访问量与日俱，回经常出现一些问题：
+但，随着[github page](https://pages.github.com/?(null)) / [vercel](https://vercel.com/) 等项目的上线，静态博客公开API的访问量与日俱，会经常出现一些问题：
 - 速度慢，不稳定，经常会出现 502 错误。
 - 代码过时，使用的是 Referrer 方法进行统计，这种方法在移动端 / Firefox / Safari 上统计不准确。
-- 不蒜子的代码使用的是 JSONP 回调，这种方法容易受到 CSRF 攻击，威胁网站安全
+- 不蒜子的代码使用的是 JSONP 回调，这种方法容易受到 CSRF 攻击，威胁网站安全。
 
 所以，互联网上就涌现了各种各样的busuanzi自建的版本，这也是本次教程的主题。
 
@@ -30,7 +30,6 @@ fancybox: ture
 这个教程
 
 <div class="card-item">
-    <link type="text/css" rel="stylesheet" href="https://blog.awaae001.top/css/links-page.css" />
     <div class="card-info">
         <a class="card-links">外部链接【安全】:</a>
         <br>
@@ -55,6 +54,22 @@ fancybox: ture
    - **安装[GO环境](https://zhuanlan.zhihu.com/p/653856066)！**
 - 一个自己的域名
 - 脑子 （**这是喂奶级教程，不带也可以**）
+
+tips:
+
+本教程还有docker部署版本，~~但是我太懒了没有写~~所以请点击链接跳转到其他站点进行查阅，我不保证链接的可用性（~~不是我的站点~~）
+
+<div class="card-item">
+    <div class="card-info">
+        <a class="card-links">外部链接【安全】:</a>
+        <br>
+         <a href="https://blog.qyliu.top/posts/e401be2d/" target="_blank" class="card-title">docker自部署busuanzi访问量统计服务-清羽飞扬</a>
+        <div class="card-excerpt">
+        这篇文章介绍了作者如何自己部署busuanzi访问量统计服务。作者发现官方服务经常无法加载出来，影响网站加载速度，因此决定自己部署并管理访问数据。Busuanzi是一个轻量级的网站访问统计工具，可以统计页面浏览量、访客数量，并实时更新统计数据。它可以通过JavaScript代码轻松嵌入网站页面，并提供一些可定制的选项。作者通过使用开源代码和Redis数据库实现了类似于busuanzi的功能。
+        </div>
+    </div>
+</div>
+
 
 ## 部署
 

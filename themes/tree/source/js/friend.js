@@ -30,7 +30,7 @@ function loadMoreData() {
         usernameDiv.classList.add('username');
         const usernameLink = document.createElement('a');
         usernameLink.href = item.link;
-        usernameLink.textContent = item.title;
+        usernameLink.textContent = item.title || "无标题";
         usernameDiv.appendChild(usernameLink);
 
         // 移除 HTML 标签并截取 summary，确保不超过最大长度限制
@@ -46,15 +46,28 @@ function loadMoreData() {
         textDiv.classList.add('text');
         textDiv.textContent = summaryText;
 
+        const metaDiv = document.createElement('div');
+        metaDiv.classList.add('meta-info');
+
         const timeDiv = document.createElement('div');
-        timeDiv.classList.add('messager-time');
+        timeDiv.classList.add('message-time');
         timeDiv.textContent = item.published;
 
+        const authorDiv = document.createElement('div');
+        authorDiv.classList.add('author');
+        authorDiv.textContent = item.author || "未知作者";
+
+        // 将各个元素添加到相应的父元素
         messageContentDiv.appendChild(usernameDiv);
         messageContentDiv.appendChild(textDiv);
-        messageContentDiv.appendChild(timeDiv);
 
+        metaDiv.appendChild(timeDiv);
+        metaDiv.appendChild(authorDiv);
+
+        // 将 messageContentDiv 和 metaDiv 添加到 messageDiv
         messageDiv.appendChild(messageContentDiv);
+        messageDiv.appendChild(metaDiv);
+
         messagesContainer.appendChild(messageDiv);
     });
 
