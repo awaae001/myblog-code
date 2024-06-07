@@ -41,8 +41,8 @@ Github action从发布到现在有一段时间了，它可以以一个文件为�
     <link type="text/css" rel="stylesheet" href="/css/links-page.css" />
     <div class="card-thumbnail">
         <img alt="文件获取" title="scdn" decoding="async"
-            src="https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/github-action/%E6%AD%A3%E6%96%87/scdn_608d8a91.jpg"
-            class="not-shadow not-light-box" width="130" height="80">
+    src="https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/github-action/%E6%AD%A3%E6%96%87/scdn_608d8a91.jpg"
+    class="not-shadow not-light-box" width="130" height="80" style="max-height: 80px;">
     </div>
     <div class="card-info">
         <a class="card-links">外部链接【安全】:</a>

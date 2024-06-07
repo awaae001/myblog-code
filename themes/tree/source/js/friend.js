@@ -81,7 +81,7 @@ function loadMoreData() {
 }
 
 // 加载初始数据
-fetch("https://link.m-c.top/rss/moments.json")
+fetch("https://link.m-c.top/rss/json/moments.json")
     .then(response => response.json())
     .then(data => {
         jsonData = data;
