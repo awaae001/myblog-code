@@ -20,7 +20,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'Source Han Serif CN Medium'
+	font-family: "Noto Serif SC", serif;
 }
 
 /*links*/
@@ -649,4 +649,3 @@ span.span-info {
 span.space {
 	color: var(--theme-font);
 }
-
