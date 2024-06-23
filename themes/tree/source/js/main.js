@@ -369,3 +369,132 @@ adjustButtonLabel();
 
 // 在窗口大小变化时调整
 window.addEventListener('resize', adjustButtonLabel);
+
+const CONFIG = {
+  highlight: {
+    highlightCopy: true, // 是否启用复制按钮
+    highlightLang: true, // 是否显示语言指示器
+    highlightHeightLimit: 300, // 代码块高度限制
+    plugin: 'highlight.js', // 使用的插件 ('highlight.js' 或 'prismjs')
+  },
+  site: {
+    isHighlightShrink: false, // 是否折叠代码块
+  },
+  copy: {
+    success: '复制成功！', // 复制成功提示
+    noSupport: '不支持复制', // 不支持复制提示
+  }
+};
+
+// 代码高亮工具函数
+const addHighlightTool = () => {
+  const highLight = CONFIG.highlight;
+  if (!highLight) return;
+
+  const { highlightCopy, highlightLang, highlightHeightLimit, plugin } = highLight;
+  const isHighlightShrink = CONFIG.site.isHighlightShrink;
+  const isShowTool = highlightCopy || highlightLang || isHighlightShrink !== undefined;
+  const $figureHighlight = plugin === 'highlight.js' ? document.querySelectorAll('figure.highlight') : document.querySelectorAll('pre[class*="language-"]');
+
+  if (!((isShowTool || highlightHeightLimit) && $figureHighlight.length)) return;
+
+  const isPrismjs = plugin === 'prismjs';
+  const highlightShrinkClass = isHighlightShrink === true ? 'closed' : '';
+  const highlightShrinkEle = isHighlightShrink !== undefined ? '<i class="fa fa-caret-down expand"></i>' : '';
+  const highlightCopyEle = highlightCopy ? '<div class="copy-notice"></div><i class="	fa fa-clone copy-button"></i>' : '';
+
+  const alertInfo = (text) => {
+    console.log(text);
+  };
+
+  const copy = ctx => {
+    if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
+      document.execCommand('copy');
+      alertInfo(CONFIG.copy.success);
+    } else {
+      alertInfo(CONFIG.copy.noSupport);
+    }
+  };
+
+  // 点击事件处理函数
+  const highlightCopyFn = ele => {
+    const $buttonParent = ele.parentNode;
+    $buttonParent.classList.add('copy-true');
+    const selection = window.getSelection();
+    const range = document.createRange();
+    const preCodeSelector = isPrismjs ? 'pre code' : 'table .code pre';
+    range.selectNodeContents($buttonParent.querySelectorAll(`${preCodeSelector}`)[0]);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    copy(ele.lastChild);
+    selection.removeAllRanges();
+    $buttonParent.classList.remove('copy-true');
+  };
+
+  const highlightShrinkFn = ele => {
+    ele.classList.toggle('closed');
+  };
+
+  const highlightToolsFn = function (e) {
+    const $target = e.target.classList;
+    if ($target.contains('expand')) highlightShrinkFn(this);
+    else if ($target.contains('copy-button')) highlightCopyFn(this);
+  };
+
+  const expandCode = function () {
+    this.classList.toggle('expand-done');
+  };
+
+  const createEle = (lang, item, service) => {
+    const fragment = document.createDocumentFragment();
+
+    if (isShowTool) {
+      const hlTools = document.createElement('div');
+      hlTools.className = `highlight-tools ${highlightShrinkClass}`;
+      hlTools.innerHTML = highlightShrinkEle + lang + highlightCopyEle;
+      hlTools.addEventListener('click', highlightToolsFn);
+      fragment.appendChild(hlTools);
+    }
+
+    if (highlightHeightLimit && item.offsetHeight > highlightHeightLimit + 30) {
+      const ele = document.createElement('div');
+      ele.className = 'code-expand-btn';
+      ele.innerHTML = '<i class="fas fa fa-caret-down"></i>';
+      ele.addEventListener('click', expandCode);
+      fragment.appendChild(ele);
+    }
+
+    if (service === 'hl') {
+      item.insertBefore(fragment, item.firstChild);
+    } else {
+      item.parentNode.insertBefore(fragment, item);
+    }
+  };
+
+  if (isPrismjs) {
+    $figureHighlight.forEach(item => {
+      if (highlightLang) {
+        const langName = item.getAttribute('data-language') || 'Code';
+        const highlightLangEle = `<div class="code-lang">${langName}</div>`;
+        btf.wrap(item, 'figure', { class: 'highlight' });
+        createEle(highlightLangEle, item);
+      } else {
+        btf.wrap(item, 'figure', { class: 'highlight' });
+        createEle('', item);
+      }
+    });
+  } else {
+    $figureHighlight.forEach(item => {
+      if (highlightLang) {
+        let langName = item.getAttribute('class').split(' ')[1];
+        if (langName === 'plain' || langName === undefined) langName = 'Code';
+        const highlightLangEle = `<div class="code-lang">${langName}</div>`;
+        createEle(highlightLangEle, item, 'hl');
+      } else {
+        createEle('', item, 'hl');
+      }
+    });
+  }
+};
+addHighlightTool();
+

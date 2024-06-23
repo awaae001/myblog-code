@@ -9,6 +9,7 @@ description: 在这个焦躁的时代，能在互联网的角落拥有一个属�
 ---
 
 <script src="/js/friend-links.js"></script>
+<link type="text/css" rel="stylesheet" href="/css/card.css" />
 
 ## 这是友情链接：
 在这个焦躁的时代，能在互联网的角落拥有一个属于自己的站点绝对是一件值得高兴的事情，如果把大佬们的站点比作一个在偌大的院子里面高楼，小亭子，以及只能远望的高山那么，友链就是所谓的路，就是所谓的**传送门**
@@ -16,7 +17,7 @@ description: 在这个焦躁的时代，能在互联网的角落拥有一个属�
 使用友链系统让更多人认识你、我、他，同如今四通八达的道路一般。
 
 <div class="card-item">
-    <link type="text/css" rel="stylesheet" href="https://blog.awaae001.top/css/links-page.css" />
+    <link type="text/css" rel="stylesheet" href="/css/links-page.css" />
     <div class="card-info">
         <a class="card-links">内部链接:</a>
         <br>

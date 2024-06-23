@@ -4,6 +4,7 @@
 	--theme-bgcolor: rgb(255, 255, 255);
 	--theme-sidebar: rgb(65, 85, 93);
 	--theme-meta: rgb(49, 49, 49);
+	font-family: "Noto Serif SC", serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,6 +14,7 @@
 		--theme-bgcolor: rgb(24, 28, 39);
 		--theme-sidebar: rgb(40, 52, 57);
 		--theme-meta: rgb(166, 166, 166);
+		font-family: "Noto Serif SC", serif;
 	}
 }
 
@@ -20,7 +22,6 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: "Noto Serif SC", serif;
 }
 
 /*links*/
@@ -50,6 +51,11 @@ span.a-links {
 }
 
 /**/
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
 
 /** 网站的黑暗模式配色 **/
 
