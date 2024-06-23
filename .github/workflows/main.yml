@@ -42,7 +42,18 @@ jobs:
     - name: Deploy Hexo
       run: |
         hexo clean
-        hexo deploy
+        hexo g
+
+    - name: Copy db.json to public folder
+      run: |
+        cp db.json public/
+        cd ./public
+        ls -l
+        cd ..
+
+    - name: upto Hexo
+      run: |
+        hexo d
 
     - name: NPM Publish Pre Set
       run: |
