@@ -4,6 +4,7 @@
 	--theme-bgcolor: rgb(255, 255, 255);
 	--theme-sidebar: rgb(65, 85, 93);
 	--theme-meta: rgb(49, 49, 49);
+	--theme-code: #386460;
 	font-family: "Noto Serif SC", serif;
 }
 
@@ -14,6 +15,7 @@
 		--theme-bgcolor: rgb(24, 28, 39);
 		--theme-sidebar: rgb(40, 52, 57);
 		--theme-meta: rgb(166, 166, 166);
+		--theme-code: #77d3cb;
 		font-family: "Noto Serif SC", serif;
 	}
 }

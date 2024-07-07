@@ -44,73 +44,6 @@ figure.highlight pre .comment {
     color: #969896
 }
 
-figure.highlight pre .attribute,
-figure.highlight pre .css .class,
-figure.highlight pre .css .id,
-figure.highlight pre .css .pseudo,
-figure.highlight pre .html .doctype,
-figure.highlight pre .regexp,
-figure.highlight pre .ruby .constant,
-figure.highlight pre .tag .name,
-figure.highlight pre .variable,
-figure.highlight pre .xml .doctype,
-figure.highlight pre .xml .pi,
-figure.highlight pre .xml .tag .title {
-    color: #ff5370
-}
-
-figure.highlight pre .tag {
-    color: #89ddff
-}
-
-figure.highlight pre .command,
-figure.highlight pre .constant,
-figure.highlight pre .literal,
-figure.highlight pre .number,
-figure.highlight pre .params,
-figure.highlight pre .preprocessor {
-    color: #f78c6c
-}
-
-figure.highlight pre .built_in {
-    color: #ffcb6b
-}
-
-figure.highlight pre .css .rules .attribute,
-figure.highlight pre .formula,
-figure.highlight pre .header,
-figure.highlight pre .inheritance,
-figure.highlight pre .number,
-figure.highlight pre .ruby .class .title,
-figure.highlight pre .ruby .symbol,
-figure.highlight pre .special,
-figure.highlight pre .string,
-figure.highlight pre .value,
-figure.highlight pre .xml .cdata {
-    color: #c3e88d
-}
-
-figure.highlight pre .css .hexcolor,
-figure.highlight pre .keyword,
-figure.highlight pre .title {
-    color: #89ddff
-}
-
-figure.highlight pre .coffeescript .title,
-figure.highlight pre .function,
-figure.highlight pre .javascript .title,
-figure.highlight pre .perl .sub,
-figure.highlight pre .python .decorator,
-figure.highlight pre .python .title,
-figure.highlight pre .ruby .function .title,
-figure.highlight pre .ruby .title .keyword {
-    color: #82aaff
-}
-
-figure.highlight pre .javascript .function,
-figure.highlight pre .tag .attr {
-    color: #c792ea
-}
 
 #article-content figure.highlight .line.marked {
     background-color: rgba(97, 97, 97, .314)
@@ -160,7 +93,7 @@ figure.highlight pre .tag .attr {
 #article-content code {
     padding: 2px 4px;
     background: rgba(27, 31, 35, .05);
-    color: var(--theme-color)
+    color: var(--theme-code)
 }
 
 #article-content pre {

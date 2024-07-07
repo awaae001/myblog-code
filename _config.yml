@@ -58,7 +58,7 @@ markdown:
   preset: "default"
   render:
     html: true
-    xhtmlOut: false
+    xhtmlOut: ture
     langPrefix: "language-"
     breaks: true
     linkify: true
@@ -90,7 +90,7 @@ markdown:
   anchors:
     level: 2
     collisionSuffix: ""
-    permalink: false
+    permalink: true
     permalinkClass: "header-anchor"
     permalinkSide: "left"
     permalinkSymbol: "¶"

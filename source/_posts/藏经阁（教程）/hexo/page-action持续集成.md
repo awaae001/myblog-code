@@ -20,16 +20,17 @@ Github action从发布到现在有一段时间了，它可以以一个文件为�
 
 ## 准备
 
-注意：
-
-- 本文中的演示密钥等皆不会上传到生产环境。
+::: warning
+**注意**
+本文中的演示密钥等皆不会上传到生产环境。
+:::
 
 ### 准备工作
 在开始之前，你要完成一些**非常简单**的准备工作，比如一个[github](https://github.com/)账号，一个已经在本地运行的[hexo博客框架](https://hexo.io/zh-cn/)，还有任意一个页面代理的网站，类似[awaae001.github.io](https://gh.awaae001.top/)。
 
 先在本地确定你的hexo是正常的：
 
-```shell
+```bash
  hexo clean
  hexo deploy
 ```
@@ -70,7 +71,7 @@ deploy:
 
 在**Git-Bash**中输入命令（windows），linux\MacOS 在终端中输入:
 
-```shell
+```bash
 ssh-keygen -t rsa -b 4096 -C "Hexo Deploy Key" -f github-deploy-key -N ""
 ```
 这会在当前目录生成两个文件：
@@ -94,9 +95,9 @@ ssh-keygen -t rsa -b 4096 -C "Hexo Deploy Key" -f github-deploy-key -N ""
 
 ### 变量-博客仓库
 
-将你的博客上传到github仓库，记得使用`.gitignore`配置文件排除一卜蜂文件，如果你上传这些文件的话，你的github仓库可能会拒绝你的操作，因为这些文件可以重复生成，而且非常巨大！
+将你的博客上传到github仓库，记得使用`.gitignore`配置文件排除一部分的文件，如果你上传这些文件的话，你的github仓库可能会拒绝你的操作，因为这些文件可以重复生成，而且非常巨大！
 
-```yml
+```txt
 .DS_Store
 Thumbs.db
 db.json
