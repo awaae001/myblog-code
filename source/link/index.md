@@ -21,7 +21,7 @@ description: 在这个焦躁的时代，能在互联网的角落拥有一个属�
     <div class="card-info">
         <a class="card-links">内部链接:</a>
         <br>
-        <a href="./friend/" target="_blank" class="card-title">友链朋友圈</a>
+        <a href="./friend/" target="_self" class="card-title">友链朋友圈</a>
         <div class="card-excerpt">
             这里面是呓语梦轩的友链朋友圈，用来收集和处理大佬文章，基于python+RSS自动脚本，每天0点自动更新。
         </div>
@@ -181,24 +181,24 @@ description: 在这个焦躁的时代，能在互联网的角落拥有一个属�
   - RSS（可选）
 
 如此，你可以这样提交来提高我注入的速度：
-`
+```json
 {
-"name": "名称",
-"link": "链接",
-"avatar": "头像",
-"info": "简介"
-},
-`
+  "name": "名称",
+  "link": "链接",
+  "avatar": "头像",
+  "info": "简介"
+}
+```
   
   如果你的博客名中包含：“博客”/"小站"，那请您提交一个好听一点的，谢谢配合，如果你没有提交的话，我自行移除以上字段。
 
 **本站友链**
 ```yml
--Name: 呓语梦轩
- Link: https://blog.awaae001.top
- Avatar: https://image.m-c.top/?/images/2024/01/13/Pqeh0v6VaK/ico.jpg
- Descr: 用心享受生活
- Rss: https://blog.awaae001.top/atom.xml
+- Name: 呓语梦轩
+  Link: https://blog.awaae001.top
+  Avatar: https://image.m-c.top/?/images/2024/01/13/Pqeh0v6VaK/ico.jpg
+  Descr: 用心享受生活
+  Rss: https://blog.awaae001.top/atom.xml
 ```
 
 ## 提交后？

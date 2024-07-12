@@ -1,0 +1,78 @@
+<div id="top-obn-space">
+    <div style="flex-grow: 1;">
+        <div class="bulletin-space">
+            <span class="bulletin-span">
+                <i class="fa fa-bullhorn" style="margin: 3px;"></i>
+                公告
+            </span>
+            <p class="bulletin-info">
+                暂无数据-可能是正在加载中或者加载遇到问题
+            </p>
+        </div>
+    </div>
+    <div class="button-space">
+        <div>
+            <button class="top-button" onclick="opensiteinfo()" title="查看站点信息"><i class="fa fa-info-circle"
+                    aria-hidden="true" style="margin-right: 4px;"></i>信息</button>
+            <div class="overlay" id="overlay"></div>
+            <div id="siteinfo-page">
+                <p class="text-websiteName">呓语梦轩-站点信息</p>
+                <div id="site-info-div">
+                    <div id="siteinfo-line1">
+                        <div class="meta-info">
+                            <span>
+                                总字数：
+                            </span>
+                            <hr>
+                            <span id="all-words" class="number-info">处理中</span>
+                        </div>
+                        <div class="meta-info">
+                            <span>
+                                总文章数：
+                            </span>
+                            <hr>
+                            <span id="all-posts" class="number-info">处理中</span>
+                        </div>
+                        <div class="meta-info">
+                            <span>
+                                总评论数：
+                            </span>
+                            <hr>
+                            <span id="all-commets" class="number-info">处理中</span>
+                        </div>
+                    </div>
+                    <button onclick="closesiteinfo()" id="siteinfo-close">关闭</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="top-button" onclick="showConfirmation()" style="margin-left: 6px;" title="随机跳转一篇文章">
+                <i class="fa fa-random" aria-hidden="true" style="margin-right: 4px;"></i>随机文章
+            </button>
+
+            <div id="goto-post">
+                <div>
+                    <p class="text-websiteName">
+                        <%= config.title %>-随机跳转
+                    </p>
+                </div>
+                <div class="post-info">
+                    <div style="display: flex;">
+                        <p id="text-info">你即将前往：</p>
+                    </div>
+                    <div id="post-info"></div>
+                    <div id="btn-space-postinfo">
+                        <div>
+                            <button id="goto-post-yes" class="onfirm-btn gopost-btn">确定</button>
+                            <button id="goto-post-no" class="cancel-btn gopost-btn">取消</button>
+                        </div>
+                        <div>
+                            <button id="refresh" class="refresh-btn gopost-btn"> <i class="fa fa-refresh"
+                                    aria-hidden="true" style="margin-right: 4px;"></i>换一换</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

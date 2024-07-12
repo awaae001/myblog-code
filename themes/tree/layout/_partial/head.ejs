@@ -1,133 +1,137 @@
 <head>
- <meta http-equiv="content-type" content="text/html; charset=utf-8">
- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 
- <script type="text/javascript">
-  (function (c, l, a, r, i, t, y) {
-   c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
-   t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
-   y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
-  })(window, document, "clarity", "script", "j67354s1x5");
- </script>
+  <script>
+    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+  </script>
 
-<script defer src="https://umami.awaae001.top/random-string.js" data-website-id="80042ffa-7287-4577-960c-1027ad40408c"></script>
-
- <script>
-  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
- </script>
-
- <!-- title -->
- <% var title=page.title; if ( title=='' ) { var title=page.slug.split("/")[page.slug.split("/").length-1] }else {
-  var title=page.title; }; %>
-  <title>
-   <% if (title){ %>
-    <%= title %> |
-     <% } %>
-      <%= config.title %>
-  </title>
-
-  <!-- keywords,description -->
-  <% if (page.keywords){ %>
-   <meta name="keywords" content="<%= page.keywords %>,<%= config.keywords %>" />
-   <% } else if (config.keywords){ %>
-    <meta name="keywords" content="<%= config.keywords %>" />
-    <% } %>
-     <% if (page.description){ %>
-      <meta name="description" content="<%= page.description %>" />
-      <% } else if (config.description){ %>
-       <meta name="description" content="<%= config.description %>" />
-       <% } %>
-
-        <!-- favicon -->
-        <% if (theme.favicon){ %>
-         <%- favicon_tag(theme.favicon) %>
+  <!-- title -->
+  <% var title=page.title; if ( title=='' ) { var title=page.slug.split("/")[page.slug.split("/").length-1] }else { var
+    title=page.title; }; %>
+    <title>
+      <% if (title){ %>
+        <%= title %> |
           <% } %>
+            <%= config.title %>
+    </title>
+
+    <!-- keywords,description -->
+    <% if (page.keywords){ %>
+      <meta name="keywords" content="<%= page.keywords %>,<%= config.keywords %>" />
+      <% } else if (config.keywords){ %>
+        <meta name="keywords" content="<%= config.keywords %>" />
+        <% } %>
+          <% if (page.description){ %>
+            <meta name="description" content="<%= page.description %>" />
+            <% } else if (config.description){ %>
+              <meta name="description" content="<%= config.description %>" />
+              <% } %>
+
+                <!-- favicon -->
+                <% if (theme.favicon){ %>
+                  <%- favicon_tag(theme.favicon) %>
+                    <% } %>
 
 
-           <!-- search -->
-           <script>
-            var searchEngine = "<%- theme.searchEngine %>";
-            if (typeof searchEngine == "undefined" || searchEngine == null || searchEngine == "") {
-             searchEngine = "https://www.google.com/search?q=";
-            }
-            var homeHost = "<%- theme.homeHost %>";
-            if (typeof homeHost == "undefined" || homeHost == null || homeHost == "") {
-             homeHost = window.location.host;
-            }
-           </script>
+                      <!-- search -->
+                      <script>
+                        var searchEngine = "<%- theme.searchEngine %>";
+                        if (typeof searchEngine == "undefined" || searchEngine == null || searchEngine == "") {
+                          searchEngine = "https://www.google.com/search?q=";
+                        }
+                        var homeHost = "<%- theme.homeHost %>";
+                        if (typeof homeHost == "undefined" || homeHost == null || homeHost == "") {
+                          homeHost = window.location.host;
+                        }
+                      </script>
 
-              <%- css('css/main.css') %>
-              <%- css('css/font-awesome.min.css') %>
-              <%- css('css/darcula.min.css') %>
-              <%- css('css/code.css') %>
-              <link rel="stylesheet" type="text/css"
-               href="https://blog.awaae001.top/css/card.css">
-               <link rel="preconnect" href="https://fonts.font.im">
-               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-               <link href="https://fonts.font.im/css2?family=Noto+Serif+SC:wght@200..900&display=swap" rel="stylesheet">
+                      <script type="text/javascript">
+                        (function (c, l, a, r, i, t, y) {
+                          c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+                          t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+                          y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+                        })(window, document, "clarity", "script", "j67354s1x5");
+                      </script>
 
-              <script src="/js/jquery.min.js" defer></script>
-              <script src="/js/share.js" defer></script>
-              <script src="/js/highlight.min.js" defer></script>
-              <script src="/js/jquery.pjax.min.js" defer></script>
-              <script src="/js/main.js" defer></script>
-              <script async src="https://pv.m-c.top/js"></script>
-              <script src="/js/other.js" defer></script>
-              
-              <!--
-               临时禁用SW注册器
+                              <%- css('css/main.css') %>
+                              <%- css('css/top-botton/site-info.css') %>
+                              <%- css('css/top-botton/postgo.css') %>
+                              <%- css('css/top-botton/siteinfo-page.css') %>
+                              <%- css('css/font-awesome.min.css') %>
+                              <%- css('css/darcula.min.css') %>
+                              <%- css('css/code.css') %>
+                              <link rel="stylesheet" type="text/css" href="https://blog.awaae001.top/css/card.css">
+                              <link rel="preconnect" href="https://fonts.font.im">
+                              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                              <link href="https://fonts.font.im/css2?family=Noto+Serif+SC:wght@200..900&display=swap"
+                                rel="stylesheet">
+
+                              <script src="/js/jquery.min.js" defer></script>
+                              <script src="/js/share.js" defer></script>
+                              <script src="/js/highlight.min.js" defer></script>
+                              <script src="/js/jquery.pjax.min.js" defer></script>
+                              <script src="/js/main.js" defer></script>
+                              <script async src="https://pv.m-c.top/js"></script>
+                              <script src="/js/other.js" defer></script>
+                              <script src="/js/top-space-js/bulletin-info.js" defer></script>
+                              <script src="/js/top-space-js/go-post.js" defer></script>
+                              <script src="/js/top-space-js/site-info/site-info-main.js" defer></script>
+                              <script src="/js/top-space-js/site-info/info-blogs.js" defer></script>
+                              <script defer src="https://umami.awaae001.top/random-string.js"
+                              data-website-id="80042ffa-7287-4577-960c-1027ad40408c"></script>
+
+                              <!--
+               禁用SW注册器
                <script src="/sw-start.js"></script>
               -->
 
-              <%- css('css/artalk.css') %>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/artalk/2.8.6/Artalk.js"></script>
+                              <%- css('css/artalk.css') %>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/artalk/2.8.7/Artalk.js"></script>
 
-             <% if (page.fancybox) {%>
-              <script src="/js/jquery.fancybox.min.js" defer></script>
-              <script src="/js/fancybox.js" defer></script>
-              <%- css('css/jquery.fancybox.min.css') %>
-             <%}%>
-
-
-
-               <% if (theme.valine){ %>
-                <script
-                 src="https://fastly.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"
-                 defer></script>
-                <script
-                 src="https://fastly.jsdelivr.net/npm/valine@v1.5.1/dist/Valine.min.js"
-                 defer></script>
-                <% } %>
-
-                 <% if (theme.busuanzi){ %>
-                  <script defer
-                   src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-                  <% } %>
+                                <% if (page.fancybox) {%>
+                                  <script src="/js/jquery.fancybox.min.js" defer></script>
+                                  <script src="/js/fancybox.js" defer></script>
+                                  <%- css('css/jquery.fancybox.min.css') %>
+                                    <%}%>
 
 
-                   <meta charset="UTF-8">
-                   <meta name="viewport"
-                    content="width=device-width, initial-scale=1.0">
-                   <title>Your Blog Title</title>
 
-                   <style>
-                    body {
-                     margin: 0;
-                     padding: 0;
-                     position: relative;
-                    }
+                                      <% if (theme.valine){ %>
+                                        <script src="https://fastly.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"
+                                          defer></script>
+                                        <script src="https://fastly.jsdelivr.net/npm/valine@v1.5.1/dist/Valine.min.js"
+                                          defer></script>
+                                        <% } %>
 
-                    body::before {
-                     content: "";
-                     position: fixed;
-                     top: 0;
-                     left: 0;
-                     width: 100%;
-                     height: 100%;
-                     z-index: -1;
-                     background-image: url('<%- theme.blogBackgroundImage %>');
-                     background-size: <%- theme.blogBackgroundSize %>;
-                     filter: blur(<%- theme.blurAmount %>);
-                    }
-                   </style>
+                                          <% if (theme.busuanzi){ %>
+                                            <script defer
+                                              src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                                            <% } %>
+
+
+                                              <meta charset="UTF-8">
+                                              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                              <title>Your Blog Title</title>
+
+                                              <style>
+                                                body {
+                                                  margin: 0;
+                                                  padding: 0;
+                                                  position: relative;
+                                                }
+
+                                                body::before {
+                                                  content: "";
+                                                  position: fixed;
+                                                  top: 0;
+                                                  left: 0;
+                                                  width: 100%;
+                                                  height: 100%;
+                                                  z-index: -1;
+                                                  background-image: url('<%- theme.blogBackgroundImage %>');
+                                                  background-size: <%- theme.blogBackgroundSize %>;
+                                                  filter: blur(<%- theme.blurAmount %>);
+                                                }
+                                              </style>
 </head>

@@ -7,6 +7,9 @@ date: 2024-03-24 08:03:41
 tags:
 cover: https://pic.awaae001.top/%E8%97%8F%E7%BB%8F%E9%98%81/busuanzi/busanzi.webp
 fancybox: ture
+tianligpt: ture
+keywords: busuanzi,自建busuanzi,不蒜子,自建不蒜子API
+description: 这篇文章介绍了作者如何自己部署busuanzi访问量统计服务。作者发现官方服务经常无法加载出来，影响网站加载速度，因此决定自己部署并管理访问数据。Busuanzi是一个轻量级的网站访问统计工具，可以统计页面浏览量、访客数量，并实时更新统计数据。它可以通过JavaScript代码轻松嵌入网站页面，并提供一些可定制的选项。作者通过使用开源代码和Redis数据库实现了类似于busuanzi的功能。
 ---
 ## 导入
 目前网上的统计其实也挺多的，比如:51La、百度统计、微软清晰度。但它们都有一个通病：只有一个后台，无法在前端显示这篇文章(博文)的具体数据，也就无法让访客直观的看到这篇文章的访问量或者说是热度。

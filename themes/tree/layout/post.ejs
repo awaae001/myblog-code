@@ -1,3 +1,6 @@
+<%- partial('_partial/top-botton.ejs') %>
+
+
 <h1 id="article-title">
   <%- page.title || page.slug.split("/")[page.slug.split("/").length-1] %>
 </h1>
@@ -113,29 +116,6 @@
     </div>
     <% } %>
 
-  <!-- post-guide -->
-  <% if (is_post()){ %>
-    <div class="post-guide">
-      <div class="item left">
-        <% if (page.prev){ %>
-          <a href="<%- url_for(page.prev.path) %>">
-            <i class="fa fa-angle-left" aria-hidden="true"></i>
-            <%- page.prev.title || page.prev.slug.split("/")[page.prev.slug.split("/").length-1] %>
-          </a>
-          <% } %>
-      </div>
-      <div class="item right">
-        <% if (page.next){ %>
-          <a href="<%- url_for(page.next.path) %>">
-            <%- page.next.title || page.next.slug.split("/")[page.prev.slug.split("/").length-1] %>
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
-          </a>
-          <% } %>
-      </div>
-    </div>
-    <% } %>
-
-
       <div id="article-categories">
         <span class="span-info">
           本站评论因服务器问题，请要发图片的各位自行至
@@ -155,4 +135,25 @@
           <%- partial('_talk/valine.ejs') %>
             <%- partial('_talk/giscus.ejs') %>
               <%- partial('_talk/artalk.ejs') %>
+
+              <% if (is_post()){ %>
+                <div class="post-guide">
+                  <div class="item left">
+                    <% if (page.prev){ %>
+                      <a href="<%- url_for(page.prev.path) %>">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <%- page.prev.title || page.prev.slug.split("/")[page.prev.slug.split("/").length-1] %>
+                      </a>
+                      <% } %>
+                  </div>
+                  <div class="item right">
+                    <% if (page.next){ %>
+                      <a href="<%- url_for(page.next.path) %>">
+                        <%- page.next.title || page.next.slug.split("/")[page.prev.slug.split("/").length-1] %>
+                          <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </a>
+                      <% } %>
+                  </div>
+                </div>
+                <% } %>
       </div>
