@@ -55,7 +55,7 @@ tags:
             font-size: 14px;
             color: #000;
         }
-        div.meta-info {
+        div.friend-meta-info {
             color: var(--theme-font);
             margin-left: 16px;
             display: flex;

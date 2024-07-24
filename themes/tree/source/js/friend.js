@@ -47,7 +47,7 @@ function loadMoreData() {
         textDiv.textContent = summaryText;
 
         const metaDiv = document.createElement('div');
-        metaDiv.classList.add('meta-info');
+        metaDiv.classList.add('friend-meta-info');
 
         const timeDiv = document.createElement('div');
         timeDiv.classList.add('message-time');
