@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 飞跃13号房-电击、反抗与未来
+title: 飞跃13号房-对网瘾治疗披露与反抗
 fancybox: ture
-cover: >-
-  https://pic.awaae001.top/%E5%B9%BD%E7%AF%81%E9%87%8C/2024/04(bko-13)/%E9%A3%9E%E8%B7%8313_00cfa660.webp
+cover: https://pic.awaae001.top/%E5%B9%BD%E7%AF%81%E9%87%8C/2024/04(bko-13)/%E9%A3%9E%E8%B7%8313_00cfa660.webp
 abbrlink: 6884
 date: 2024-07-29 16:24:54
 tags:
