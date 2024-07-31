@@ -381,8 +381,8 @@ const CONFIG = {
     isHighlightShrink: false, // 是否折叠代码块
   },
   copy: {
-    success: '复制成功！', // 复制成功提示
-    noSupport: '不支持复制', // 不支持复制提示
+    success: '完美，我们以复制到您的剪贴板', // 复制成功提示
+    noSupport: '抱歉，我们无法复制到你的剪贴板', // 不支持复制提示
   }
 };
 
@@ -410,9 +410,9 @@ const addHighlightTool = () => {
   const copy = ctx => {
     if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
       document.execCommand('copy');
-      alertInfo(CONFIG.copy.success);
+      Popup.show("成功", CONFIG.copy.success, 'prompt');
     } else {
-      alertInfo(CONFIG.copy.noSupport);
+      Popup.show('错误', CONFIG.copy.noSupport, 'error');
     }
   };
 
@@ -496,5 +496,6 @@ const addHighlightTool = () => {
     });
   }
 };
+
 addHighlightTool();
 

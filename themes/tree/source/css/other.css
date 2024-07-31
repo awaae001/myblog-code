@@ -143,3 +143,69 @@ figure {
     border-left: 4px solid rgb(231, 76, 60);
     color: darken(rgb(231, 76, 60), 20%);
 }
+
+/*
+弹出式提示框-css
+*/
+
+.mess-popup {
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 10px;
+    max-width: 300px; /* Maximum width to ensure it doesn't grow too large */
+    position: fixed;
+    margin-top: 75px;
+    top: 10px;
+    right: -100%; /* Start position off-screen */
+    color: rgb(44, 44, 44);
+    transition: right 0.5s ease-in-out; /* Animation for sliding in and out */
+    background-color: rgba(236, 236, 236, 0.8); /* Background color to make it stand out */
+}
+
+@media (prefers-color-scheme: dark) {
+    .mess-popup {
+        border: 2px solid;
+        border-radius: 6px;
+        padding: 10px;
+        max-width: 300px; /* Maximum width to ensure it doesn't grow too large */
+        position: fixed;
+        margin-top: 75px;
+        top: 10px;
+        right: -100%; /* Start position off-screen */
+        color: white;
+        transition: right 0.5s ease-in-out; /* Animation for sliding in and out */
+        background-color: rgba(0, 0, 0, 0.8); /* Background color to make it stand out */
+    }
+}
+
+#popup-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#popup-info{
+    display: flex;
+}
+
+.mess-hidden {
+    display: none;
+}
+
+.mess-warning #popup-title {
+    color: yellow;
+}
+
+.mess-error #popup-title {
+    color: red;
+}
+
+.mess-prompt #popup-title {
+    color: green;
+}
+
+#popup-timer {
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: var(--theme-font);
+}

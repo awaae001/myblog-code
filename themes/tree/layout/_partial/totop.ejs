@@ -3,7 +3,8 @@
         <button id="totop-toggle-totop" class="toggle" title="返回顶部">
             <i class="fa fa-angle-double-up" aria-hidden="true"></i>
         </button>
-        <button id="footer-toggle-tocommet" class="toggle-tocommet" title="前往评论区">
+        <button id="footer-toggle-tocommet" class="toggle-tocommet"
+            title="前往评论区">
             <span class="button-text">前往评论区</span>
             <i class="fa fa-commenting-o" aria-hidden="true"></i>
         </button>
@@ -15,7 +16,6 @@
         <p>未找到评论区！,我们会在3秒后为你跳转到留言板</p>
     </div>
 </div>
-
 
 <div id="myModal" class="modal">
     <div class="modal-content">
@@ -37,3 +37,80 @@
         </div>
     </div>
 </div>
+
+<div id="popup-box" class="mess-popup mess-hidden">
+    <div id="popup-info">
+        <span id="popup-title"></span>
+        <span id="popup-timer"></span>
+    </div>
+    <span id="popup-content"></span>
+</div>
+
+<script>
+const Popup = (() => {
+    let countdownInterval;
+
+    function showPopup(title, message, type) {
+        const popupBox = document.getElementById('popup-box');
+        const popupTitle = document.getElementById('popup-title');
+        const popupTimer = document.getElementById('popup-timer');
+        const popupContent = document.getElementById('popup-content');
+
+        // Set the title and message
+        popupTitle.textContent = title;
+        popupContent.textContent = message;
+
+        // Remove existing type classes
+        popupBox.classList.remove('mess-warning', 'mess-error', 'mess-prompt', 'mess-hidden');
+
+        // Add the appropriate class based on the type
+        if (type === 'warning') {
+            popupBox.classList.add('mess-warning');
+        } else if (type === 'error') {
+            popupBox.classList.add('mess-error');
+        } else if (type === 'prompt') {
+            popupBox.classList.add('mess-prompt');
+        }
+
+        // Reset countdown if a previous interval exists
+        if (countdownInterval) {
+            clearInterval(countdownInterval);
+        }
+
+        // Set countdown timer to 5 seconds
+        let countdown = 5;
+        popupTimer.textContent = `(${countdown}s)`;
+
+        countdownInterval = setInterval(() => {
+            countdown -= 1;
+            popupTimer.textContent = `(${countdown}s)`;
+            if (countdown <= 0) {
+                clearInterval(countdownInterval);
+            }
+        }, 1000);
+
+        // Show the popup by moving it into view
+        setTimeout(() => {
+            popupBox.style.right = '10px';
+        }, 100); // Small delay to ensure transition works
+
+        // Hide the popup after 5 seconds
+        setTimeout(() => {
+            popupBox.style.right = '-100%';
+            setTimeout(() => {
+                popupBox.classList.add('mess-hidden');
+            }, 500); // Wait for the slide out transition to complete
+        }, 5000);
+    }
+
+    return {
+        show: showPopup
+    };
+})();
+
+// Example usage:
+// Popup.show('Warning Title', 'This is a warning message', 'warning');
+// Popup.show('Error Title', 'This is an error message', 'error');
+// Popup.show('Prompt Title', 'This is a prompt message', 'prompt');
+
+</script>
